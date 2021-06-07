@@ -2,6 +2,11 @@
 Changelog
 =========
 
+3.3.56
+======
+
+- Se corrigió un problema de pérdida de caché durante un reinicio
+
 3.3.55
 ======
 - estirar las herramientas de migración para inteligentes disponibles.

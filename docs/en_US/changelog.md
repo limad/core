@@ -2,6 +2,11 @@
 Changelog
 =========
 
+3.3.56
+======
+
+- Fixed a cache loss issue during a reboot
+
 3.3.55
 ======
 - stretch migration tools for smart available.

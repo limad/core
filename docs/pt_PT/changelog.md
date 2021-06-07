@@ -2,6 +2,11 @@
 Changelog
 =========
 
+3.3.56
+======
+
+- Corrigido um problema de perda de cache durante uma reinicialização
+
 3.3.55
 ======
 - esticar ferramentas de migração para smart disponíveis.

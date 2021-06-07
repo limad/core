@@ -1705,6 +1705,8 @@
         " Market*": " Mercado*"
     },
     "changelog.md": {
+        "3.3.56": "3.3.56",
+        "Correction d'un soucis de perte de cache lors d'un reboot": "Se corrigió un problema de pérdida de caché durante un reinicio",
         "3.3.55": "3.3.55",
         "outils de migration stretch pour smart disponible": "estirar las herramientas de migración para inteligentes disponibles",
         "3.3.54": "3.3.54",

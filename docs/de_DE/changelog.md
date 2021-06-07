@@ -2,6 +2,11 @@
 Changelog
 =========
 
+3.3.56
+======
+
+- Problem mit Cache-Verlust während eines Neustarts behoben
+
 3.3.55
 ======
 - Stretch-Migrationstools für Smart verfügbar.
