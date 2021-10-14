@@ -441,7 +441,7 @@ class jeedom {
 			return false;
 		}
 		$apikey = self::getApiKey($_plugin);
-		if (trim($apikey) != '' && $apikey == $_apikey) {
+		if (trim($apikey) != '' && $apikey === $_apikey) {
 			return true;
 		}
 		$user = user::byHash($_apikey);
