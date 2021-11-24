@@ -566,7 +566,7 @@
         "Arrondi (chiffre après la virgule)": "Arrotondato (decimale)",
         "Type générique": "Tipo generico",
         "Aucun": "Nessuno",
-        " . $info['family'] . ": ". $info['family'] .",
+        " . $info['family'] . ": "$info['family']",
         "Restriction de l'action": "Restrizione azione",
         "Confirmer l'action": "Conferma azione",
         "Code d'accès": "Codice d\\'accesso",
@@ -613,7 +613,7 @@
         "si (#value# pour la valeur)": "se (valore # # per il valore)",
         "Pendant plus de (en min, laisser vide pour immédiat)": "Pendant plus de (en min, laisser vide pour immédiat)",
         "Widget": "Widget di",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Nome visualizzato",
         "Afficher le nom ET l'icône": "Stampa il nome e l'icona",
         "Afficher les statistiques": "Afficher les statistiques",
@@ -655,7 +655,7 @@
     "desktop\/modal\/icon.selector.php": {
         "401 - Accès non autorisé": "401 - Accesso non consentito",
         "Rechercher": "Cerca",
-        " . str_replace('\/', '', $dir) . ": ". str_replace('\/', '', $dir) .",
+        " . str_replace('\/', '', $dir) . ": "str_replace('\/', '', $dir)",
         "Général": "Principale"
     },
     "desktop\/modal\/update.send.php": {
@@ -765,7 +765,7 @@
         "Commandes": "Comandi",
         "Action": "Azione",
         "Widget": "Widget di",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Nome visualizzato",
         "Afficher le nom de l'objet": "Mostra nome oggetto",
         "Couleur de fond": "Colore sfondo",

@@ -566,7 +566,7 @@
         "Arrondi (chiffre après la virgule)": "Pembulatan (desimal)",
         "Type générique": "Jenis generik",
         "Aucun": "Tak ada",
-        " . $info['family'] . ": ". $info['family'] .",
+        " . $info['family'] . ": "$info['family']",
         "Restriction de l'action": "Membatasi tindakan",
         "Confirmer l'action": "Konfirmasi tindakan",
         "Code d'accès": "Kode akses",
@@ -613,7 +613,7 @@
         "si (#value# pour la valeur)": "if (nilai # # untuk nilai)",
         "Pendant plus de (en min, laisser vide pour immédiat)": "Pendant plus de (en min, laisser vide pour immédiat)",
         "Widget": "Widget",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Tampilkan Nama",
         "Afficher le nom ET l'icône": "Cetak nama dan ikon",
         "Afficher les statistiques": "Afficher les statistiques",
@@ -655,7 +655,7 @@
     "desktop\/modal\/icon.selector.php": {
         "401 - Accès non autorisé": "401 - Akses tidak sah",
         "Rechercher": "Mencari",
-        " . str_replace('\/', '', $dir) . ": ". str_replace('\/', '', $dir) .",
+        " . str_replace('\/', '', $dir) . ": "str_replace('\/', '', $dir)",
         "Général": "Umum"
     },
     "desktop\/modal\/update.send.php": {
@@ -765,7 +765,7 @@
         "Commandes": "Perintah",
         "Action": "Tindakan",
         "Widget": "Widget",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Tampilkan Nama",
         "Afficher le nom de l'objet": "Nama tampilan objek",
         "Couleur de fond": "Warna latar belakang",

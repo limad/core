@@ -566,7 +566,7 @@
         "Arrondi (chiffre après la virgule)": "Yuvarlama (virgül sonrası sayı sayısı)",
         "Type générique": "Genel tip",
         "Aucun": "Hiçbir",
-        " . $info['family'] . ": ". $info['family'] .",
+        " . $info['family'] . ": "$info['family']",
         "Restriction de l'action": "Eylemin sınırlandırılması",
         "Confirmer l'action": "Eylemi onaylayın",
         "Code d'accès": "Giriş kodu",
@@ -613,7 +613,7 @@
         "si (#value# pour la valeur)": "eğer (#value# değer için)",
         "Pendant plus de (en min, laisser vide pour immédiat)": "Pendant plus de (en min, laisser vide pour immédiat)",
         "Widget": "Widget'ı",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Ismi göster",
         "Afficher le nom ET l'icône": "İsim VE ikonu göster",
         "Afficher les statistiques": "Afficher les statistiques",
@@ -655,7 +655,7 @@
     "desktop\/modal\/icon.selector.php": {
         "401 - Accès non autorisé": "401 - Ulaşım yetkisiz",
         "Rechercher": "Arayın",
-        " . str_replace('\/', '', $dir) . ": ". str_replace('\/', '', $dir) .",
+        " . str_replace('\/', '', $dir) . ": "str_replace('\/', '', $dir)",
         "Général": "Genel"
     },
     "desktop\/modal\/update.send.php": {
@@ -765,7 +765,7 @@
         "Commandes": "Komutalar",
         "Action": "Etki",
         "Widget": "Widget'ı",
-        " . $value['name'] . ": ". $value['name'] .",
+        " . $value['name'] . ": "$value['name']",
         "Afficher le nom": "Ismi göster",
         "Afficher le nom de l'objet": "Nesnenin ismini göster",
         "Couleur de fond": "Fon rengi",
