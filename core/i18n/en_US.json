@@ -2532,7 +2532,7 @@
         "A (Hmm)": "AT (Hmm)",
         "FAIRE": "DO",
         "CODE": "CODED",
-        "ACTION": "ACTION"
+        "ACTION": "Action"
     },
     "core\/php\/utils.inc.php": {
         "Trop de session, je ne peux pas lister : ": "Too many sessions, I can't list:",
