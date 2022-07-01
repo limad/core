@@ -1,4 +1,4 @@
-Monitor 
+ 
 =========
 
 El menú Registros le permite seguir lo que está sucediendo en su domótica. En la
@@ -20,12 +20,12 @@ permitiendo la elección del registro para ver, en la parte superior derecha tie
 
 -   **** : permite vaciar el registro actual,
 
--   **Borrar** : eliminar el registro actual, si Jeedom tiene alguna
+-   **** : eliminar el registro actual, si Jeedom tiene alguna
     necesitarlo lo recreará automáticamente,
 
 -   **Eliminar todos los registros** : eliminar todos los registros presentes.
 
-> **Consejo**
+> ****
 >
 > Tenga en cuenta que el registro http.el error no se puede eliminar. Es esencial
 > ! si lo elimina (en la línea de comando, por ejemplo) no lo hará

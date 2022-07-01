@@ -32,7 +32,7 @@ Aquí 2 parámetros, uno para el tamaño del paquete y otro para conocer
 cuándo hacerlo (por defecto, estos son paquetes
 1 hora con datos que tienen más de 2 horas de antigüedad).
 
-> **Consejo**
+> ****
 >
 > Si ha seguido bien, debe tener una alta precisión en el
 > Últimas 2 horas solamente. Sin embargo, cuando inicio sesión a las 5 p.m,
@@ -40,7 +40,7 @@ cuándo hacerlo (por defecto, estos son paquetes
 > para evitar consumir recursos innecesariamente, la tarea que hace
 > el archivo se realiza solo una vez al día, por la tarde.
 
-> **Importante**
+> ****
 >
 > Por supuesto, este principio de archivo solo se aplica a pedidos de
 > tipo digital; en comandos de tipo binario, Jeedom no mantiene
@@ -79,7 +79,7 @@ que configurarlos una vez).
 
 -   **** : muestra el gráfico como un área.
 
--   ****\* : muestra el gráfico como barras.
+-   ***** : muestra el gráfico como barras.
 
 Gráfico sobre vistas y diseños 
 =====================================
@@ -118,14 +118,14 @@ Historia calculada
 
 Se usa para mostrar una curva basada en un cálculo en varios
 comando (puedes hacer casi todo, + - / \* valor absoluto ... ver
-Documentación PHP para ciertas funciones). Ex :
+Documentación PHP para ciertas funciones).  :
 abs(*\ [Jardín \] \ [Higrometría \] \ [Temperatura \]* - *\ [Espacio de
 vida \] \ [Higrometría \] \ [Temperatura \]*)
 
 También tiene acceso a una gestión de fórmulas de cálculo que le permite
 guárdelos para verlos más fácilmente
 
-> **Consejo**
+> ****
 >
 > Simplemente haga clic en el nombre del objeto para desplegarlo;
 > aparecen los comandos históricos que se pueden graficar.
@@ -163,10 +163,10 @@ comandos o escenarios deseados :
 -   **** : ya sea directamente en la página del escenario o en el
     página de resumen del escenario para hacerlo en "masa"
 
--   **Ordenado** : ya sea en la configuración avanzada del comando,
+-   **** : ya sea en la configuración avanzada del comando,
     ya sea en la configuración de la historia para hacerlo en "masa"
 
-> **Consejo**
+> ****
 >
 > Tiene acceso a las ventanas de resumen de los escenarios o del
 > configuración del historial directamente desde la página
@@ -175,7 +175,7 @@ comandos o escenarios deseados :
 Una vez que haya habilitado el seguimiento en la línea de tiempo del pedido y
 escenarios deseados, puede verlos aparecer en la línea de tiempo.
 
-> **Importante**
+> ****
 >
 > Debe esperar nuevos eventos después de activar el seguimiento
 > en la línea de tiempo antes de verlos aparecer.

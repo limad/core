@@ -4,11 +4,11 @@ minutos para tener una pantalla más personalizada.
 
 Se puede acceder a las vistas desde el menú Inicio → Ver :
 
-> **Consejo**
+> ****
 >
 > Es posible ir directamente a una vista gracias al submenú.
 
-> **Consejo**
+> ****
 >
 > Puede elegir la vista predeterminada en su perfil al hacer clic
 > en el menú de vistas.
@@ -24,7 +24,7 @@ En esta página, hay un botón en la parte superior izquierda para mostrar o
 ocultar la lista de vistas y el botón para agregar uno
 (Jeedom le preguntará su nombre y lo enviará a la página de edición) :
 
-> **Consejo**
+> ****
 >
 > Puede modificar esta opción en su perfil para que la lista
 > las vistas serán visibles por defecto.
@@ -39,7 +39,7 @@ pon todo lo que quieras). Cada zona es de tipo gráfico, widget
 o tabla, dependiendo del tipo que pueda poner widgets
 de equipo, control o gráficos en él.
 
-> **Consejo**
+> ****
 >
 > Puede mover el orden de las zonas arrastrando y soltando.
 
@@ -60,7 +60,7 @@ En cada zona tienes las siguientes opciones generales :
 
 -   **** : permite cambiar el nombre de la zona
 
--   **Borrar** : permite eliminar la zona
+-   **** : permite eliminar la zona
 
 Área de tipo de widget 
 -------------------
@@ -70,12 +70,12 @@ Un área de tipo de widget le permite agregar widgets :
 -   **Agregar widget** : agregar / editar widgets a
     mostrar en el área
 
-> **Consejo**
+> ****
 >
 > Puede eliminar un widget directamente haciendo clic en el
 > bote de basura en frente de este.
 
-> **Consejo**
+> ****
 >
 > Es posible cambiar el orden de los widgets en el área por
 > arrastrar / soltar.
@@ -100,7 +100,7 @@ Una vez hecho esto, tiene acceso a las siguientes opciones :
 
 -   **** : eliminar comando del gráfico
 
--   **Apellido** : nombre del comando graficado
+-   **** : nombre del comando graficado
 
 -   **** : color de la curva
 
@@ -119,7 +119,7 @@ Una vez hecho esto, tiene acceso a las siguientes opciones :
 -   **** : grafica solo variaciones con valor
     anterior
 
-> **Consejo**
+> ****
 >
 > Es posible cambiar el orden de los gráficos en el área por
 > arrastrar / soltar.
@@ -133,7 +133,7 @@ Aqui tienes los botones :
 
 -   **Agregar línea** : agregar una fila a la mesa
 
-> **Nota**
+> ****
 >
 > Es posible reorganizar las líneas arrastrando y soltando, pero no
 > las columnas
@@ -141,7 +141,7 @@ Aqui tienes los botones :
 Una vez que haya agregado sus filas / columnas, puede agregar
 información en las cajas :
 
--   **texto** : solo texto para escribir
+-   **** : solo texto para escribir
 
 -   **** : cualquier código html (javascript posible pero
     fuertemente desanimado)

@@ -18,7 +18,7 @@ Changelog
 - Corrección de errores en las copias de seguridad en la nube
 - Gestión de cifrado de datos de base de datos
 
->**IMPORTANTE**
+>****
 >
 >Durante la actualización, es posible que obtenga un error parecido a "Error fatal de PHP: Error no detectado: Llamar a utilidades de métodos indefinidos::desencriptar () "no importa, solo tienes que reiniciar la actualización.
 
@@ -83,7 +83,7 @@ Changelog
 - Mejor consideración de los widgets de complementos
 - Optimización del cálculo de salud en el intercambio
 
->**IMPORTANTE**
+>****
 >
 >Esta actualización soluciona un problema que puede evitar cualquier registro de historial a partir del 1 de enero de 2020, es más que altamente recomendable
 
@@ -448,11 +448,11 @@ Changelog
 
 -    : Adición de gestión de variables en la API http
 
--   JEED-78 : adición de la función de etiqueta para escenarios. Ten cuidado ahí
+-    : adición de la función de etiqueta para escenarios. Ten cuidado ahí
     debe en los escenarios utilizando las etiquetas pasar de \#montag\#
     etiquetar (montag)
 
--   JEED-124 : Corregir la gestión de los tiempos de espera del escenario
+-    : Corregir la gestión de los tiempos de espera del escenario
 
 -   Correcciones de errores
 
@@ -466,7 +466,7 @@ Changelog
 
 -   Capacidad para hacer que las palabras sean obligatorias en una interacción
 
-3.1.7
+
 =====
 
 -   Corrección de errores (especialmente en registros y
@@ -474,7 +474,7 @@ Changelog
 
 -   Mejora del sistema de actualización con una página de notas
     versión (que debe comprobar usted mismo antes de cada actualización
-    día !!!!)
+     !!!!)
 
 -   Corrección de un error que recuperó los registros durante las restauraciones
 
@@ -601,12 +601,12 @@ Changelog
 -   Adición de un perro guardián independiente de Jeedom para verificar el estado de
     MySql y Apache
 
-3.0.11
+
 ======
 
 -   Se corrigieron errores en las solicitudes de &quot;tiempo de espera&quot;
 
-3.0.10
+
 ======
 
 -   Corrección de errores en la interfaz para configurar interacciones
@@ -661,7 +661,7 @@ Changelog
 -   Rediseño de la configuración de derechos de usuario (todo está en el
     página de gestión de usuarios)
 
--   Actualización de Libs : jquery (en 3.0), jquery mobile, hightstock
+-   Actualización de Libs : .0), jquery mobile, hightstock
     y clasificador de tablas, font-awesome
 
 -   Gran mejora en los diseños:
@@ -803,7 +803,7 @@ Changelog
 
 -   Jeedom sabe cómo gestionar varias interacciones vinculadas (contextualmente)
     en uno. Deben estar separados por una palabra clave (por defecto y).
-    Ejemplo : "¿Cuánto cuesta en el dormitorio y en la sala de estar? "O
+     : "¿Cuánto cuesta en el dormitorio y en la sala de estar? "O
     "Enciende la luz de la cocina y del dormitorio."
 
 -   El estado de los escenarios en la página de edición ahora se establece en
@@ -848,13 +848,13 @@ Changelog
 -   Optimización de la carga de escenarios y páginas utilizando
     acciones con opción (tipo de configuración del complemento o modo de alarma)
 
-2.4.6
+
 =====
 
 -   Mejora de la gestión de la repetición de los valores de
     commandes
 
-2.4.5
+
 =====
 
 -   Correcciones de errores
@@ -1159,7 +1159,7 @@ Changelog
 
 -   Actualizar todas las bibliotecas
 
--   Interacción : adición de un sistema de análisis (permite
+-    : adición de un sistema de análisis (permite
     eliminar interacciones con errores de sintaxis de tipo grande «
     la recamara »)
 
@@ -1177,7 +1177,7 @@ Changelog
 -   Posibilidad de desactivar un bloque en un escenario
 
 -   Adición para desarrolladores de un sistema de ayuda de información sobre herramientas. Hay que
-    sur un label mettre la classe « help » y mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ayuda de datos con el mensaje de ayuda deseado. Esto permite a Jeedom
     agregue automáticamente un icono al final de su etiqueta « ? » et
     al pasar el ratón para mostrar el texto de ayuda
@@ -1256,7 +1256,7 @@ Changelog
 
 -   Actualizar todas las bibliotecas
 
--   Interacción : adición de un sistema de análisis (permite
+-    : adición de un sistema de análisis (permite
     eliminar interacciones con errores de sintaxis de tipo grande «
     la recamara »)
 
@@ -1274,7 +1274,7 @@ Changelog
 -   Posibilidad de desactivar un bloque en un escenario
 
 -   Adición para desarrolladores de un sistema de ayuda de información sobre herramientas. Hay que
-    sur un label mettre la classe « help » y mettre un attribut
+    sur un label mettre la classe « help »  mettre un attribut
     ayuda de datos con el mensaje de ayuda deseado. Esto permite a Jeedom
     agregue automáticamente un icono al final de su etiqueta « ? » et
     al pasar el ratón para mostrar el texto de ayuda

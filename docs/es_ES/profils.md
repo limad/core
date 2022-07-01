@@ -61,7 +61,7 @@ Le permite definir ciertos comportamientos de interfaz :
     -   **Pantalla completa** : visualización predeterminada en pantalla completa cuando
         la llegada de los diseños
         
--   **Tablero**
+-   ****
 
     -   **Desdobla el panel de objetos** : permite hacer visible por
         predeterminado el menú de objetos (a la izquierda) en el tablero

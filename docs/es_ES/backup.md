@@ -87,7 +87,7 @@ o restauración), si ha lanzado uno.
 -   **Restaurar copia de seguridad** : Comienza a restaurar la copia de seguridad
     samba seleccionada arriba.
 
-> **IMPORTANTE**
+> ****
 >
 > Las copias de seguridad de Jeedom deben caer absolutamente en una carpeta solo para él !!! Eliminará todo lo que no sea una copia de seguridad de la carpeta
 
@@ -104,7 +104,7 @@ diferente porque no es posible guardar las inclusiones.
 Estos se incluyen directamente en el controlador, por lo que debe
 mantener el mismo controlador para encontrar sus módulos Zwave.
 
-> **Nota**
+> ****
 >
 > El sistema en el que está instalado Jeedom no está respaldado. si
 > ha modificado los parámetros de este sistema (en particular a través de SSH),
@@ -121,7 +121,7 @@ copias de seguridad. Para suscribirte solo ve a tu página
 puede, desde esta página, recuperar una copia de seguridad o comprar un
 suscripción (por 1, 3, 6 o 12 meses).
 
-> **Consejo**
+> ****
 >
 > Puede personalizar el nombre de los archivos de respaldo desde
 > de la pestaña **Mis jeedoms**, evitando sin embargo los personajes
