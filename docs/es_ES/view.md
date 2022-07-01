@@ -55,10 +55,10 @@ su nombre y tipo.
 
 En cada zona tienes las siguientes opciones generales :
 
--   **Largo** : define el ancho del área (en modo
+-   **** : define el ancho del área (en modo
     solo escritorio)
 
--   **Editar** : permite cambiar el nombre de la zona
+-   **** : permite cambiar el nombre de la zona
 
 -   **Borrar** : permite eliminar la zona
 
@@ -98,25 +98,25 @@ Cuando presiona el botón &quot;Agregar curva&quot;, Jeedom muestra la lista
 comandos históricos y puede elegir los que desea agregar, un
 Una vez hecho esto, tiene acceso a las siguientes opciones :
 
--   **Bote de basura** : eliminar comando del gráfico
+-   **** : eliminar comando del gráfico
 
 -   **Apellido** : nombre del comando graficado
 
--   **Color** : color de la curva
+-   **** : color de la curva
 
--   **Tipo** : tipo de curva
+-   **** : tipo de curva
 
--   **Grupo** : permite la agrupación de datos (tipo máximo
+-   **** : permite la agrupación de datos (tipo máximo
     por día)
 
--   **Escalera** : escala (derecha o izquierda) de la curva
+-   **** : escala (derecha o izquierda) de la curva
 
--   **Escalera** : muestra la curva escalonada
+-   **** : muestra la curva escalonada
 
--   **Pila** : apilar la curva con las curvas de otro tipo
+-   **** : apilar la curva con las curvas de otro tipo
     empiler
 
--   **Variación** : grafica solo variaciones con valor
+-   **** : grafica solo variaciones con valor
     anterior
 
 > **Consejo**
@@ -143,7 +143,7 @@ información en las cajas :
 
 -   **texto** : solo texto para escribir
 
--   **html** : cualquier código html (javascript posible pero
+-   **** : cualquier código html (javascript posible pero
     fuertemente desanimado)
 
 -   **widget de comando** : el botón de la derecha te permite elegir

@@ -4,7 +4,7 @@ qué comando de tipo de información (binario o digital). Que tu
 por lo tanto, permitirá, por ejemplo, historizar una curva de temperatura,
 consumo o apertura de puertas
 
-Principio 
+ 
 ========
 
 Aquí se describe el principio de historización de Jeedom. No es
@@ -13,7 +13,7 @@ o desea cambiar la configuración de
 historización. La configuración predeterminada es adecuada para la mayoría
 cas.
 
-Archivar 
+ 
 ---------
 
 El archivo de datos le permite a Jeedom reducir la cantidad de datos
@@ -36,7 +36,7 @@ cuándo hacerlo (por defecto, estos son paquetes
 >
 > Si ha seguido bien, debe tener una alta precisión en el
 > Últimas 2 horas solamente. Sin embargo, cuando inicio sesión a las 5 p.m,
-> Tengo una aclaración sobre las últimas 17 horas. Por qué ? De hecho,
+> Tengo una aclaración sobre las últimas 17 horas.  ? De hecho,
 > para evitar consumir recursos innecesariamente, la tarea que hace
 > el archivo se realiza solo una vez al día, por la tarde.
 
@@ -69,17 +69,17 @@ semana porque por defecto quiero que sea solo una semana - ver
 (estos parámetros se guardan de una pantalla a otra; entonces no lo haces
 que configurarlos una vez).
 
--   **Escalera** : muestra la curva como un
+-   **** : muestra la curva como un
     escalera o pantalla continua.
 
--   **Variación** : muestra la diferencia en valor de
+-   **** : muestra la diferencia en valor de
     punto anterior.
 
--   **Línea** : muestra el gráfico como líneas.
+-   **** : muestra el gráfico como líneas.
 
--   **Área** : muestra el gráfico como un área.
+-   **** : muestra el gráfico como un área.
 
--   **Columna**\* : muestra el gráfico como barras.
+-   ****\* : muestra el gráfico como barras.
 
 Gráfico sobre vistas y diseños 
 =====================================
@@ -91,21 +91,21 @@ las opciones :
 
 Una vez que se activan los datos, puede elegir :
 
--   **Color** : el color de la curva.
+-   **** : el color de la curva.
 
--   **Tipo** : El tipo de gráfico (área, línea o columna).
+-   **** : El tipo de gráfico (área, línea o columna).
 
--   **Escalera** : ya que puedes poner varias curvas (datos)
+-   **** : ya que puedes poner varias curvas (datos)
     en el mismo gráfico, es posible distinguir las escalas
     (derecha o izquierda).
 
--   **Escalera** : muestra la curva como un
+-   **** : muestra la curva como un
     escalera o pantalla continua
 
--   **Pila** : permite apilar los valores de las curvas (ver en
+-   **** : permite apilar los valores de las curvas (ver en
     a continuación para el resultado).
 
--   **Variación** : muestra la diferencia en valor de
+-   **** : muestra la diferencia en valor de
     punto anterior.
 
 Opción en la página del historial 
@@ -135,7 +135,7 @@ Historial de pedidos
 
 Frente a cada dato que se puede graficar, encontrará dos íconos :
 
--   **Bote de basura** : permite eliminar los datos grabados; entonces
+-   **** : permite eliminar los datos grabados; entonces
     del clic, Jeedom pregunta si es necesario eliminar los datos antes de un
     cierta fecha o todos los datos.
 
@@ -151,7 +151,7 @@ pregunta, haciendo clic directamente en el gráfico; de
 más, puede establecer el mínimo y el máximo permitidos para
 evitar problemas futuros.
 
-Línea de tiempo 
+ 
 ========
 
 La línea de tiempo muestra ciertos eventos en su domótica en el formulario
@@ -160,7 +160,7 @@ chronologique.
 Para verlos, primero debe activar el seguimiento en la línea de tiempo de
 comandos o escenarios deseados :
 
--   **Guion** : ya sea directamente en la página del escenario o en el
+-   **** : ya sea directamente en la página del escenario o en el
     página de resumen del escenario para hacerlo en "masa"
 
 -   **Ordenado** : ya sea en la configuración avanzada del comando,
@@ -170,7 +170,7 @@ comandos o escenarios deseados :
 >
 > Tiene acceso a las ventanas de resumen de los escenarios o del
 > configuración del historial directamente desde la página
-> línea de tiempo.
+> .
 
 Una vez que haya habilitado el seguimiento en la línea de tiempo del pedido y
 escenarios deseados, puede verlos aparecer en la línea de tiempo.

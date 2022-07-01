@@ -16,11 +16,11 @@ Abajo tienes una mesa :
 -   **Solo local** : autorizar inicio de sesión de usuario
     solo si está en la red local de Jeedom
 
--   **Perfiles** : permite elegir el perfil de usuario :
+-   **** : permite elegir el perfil de usuario :
 
-    -   **Administrador** : obtiene todos los derechos sobre Jeedom
+    -   **** : obtiene todos los derechos sobre Jeedom
 
-    -   **Usuario** : puede ver el tablero, las vistas,
+    -   **** : puede ver el tablero, las vistas,
         diseño, etc. y actuar sobre equipos / controles. En cambio,
         no tendrá acceso a la configuración de controles / equipos
         ni a la configuración de Jeedom.
@@ -65,9 +65,9 @@ los diferentes equipos. El segundo presenta los escenarios.
 Obtiene una tabla que permite, para cada equipo y cada
 escenario, definir derechos de usuario :
 
--   **Ninguna** : el usuario no ve el equipo / escenario
+-   **** : el usuario no ve el equipo / escenario
 
--   **Visualización** : el usuario ve el equipo / escenario pero no ve
+-   **** : el usuario ve el equipo / escenario pero no ve
     no puedo actuar en consecuencia
 
 -   **Visualización y ejecución** : el usuario ve

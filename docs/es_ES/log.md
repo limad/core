@@ -9,16 +9,16 @@ Para acceder, vaya a Administración → Registros :
 
 La página de registros es bastante simple, en la parte superior izquierda hay una lista desplegable
 permitiendo la elección del registro para ver, en la parte superior derecha tienes 5
-botones :
+ :
 
--   **Buscar** : permite filtrar el cartel de registro
+-   **** : permite filtrar el cartel de registro
 
 -   **Pausa / Reanudar** : le permite pausar / reanudar la configuración
     actualización de registro en tiempo real
 
 -   **Descargar** : permite descargar el registro actual,
 
--   **Vacío** : permite vaciar el registro actual,
+-   **** : permite vaciar el registro actual,
 
 -   **Borrar** : eliminar el registro actual, si Jeedom tiene alguna
     necesitarlo lo recreará automáticamente,

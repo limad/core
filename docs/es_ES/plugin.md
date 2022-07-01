@@ -1,5 +1,5 @@
 El submenú de administración de complementos le permite manipular complementos, excepto
-saber : descargarlos, actualizarlos y activarlos, etc
+ : descargarlos, actualizarlos y activarlos, etc
 
 Gestión de complementos 
 ===================
@@ -27,10 +27,10 @@ encuentre el nombre del complemento, luego entre paréntesis, su nombre en Jeedo
 
 Arriba a la derecha, algunos botones :
 
--   **Documentación** : Permite el acceso directo a la página de
+-   **** : Permite el acceso directo a la página de
     documentación del complemento
 
--   **Registro de cambios** : permite ver el registro de cambios del complemento si existe
+-   **** : permite ver el registro de cambios del complemento si existe
 
 -   **Enviar al mercado** : permite enviar el complemento en el mercado
     (solo disponible si eres el autor)
@@ -44,14 +44,14 @@ Abajo a la izquierda, hay un área de estado con :
 
 -   **Estado** : Le permite ver el estado del complemento (activo / inactivo)
 
--   **Versión** : la versión del complemento instalado
+-   **** : la versión del complemento instalado
 
 -   **Valores** : Le permite habilitar o deshabilitar el complemento
 
 -   **Versión Jeedom** : Versión mínima de Jeedom requerida
     para el funcionamiento del complemento
 
--   **Licencia** : Indica la licencia del complemento que generalmente será
+-   **** : Indica la licencia del complemento que generalmente será
     AGPL
 
 A la derecha, encontramos la zona de registro y vigilancia que permite definir 
@@ -61,7 +61,7 @@ Administración → Configuración en la pestaña de registros, en la parte infe
 
 -   ver los registros del complemento
 
--   Latido del corazón : cada 5 minutos, Jeedom comprueba si al menos un dispositivo de complemento se ha comunicado en los últimos X minutos (si desea desactivar la funcionalidad, simplemente ponga 0)
+-    : cada 5 minutos, Jeedom comprueba si al menos un dispositivo de complemento se ha comunicado en los últimos X minutos (si desea desactivar la funcionalidad, simplemente ponga 0)
 
 -   Reiniciar demonio : si el latido sale mal, entonces Jeedom reiniciará el demonio
 
@@ -74,7 +74,7 @@ Dependencias :
 
 -   **Estado** : le dirá si las dependencias están bien o no
 
--   **Instalaciones** : instalará o reinstalará
+-   **** : instalará o reinstalará
     dependencias (si no lo hace manualmente y son
     KO, Jeedom se cuidará después de un tiempo)
 
@@ -87,7 +87,7 @@ Demonio :
 
 -   **Estado** : te dirá si el demonio está bien o no
 
--   **Configuración** : estará bien si todos los criterios para el demonio
+-   **** : estará bien si todos los criterios para el demonio
     se cumplen los turnos o darán lugar a un bloqueo
 
 -   **(Para reiniciar** : permite lanzar o relanzar al demonio
@@ -112,19 +112,19 @@ Demonio :
 A continuación, hay un área de funcionalidad. Esto te permite ver
 si el complemento utiliza una de las funciones principales de Jeedom, como :
 
--   **Obrar recíprocamente** : interacciones específicas
+-   **** : interacciones específicas
 
 -   **Cron** : un cron por minuto
 
--   **Cron5** : un cron cada 5 minutos
+-   **** : un cron cada 5 minutos
 
--   **Cron15** : un cron cada 15 minutos
+-   **** : un cron cada 15 minutos
 
--   **Cron30** : un cron cada 30 minutos
+-   **** : un cron cada 30 minutos
 
--   **CronHorario** : un cron cada hora
+-   **** : un cron cada hora
 
--   **CronDaily** : un cron diario
+-   **** : un cron diario
 
 > **Consejo**
 >
@@ -163,7 +163,7 @@ En la parte superior de la ventana tienes filtros :
 -   **Menú desplegable de categoría** : solo muestra
     ciertas categorías de complementos
 
--   **Buscar** : le permite buscar un complemento (en el nombre o
+-   **** : le permite buscar un complemento (en el nombre o
     descripción de la misma)
 
 -   **Nombre del usuario** : muestra el nombre de usuario utilizado para

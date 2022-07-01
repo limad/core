@@ -23,9 +23,9 @@ solo funciones para gestionarlos mejor :
     esta página.
 
 -   **Resumen** : Le permite tener una visión general de todos
-    los escenarios. Puedes cambiar los valores **activo**,
-    **visible**, **lanzamiento múltiple**, **modo síncrono**, **Tronco** et
-    **Línea de tiempo** (estos parámetros se describen en el siguiente capítulo).
+    los escenarios. Puedes cambiar los valores ****,
+    ****, **lanzamiento múltiple**, **modo síncrono**, **** et
+    **** (estos parámetros se describen en el siguiente capítulo).
     También puede acceder a los registros para cada escenario y
     comenzar individualmente.
 
@@ -36,15 +36,15 @@ Mis escenarios
 -------------
 
 En esta sección encontrarás el **lista de escenarios** que usted
-he creado. Se clasifican de acuerdo a **grupos** que tienes
-definido para cada uno de ellos. Cada escenario se muestra con su **apellido**
-y su **objeto padre**. Los **escenarios atenuados** son los que son
+he creado. Se clasifican de acuerdo a **** que tienes
+definido para cada uno de ellos. Cada escenario se muestra con su ****
+y su **objeto padre**.  **escenarios atenuados** son los que son
 discapacitado.
 
 Como en muchas páginas de Jeedom, coloque el mouse a la izquierda de
 la pantalla muestra un menú de acceso rápido (desde
 tu perfil, siempre puedes dejarlo visible). Usted puede
-entonces **buscar** su escenario, pero también en **agregar** uno por esto
+ **** su escenario, pero también en **** uno por esto
 menu.
 
 Editar un escenario
@@ -55,13 +55,13 @@ escenario y se le redirige a su página de configuración general.
 En la parte superior, hay algunas funciones útiles para administrar nuestro escenario
 :
 
--   **IDENTIFICACIÓN** : Al lado de la palabra **General**, este es el identificador de escenario.
+-   **** : Al lado de la palabra **General**, este es el identificador de escenario.
 
--   **estado** : Estado actual de su escenario.
+-   **** : Estado actual de su escenario.
 
--   **Variables** : Ver variables.
+-   **** : Ver variables.
 
--   **Expresión** : Muestra el probador de expresiones.
+-   **** : Muestra el probador de expresiones.
 
 -   **Realizar** : Le permite iniciar el escenario manualmente (recuerde
     sin guardar de antemano !). Los desencadenantes por lo tanto no son
@@ -71,17 +71,17 @@ En la parte superior, hay algunas funciones útiles para administrar nuestro esc
 
 -   **Para salvaguardar** : Guardar los cambios realizados.
 
--   **Modelo** : Le permite acceder y aplicar plantillas
+-   **** : Le permite acceder y aplicar plantillas
     al guión del mercado. (explicado al final de la página).
 
--   **Exportar** : Obtenga una versión de texto del guión.
+-   **** : Obtenga una versión de texto del guión.
 
--   **Tronco** : Muestra los registros del escenario.
+-   **** : Muestra los registros del escenario.
 
 -   **Duplicar** : Copie el escenario para crear uno
     nuevo con otro nombre.
 
--   **Vínculos** : Le permite ver el gráfico de los elementos vinculados
+-   **** : Le permite ver el gráfico de los elementos vinculados
     con el guión.
 
 Pestaña General
@@ -94,12 +94,12 @@ nuestro escenario :
 
 -   **Nombre para mostrar** : El nombre utilizado para su visualización.
 
--   **Banda** : Le permite organizar los escenarios, clasificándolos en
+-   **** : Le permite organizar los escenarios, clasificándolos en
     grupos.
 
 -   **Activo** : Activa el escenario.
 
--   **Visible** : Se usa para hacer visible el escenario.
+-   **** : Se usa para hacer visible el escenario.
 
 -   **Objeto padre** : Asignación a un objeto padre.
 
@@ -113,12 +113,12 @@ nuestro escenario :
 >El lanzamiento múltiple funciona por segundo, es decir que si tiene 2 lanzamientos en el mismo segundo sin marcar la casilla, todavía habrá 2 lanzamientos del escenario (cuando no debería). Del mismo modo, durante varios lanzamientos en el mismo segundo, es posible que ciertos lanzamientos pierdan las etiquetas. Conclusión DEBE ABSOLUTAMENTE evitar múltiples lanzamientos en los mismos segundos.
 -   **Modo síncrono** : Inicie el escenario en el hilo actual en lugar de un hilo dedicado. Aumenta la velocidad de lanzamiento del escenario pero puede hacer que el sistema sea inestable.
 
--   **Tronco** : El tipo de registro deseado para el escenario.
+-   **** : El tipo de registro deseado para el escenario.
 
 -   **Sigue en la línea de tiempo** : Realiza un seguimiento del escenario
     en la linea de tiempo.
 
--   **Descripción** : Le permite escribir un pequeño texto para describir
+-   **** : Le permite escribir un pequeño texto para describir
     tu escenario.
 
 -   **Modo de escenario** : El escenario puede ser programado, activado o
@@ -127,15 +127,15 @@ nuestro escenario :
 
 > **Consejo**
 >
-> Atención : puedes tener un máximo de 28
+>  : puedes tener un máximo de 28
 > disparadores / programación para un escenario.
 
 Pestaña Escenario
 ---------------
 
 Aquí es donde construirás tu escenario. Tenemos que empezar
-por **agregar un bloque**, con el botón de la derecha. Una vez un bloque
-creado, puedes agregar otro **bloquear** o un **Valores**.
+ **agregar un bloque**, con el botón de la derecha. Una vez un bloque
+creado, puedes agregar otro **** o un ****.
 
 > **Consejo**
 >
@@ -151,16 +151,16 @@ Aquí están los diferentes tipos de bloques disponibles :
 -   **Valores** : Le permite lanzar acciones simples sin
     sin condiciones.
 
--   **Círculo** : Le permite realizar acciones repetidamente
+-   **** : Le permite realizar acciones repetidamente
     1 hasta un número definido (o incluso el valor de un sensor, o un
     número aleatorio…).
 
--   **Dentro** : Inicia una acción en X minuto (s) (0 es un
+-   **** : Inicia una acción en X minuto (s) (0 es un
     valor posible). La peculiaridad es que las acciones se lanzan
     en segundo plano, para que no bloqueen el resto del escenario.
     Entonces es un bloque sin bloqueo.
 
--   **POSEE** : Permite decirle a Jeedom que inicie las acciones del bloque en un
+-   **** : Permite decirle a Jeedom que inicie las acciones del bloque en un
     tiempo dado (en la forma hhmm). Este bloque no es bloqueante. Ex :
     0030 para 00:30, o 0146 para 1h46 y 1050 para 10h50.
 
@@ -168,7 +168,7 @@ Aquí están los diferentes tipos de bloques disponibles :
     cierto conocimiento y puede ser arriesgado pero permite no tener
     sin restricciones).
 
--   **Comentario** : Le permite agregar comentarios a su escenario.
+-   **** : Le permite agregar comentarios a su escenario.
 
 Cada uno de estos bloques tiene sus opciones para manejarlos mejor :
 
@@ -199,7 +199,7 @@ seleccione un elemento para probar :
     Jeedom abre una ventana para preguntarte qué prueba quieres
     actuar en ello. Si eliges **No poner nada**,
     Jeedom agregará el pedido sin comparación. Usted puede también
-    Elegir **y** Dónde **Dónde** delante **Próximo** para encadenar pruebas
+     **y**  ****  **** para encadenar pruebas
     en diferentes equipos.
 
 -   **Buscar un escenario** : Permite buscar un escenario
@@ -215,8 +215,8 @@ seleccione un elemento para probar :
 > etiquetas.
 
 Una vez que se complete la condición, debe usar el botón
-"agregar ", izquierda, para agregar un nuevo **bloquear** o un
-**Valores** en el bloque actual.
+"agregar ", izquierda, para agregar un nuevo **** o un
+**** en el bloque actual.
 
 > **Consejo**
 >
@@ -230,20 +230,20 @@ Una vez que se complete la condición, debe usar el botón
 
 Controles (sensores y actuadores):
 -   cmd::byString ($ cadena); : Devuelve el objeto de comando correspondiente.
-  -   $string : Enlace al pedido deseado : #[objet][equipo][commande]# (ex : #[Appartement][Alarme][Activo]#)
+  -   $string : Enlace al pedido deseado : #[objet][][commande]# ( : #[Appartement][Alarme][Activo]#)
 -   cmd::BYID ($ id); : Devuelve el objeto de comando correspondiente.
   -   $id : ID de pedido
 -   $cmd->execCmd($options = null); : Ejecute el comando y devuelva el resultado.
   -   $options : Opciones para la ejecución del comando (puede ser específico del complemento), opción básica (subtipo de comando) :
-    -   mensaje : $option = array('title' => 'titre du mensaje , 'message' => 'Mon message');
-    -   color : $option = array('color' => 'couleur en hexadécimal');
-    -   control deslizante : $option = array('slider' => 'valeur voulue de 0 à 100');
+    -    : $option = array('title' => 'titre du  , 'message' => 'Mon message');
+    -    : $option = array('color' => 'couleur en hexadécimal');
+    -    : $option = array('slider' => 'valeur voulue de 0 à 100');
 
-Tronco :
+ :
 -   log::add ( &#39;nombre&#39; &#39;nivel&#39;, &#39;mensaje&#39;);
-  -   Nombre del archivo : Nombre del archivo de registro.
-  -   nivel : [depuración], [información], [error], [evento].
-  -   mensaje : Mensaje para escribir en los registros.
+  -    : Nombre del archivo de registro.
+  -    : [depuración], [información], [error], [evento].
+  -    : Mensaje para escribir en los registros.
 
 Guión :
 -   $scenario->getName(); : Devuelve el nombre del escenario actual.
@@ -273,7 +273,7 @@ Las acciones agregadas a los bloques tienen varias opciones. En el orden :
 -   Una cabaña **activado** para que este comando se tenga en cuenta
     cuenta en el escenario.
 
--   A **flecha doble vertical** para mover la acción. Basta con
+-    **flecha doble vertical** para mover la acción. Basta con
     arrastrar y soltar desde allí.
 
 -   Un botón para eliminar la acción.
@@ -316,7 +316,7 @@ commandes) :
 También puede desencadenar un escenario cuando una variable se establece en
 día poniendo : #variable(nom_variable)# o usando la API HTTP
 descrito
-[aquí](https://jeedom.github.io/core/es_ES/api_http).
+[](https://jeedom.github.io/core/es_ES/api_http).
 
 Operadores de comparación y enlaces entre condiciones
 -------------------------------------------------------
@@ -336,14 +336,14 @@ comparaciones en condiciones :
 
 -   != : diferente de, no es igual a,
 
--   partidos : contiene (ex :
+-    : contiene (ex :
     [Baño] [Hidrometría] [condición] coincide "/ mojado /" ),
 
 -   no (... coincide) : no contiene (ex :
     no ([Baño] [Hidrometría] [condición] coincide "/ mojado /")),
 
 Puedes combinar cualquier comparación con operadores
-Siguiente :
+ :
 
 -   &amp;&amp; / ET / y / AND / y : et,
 
@@ -361,16 +361,16 @@ puede usar las siguientes etiquetas :
 >
 > Para mostrar los ceros a la izquierda, use el
 > Función de fecha (). Ver
-> [aquí](http://php.net/manual/fr/function.date.php).
+> [](http://php.net/manual/fr/function.date.php).
 
 -   #seconde# : Segundo actual (sin ceros a la izquierda, ej : 6 para
     08:07:06),
 
 -   #heure# : Hora actual en formato de 24 h (sin ceros a la izquierda),
-    ex : 8 para 08:07:06 o 17 para 17:15),
+     : 8 para 08:07:06 o 17 para 17:15),
 
 -   #heure12# : Hora actual en formato de 12 horas (sin ceros a la izquierda),
-    ex : 8 para 08:07:06),
+     : 8 para 08:07:06),
 
 -   #minute# : Minuto actual (sin ceros a la izquierda, ej : 7 para
     08:07:06),
@@ -388,7 +388,7 @@ puede usar las siguientes etiquetas :
 -   #timestamp# : Número de segundos desde el 1 de enero de 1970,
 
 -   #date# : Día y mes. Atención, el primer número es el mes.
-    (ex : 1215 para el 15 de diciembre),
+    ( : 1215 para el 15 de diciembre),
 
 -   #semaine# : Número de semana (ex : 51),
 
@@ -514,18 +514,18 @@ Hay varias funciones disponibles para el equipo :
 -   collectDate (cmd, [formato]) : Devuelve la fecha de los últimos datos
     para el comando dado como parámetro, el segundo parámetro opcional
     permite especificar el formato de retorno (detalles
-    [aquí](http://php.net/manual/fr/function.date.php)). Un retorno de -1
+    [](http://php.net/manual/fr/function.date.php)). Un retorno de -1
     significa que no se puede encontrar el pedido y -2 que el pedido no es
     sin tipo de información
 
 -   valueDate (cmd, [formato]) : Devuelve la fecha de los últimos datos
     para el comando dado como parámetro, el segundo parámetro opcional
     permite especificar el formato de retorno (detalles
-    [aquí](http://php.net/manual/fr/function.date.php)). Un retorno de -1
+    [](http://php.net/manual/fr/function.date.php)). Un retorno de -1
     significa que no se puede encontrar el pedido y -2 que el pedido no es
     sin tipo de información
 
--   eqEnable (equipo) : Devuelve el estado del equipo. -2 si
+-   eqEnable (equipo) : Devuelve el estado del equipo. -
     no se puede encontrar el equipo, 1 si el equipo está activo y 0 si no lo está
     está inactivo
 
@@ -536,12 +536,12 @@ Hay varias funciones disponibles para el equipo :
 
 -   nombre (tipo, comando) : Se usa para recuperar el nombre del comando,
     equipo u objeto. El tipo vale cmd, eqLogic o
-    objeto.
+    .
 
 -   lastCommunication (equipo, [formato]) : Devuelve la fecha de la última comunicación
     para el equipo dado como parámetro, el segundo parámetro opcional
     permite especificar el formato de retorno (detalles
-    [aquí](http://php.net/manual/fr/function.date.php)). Un retorno de -1
+    [](http://php.net/manual/fr/function.date.php)). Un retorno de -1
     significa que no se puede encontrar el equipo
 
 -   color_gradient (start_colour, end_colour, min_value, max_value, value) : Devuelve un color calculado con respecto al valor en el rango color_start / color_end. El valor debe estar entre min_value y max_value
@@ -549,11 +549,11 @@ Hay varias funciones disponibles para el equipo :
 Los períodos e intervalos de estas funciones también pueden
 utilizar con [expresiones
 PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par
-ejemplo :
+ :
 
--   Ahora : maintenant
+-    : maintenant
 
--   Este Dia : 00:00 hoy (permite por ejemplo obtener
+-    : 00:00 hoy (permite por ejemplo obtener
     resultados del día si entre 'Hoy' y 'Ahora')
 
 -   Lunes pasado : el lunes pasado a las 00:00
@@ -562,7 +562,7 @@ ejemplo :
 
 -   Ayer mediodia : ayer mediodia
 
--   Etc.
+-   .
 
 Aquí hay ejemplos prácticos para comprender los valores devueltos por
 estas diferentes funciones :
@@ -571,11 +571,11 @@ estas diferentes funciones :
 |--------------------------------------|--------------------------------------|
 | promedio (captura, período)             | Devuelve el promedio de 0 y 1 (puede  |
 |                                      | ser influenciado por las encuestas)      |
-| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Devuelve el pedido promedio entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| averageBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el pedido promedio entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | min (captura, período)                 | Devuelve 0 : el tapón se apagó durante el período              |
-| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Devuelve el pedido mínimo entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| minBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el pedido mínimo entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | max (captura, período)                 | Devuelve 1 : el enchufe estaba bien iluminado en el período              |
-| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Devuelve el máximo del pedido entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
+| maxBetween(\#[Salle de bain][Hydrometrie][Humidité]\#,:00::00:00) | Devuelve el máximo del pedido entre el 1 de enero de 2015 y el 15 de enero de 2015                         |
 | duración (tomado, 1, período)          | Devuelve 60 : el enchufe estuvo encendido (a 1) durante 60 minutos en el período                              |
 | durationBetween(\#[Salon][Prise][Etat]\#,0, el lunes pasado, ahora)   | Devuelve la duración en minutos durante la cual el socket estuvo apagado desde el lunes pasado.                |
 | estadísticas (captura, conteo, período)    | Devuelve 8 : hubo 8 escaladas en el período               |
@@ -638,7 +638,7 @@ realizar conversiones o cálculos :
     Los valores iniciales y finales pueden estar a caballo entre la medianoche.
 
 -   `time_diff (fecha1, fecha1 [, formato])` : Se usa para descubrir la diferencia entre 2 fechas (las fechas deben estar en el formato AAAA / MM / DD HH:MM:SS).
-    Por defecto (si no pone nada para el formato), el método devuelve el número total de días. Puedes preguntarlo en segundos (s), minutos (m), horas (h). Ejemplo en segundos `time_diff (2018-02-02 14:55:00,2018-02-25 14:55:00,s)``
+    Por defecto (si no pone nada para el formato), el método devuelve el número total de días. Puedes preguntarlo en segundos (s), minutos (m), horas (h). Ejemplo en segundos `time_diff (2018-02-02 14:55::55:00,s)``
 
 -   `formatTime (hora)` : Formatea el retorno de una cadena
     ``#time#``.
@@ -656,7 +656,7 @@ Y ejemplos prácticos :
 | randomColor(40,60)                 | Devuelve un color aleatorio cercano al verde.   
 | trigger(#[Salle de bain][Hydrometrie][Humidité]#)   | 1 si eso es bueno \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# quien inició el escenario de lo contrario 0  |
 | triggerValue(#[Salle de bain][Hydrometrie][Humidité]#) | 80 si la hidrometría de \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\# es 80%.                         |
-| round(#[Salle de bain][Hydrometrie][Humidité]# / 10) | Devuelve 9 si el porcentaje de humedad y 85                     |
+| round(#[Salle de bain][Hydrometrie][Humidité]# ) | Devuelve 9 si el porcentaje de humedad y 85                     |
 | odd(3)                             | Devuelve 1                            |
 | median(15,25,20)                   | Devuelve 20                           |
 | tiempo_op(#time#, -90)               | si son las 4:50 p.m., regrese : 1 650-1 130 = 1520                          |
@@ -668,7 +668,7 @@ Pedidos específicos
 
 Además de los comandos de automatización del hogar, tiene acceso a las siguientes acciones :
 
--   **Pausa** (sleep) : Pausa de x segundo (s).
+-   **** (sleep) : Pausa de x segundo (s).
 
 -   **variable** (variable) : Creación / modificación de una variable o valor
     de una variable.
@@ -681,9 +681,9 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
     acentos y sin caracteres especiales). Obtenemos la etiqueta en el
     escenario objetivo con la función de etiqueta (montag). El comando "Restablecer a SI" permite restablecer el estado de "SI" (este estado se utiliza para la no repetición de las acciones de un "SI" si pasa por segunda vez consecutiva en él)
 
--   **Deténgase** (stop) : Detener el escenario.
+-   **** (stop) : Detener el escenario.
 
--   **Esperar** (wait) : Espere hasta que la condición sea válida
+-   **** (wait) : Espere hasta que la condición sea válida
     (máximo 2 h), el tiempo de espera es en segundos (s).
 
 -   **Ir al diseño** (gotodesign) : Cambiar el diseño que se muestra en todos
@@ -705,23 +705,23 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
     la función está bloqueando. Mientras no haya respuesta o el
     no se alcanza el tiempo de espera, el escenario espera.
 
--   **Stop Jeedom** (jeedom_poweroff) : Pídale a Jeedom que cierre.
+-   **Stop Jeedom** () : Pídale a Jeedom que cierre.
 
--   **Reiniciar Jeedom** (jeedom_reboot) : Pedirle a Jeedom que reinicie.
+-   **Reiniciar Jeedom** () : Pedirle a Jeedom que reinicie.
 
 -   **Devolver un texto / datos** (vuelta_escenario) : Devuelve un texto o un valor
     para una interacción por ejemplo.
 
 -   **Icono** (icon) : Permite cambiar el ícono de representación del escenario.
 
--   **Alerta** (alert) : Le permite mostrar un pequeño mensaje de alerta en todos
+-   **** (alert) : Le permite mostrar un pequeño mensaje de alerta en todos
     navegadores que tienen abierta una página de Jeedom. Usted puede
     más, elige 4 niveles de alerta.
 
--   **Surgir** (popup) : Permite mostrar una ventana emergente que debe ser absolutamente
+-   **** (popup) : Permite mostrar una ventana emergente que debe ser absolutamente
     validado en todos los navegadores que tienen una página abierta de libertad.
 
--   **Relación** (report) : Exportar una vista en formato (PDF, PNG, JPEG
+-   **** (report) : Exportar una vista en formato (PDF, PNG, JPEG
     o SVG) y enviarlo a través de un comando de tipo de mensaje.
     Tenga en cuenta que si su acceso a Internet está en HTTPS sin firmar, esto
     la funcionalidad no funcionará. Se requiere HTTP o HTTPS firmado.
@@ -731,7 +731,7 @@ Además de los comandos de automatización del hogar, tiene acceso a las siguien
 
 -   **Evento** (event) : Le permite insertar un valor en un comando de tipo de información arbitrariamente
 
--   **Etiquetas** (tag) : Le permite agregar / modificar una etiqueta (la etiqueta solo existe durante la ejecución actual del escenario a diferencia de las variables que sobreviven al final del escenario)
+-   **** (tag) : Le permite agregar / modificar una etiqueta (la etiqueta solo existe durante la ejecución actual del escenario a diferencia de las variables que sobreviven al final del escenario)
 
 Plantilla de escenario
 ====================
@@ -765,7 +765,7 @@ Al hacer clic en una plantilla, obtienes :
 
 En la cima puedes :
 
--   **Compartir, repartir** : compartir la plantilla en el mercado,
+-   **** : compartir la plantilla en el mercado,
 
 -   **Borrar** : eliminar plantilla,
 

@@ -3,22 +3,22 @@ de texto o comandos de voz.
 
 Estas órdenes pueden ser obtenidas por :
 
--   SMS : enviar un SMS para iniciar comandos (acción) o pedir un
+-    : enviar un SMS para iniciar comandos (acción) o pedir un
     pregunta (información).
 
--   Gato : Telegrama, Slack, etc.
+-    : Telegrama, Slack, etc.
 
--   Vocal : dicta una frase con Siri, Google Now, SARAH, etc. Para
+-    : dicta una frase con Siri, Google Now, SARAH, etc. Para
     iniciar comandos (acción) o hacer una pregunta (información).
 
--   HTTP : lanzar una URL HTTP que contenga el texto (ej. Tasker, Slack)
+-    : lanzar una URL HTTP que contenga el texto (ej. )
     Para iniciar comandos (acción) o hacer una pregunta (información).
 
 El interés de las interacciones radica en la integración simplificada en
 Otros sistemas como teléfonos inteligentes, tabletas, otras cajas de automatización del hogar, etc.
 
 Para acceder a la página de interacción, vaya a Herramientas →
-Interacciones :
+ :
 
 En la parte superior de la página, hay 3 botones :
 
@@ -27,7 +27,7 @@ En la parte superior de la página, hay 3 botones :
 -   **Regenerado** : que recreará todas las interacciones (tal vez
     très long &gt; 5mn).
 
--   **Prueba** : que abre un diálogo para escribir y
+-   **** : que abre un diálogo para escribir y
     prueba una oración.
 
 > **Consejo**
@@ -38,7 +38,7 @@ En la parte superior de la página, hay 3 botones :
 > vaya a la interacción en cuestión y guárdela nuevamente para
 > crea las oraciones para este nuevo módulo.
 
-Principio 
+ 
 ========
 
 El principio de la creación es bastante simple : definiremos una oración
@@ -54,13 +54,13 @@ la interacción no está vinculada a una acción sino a información o si
 desea llevar a cabo una acción específica después de esto (también es
 posible ejecutar un escenario, controlar varios comandos).
 
-Configuración 
+ 
 =============
 
 La página de configuración consta de varias pestañas y
-botones :
+ :
 
--   **Oraciones** : Muestra el número de oraciones en la interacción (un clic
+-   **** : Muestra el número de oraciones en la interacción (un clic
     arriba te los muestra)
 
 -   **Para registrarse** : registra la interacción actual
@@ -75,14 +75,14 @@ General
 -   **Apellido** : nombre de la interacción (puede estar vacío, el nombre reemplaza el
     solicitar texto en la lista de interacción).
 
--   **Banda** : grupo de interacción, ayuda a organizarlos
+-   **** : grupo de interacción, ayuda a organizarlos
     (puede estar vacío, por lo que estará en el grupo "ninguno").
 
 -   **Activo** : permite activar o desactivar la interacción.
 
--   **Solicitud** : La oración modelo generadora (requerida).
+-   **** : La oración modelo generadora (requerida).
 
--   **Sinónimo** : permite definir sinónimos en nombres
+-   **** : permite definir sinónimos en nombres
     órdenes.
 
 -   **Respuesta** : la respuesta para proporcionar.
@@ -96,7 +96,7 @@ General
 -   **Usuarios autorizados** : limita la interacción a ciertos
     usuarios (inicios de sesión separados por |).
 
-Filtros 
+ 
 =======
 
 -   **Límite para escribir comandos** : permite usar solo el
@@ -130,7 +130,7 @@ Valores
 Úselo si desea apuntar a uno o más comandos específicos
 o pasar parámetros particulares.
 
-Ejemplos 
+ 
 ========
 
 > **Nota**
@@ -221,7 +221,7 @@ puede tener varios sinónimos, aquí &quot;on&quot; tiene como sinónimo
 ***=*** "*sinónimo 1*"***,*** "*sinónimo 2*" (podemos poner tantos
 sinónimo que queremos). Luego, agregar sinónimos para otro
 nombre del comando, solo agregue después del último sinónimo una barra
-vertical "*|*" después de lo cual puedes nombrar nuevamente
+ "*|*" después de lo cual puedes nombrar nuevamente
 comando que tendrá sinónimos como para la primera parte, etc.
 
 Ya es mejor, pero aún falta para el comando de entrada "on""
@@ -299,7 +299,7 @@ separación y finalmente la respuesta si el comando vale 1. Aquí el
 las respuestas son simplemente no y sí, pero podríamos poner una oración
 un poco mas largo.
 
-> **Advertencia**
+> ****
 >
 > Las etiquetas no funcionan en conversiones binarias.
 
@@ -319,7 +319,7 @@ Exclusión de expresiones regulares
 ------------------
 
 Es posible crear
-[Expresión regular](https://fr.wikipedia.org/wiki/Expression_rationnelle)
+[](https://fr.wikipedia.org/wiki/Expression_rationnelle)
 de exclusión, si una oración generada corresponde a esta expresión regular será
 borrado. El punto es poder eliminar falsos positivos,
 decir una oración generada por Jeedom que activa algo que no
@@ -455,9 +455,9 @@ sola vez.
 Este ejemplo se dirige específicamente a equipos específicos que permiten
 tener una respuesta personalizada. Entonces podríamos imaginar reemplazar
 el ejemplo responde con &quot;no, no hay nadie en la habitación
-*julio*|si hay alguien en la sala *julio*"
+**|si hay alguien en la sala **"
 
-### Evolución 
+###  
 
 -   Entonces la pregunta es "\#commande\# \[en la |en el\] \#objet\#"
 
@@ -514,7 +514,7 @@ la humedad, el brillo de las diferentes habitaciones (objeto en el sentido Jeedo
     escriba información digital que tenga una unidad, para que podamos desmarcar
     unidades en el filtro derecho limitado al tipo que nos interesa.
 
-### Evolución 
+###  
 
 Por lo tanto, podemos agregar sinónimos al nombre del comando para tener algunos
 Lo más natural, agregue una expresión regular para filtrar los comandos que
@@ -566,7 +566,7 @@ atenuador para aplicar el valor deseado. Para hacer esto, tenemos 3 partes
 que será enviado a la interacción. \* Respuesta : reutilizamos la etiqueta para
 la respuesta para asegurarse de que Jeedom entendió la solicitud correctamente.
 \* Acción : ponemos una acción sobre la lámpara que queremos conducir y en
-el valor le pasamos nuestra etiqueta *consigna*.
+el valor le pasamos nuestra etiqueta **.
 
 > **Nota**
 >
@@ -576,7 +576,7 @@ el valor le pasamos nuestra etiqueta *consigna*.
 > escenarios lanzados por la interacción (sin embargo, el escenario
 > ya sea en "Ejecutar en primer plano").
 
-### Evolución 
+###  
 
 Es posible que queramos controlar todos los comandos de tipo cursor con un
 interacción única. Con el siguiente ejemplo, podremos ordenar

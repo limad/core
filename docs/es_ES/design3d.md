@@ -87,7 +87,7 @@ Para configurar un elemento en el diseño 3D, haga doble clic en el elemento que
 	- Apertura : lo mejor es probar para que coincida con su puerta / ventana
 - Translation
 	- Habilitar : activa la traducción al abrir (puerta corredera / tipo de ventana))
-	- Sentido : dirección en la que debe moverse la puerta / ventana (tiene arriba / abajo / derecha / izquierda)
+	-  : dirección en la que debe moverse la puerta / ventana (tiene arriba / abajo / derecha / izquierda)
 	- Repetición : de forma predeterminada, la Puerta / Ventana se mueve una vez que su dimensión en la dirección dada, pero puede aumentar este valor
 - Ocultar cuando la puerta / ventana está abierta
 	- Habilitar : Oculta el elemento si la puerta / ventana está abierta

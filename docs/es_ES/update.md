@@ -1,7 +1,7 @@
-Descripción 
+ 
 ===========
 
-La **centro de actualizaciones** le permite actualizar todo
+ **centro de actualizaciones** le permite actualizar todo
 Características de Jeedom, incluido el software central,
 complementos, widgets, etc. Otras funciones de administración de extensiones
 están disponibles (eliminar, reinstalar, verificar, etc)
@@ -13,7 +13,7 @@ Se puede acceder desde el menú **Administración → Centro de actualización
 jour**.
 
 Encontrará, a la izquierda, todas las funcionalidades de
-Jeedom y en la parte correcta **Información** quien describe lo que el
+Jeedom y en la parte correcta **** quien describe lo que el
 sucedió, cuando lanzaste una actualización.
 
 Funciones en la parte superior de la página. 
@@ -27,7 +27,7 @@ puedes presionar el botón "Buscar actualizaciones".
 
 El botón **Poner al día** permite actualizar el conjunto de
 Jeedom. Una vez que hace clic en él, obtenemos estos diferentes
-opciones :
+ :
 
 -   **Ahorre antes** : Copia de seguridad de Jeedom antes
     realizar la actualización.
@@ -43,7 +43,7 @@ opciones :
     la salvaguardia.
 
 -   **Actualización para volver a aplicar** : Le permite volver a aplicar una apuesta
-    al día. (Nótese bien : No se pueden volver a aplicar todas las actualizaciones.)
+    al día. ( : No se pueden volver a aplicar todas las actualizaciones.)
 
 > **Importante**
 >
@@ -65,12 +65,12 @@ La tabla consta de dos pestañas :
 -   **Núcleo y complementos** : Contiene software básico Jeedom y
     lista de complementos instalados.
 
--   **Otro** : Contiene widgets, scripts, etc.
+-   **** : Contiene widgets, scripts, etc.
 
 Encontrará la siguiente información : \* **Estado** : OK o NOK.
 Le permite conocer el estado actual del complemento. \* **Apellido** : Tu ahi
 encuentre la fuente del elemento, el tipo de elemento y su nombre. \*
-**Versión** : Indica la versión específica del artículo. \* **Opciones** :
+**** : Indica la versión específica del artículo. \* **** :
 Marque esta casilla si no desea que este artículo se actualice
 día durante la actualización general (Botón **Poner al día**).
 
@@ -92,7 +92,7 @@ cada elemento :
 -   **Poner al día** : Le permite actualizar el elemento (si tiene
     una actualización).
 
--   **Registro de cambios** : Acceda a la lista de cambios en el
+-   **** : Acceda a la lista de cambios en el
     actualización.
 
 > **Importante**
@@ -114,14 +114,14 @@ Actualización de línea de comando
 Es posible actualizar Jeedom directamente en SSH.
 Una vez conectado, este es el comando para realizar :
 
-    sudo php /var/www/html/install/update.php
+    
 
 Los posibles parámetros son :
 
--   **`modo`** : `force`, para iniciar una actualización en modo forzado (no
+-   **** : `force`, para iniciar una actualización en modo forzado (no
     ignorar errores).
 
--   **`liberar`** : seguido del número de versión, para volver a aplicar el
+-   **** : seguido del número de versión, para volver a aplicar el
     cambios desde esta versión.
 
 Aquí hay un ejemplo de sintaxis para hacer una actualización forzada en
