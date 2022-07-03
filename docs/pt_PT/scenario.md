@@ -67,7 +67,7 @@ No topo, existem algumas funções úteis para gerenciar nosso cenário
     sem salvar de antemão !). Os gatilhos não são, portanto,
     não levado em consideração.
 
--   **Deletar** : Excluir cenário.
+-   **** : Excluir cenário.
 
 -   **** : Salve as alterações feitas.
 
@@ -125,7 +125,7 @@ nosso cenário :
     ambos ao mesmo tempo. Você terá a opção de indicar o (s))
     gatilho (s) (tenha cuidado, há um limite para o número possível de gatilhos por cenário de 15) e a (s) programação (s)).
 
-> **Dica**
+> ****
 >
 >  : você pode ter no máximo 28
 > gatilhos / programação para um cenário.
@@ -137,7 +137,7 @@ Guia Cenário
  **Adicionar bloco**, com o botão à direita. Uma vez um bloco
 criado, você pode adicionar outro **** ou um ****.
 
-> **Dica**
+> ****
 >
 > Em condições e ações, é melhor favorecer aspas simples (') em vez de aspas duplas (")
 
@@ -182,7 +182,7 @@ Cada um desses blocos tem suas opções para lidar melhor com eles :
 
 #### Se / Então / Caso contrário, bloqueia, Loop, In e A
 
-> **Observação**
+> ****
 >
 > Nos blocos Si / Então / Caso contrário, setas circulares localizadas
 > à esquerda do campo de condição permitem ativar ou não o
@@ -207,7 +207,7 @@ selecione um item para testar :
 
 -   **Procure equipamento** : O mesmo para equipamentos.
 
-> **Dica**
+> ****
 >
 > Há uma lista de tags que permitem acesso a variáveis
 > do script ou de outro, ou por hora, data, um
@@ -218,7 +218,7 @@ Depois de concluída a condição, você deve usar o botão
 "adicionar ", à esquerda, para adicionar um novo **** ou um
 **** no bloco atual.
 
-> **Dica**
+> ****
 >
 > Você NÃO DEVE usar [] em testes de condição, apenas parênteses () são possíveis
 
@@ -283,7 +283,7 @@ As ações adicionadas aos blocos têm várias opções. Em ordem :
 
 -   Um botão para procurar um comando de ação.
 
-> **Dica**
+> ****
 >
 > Dependendo do comando selecionado, podemos ver diferentes
 > campos adicionais exibidos.
@@ -357,7 +357,7 @@ Tags
 Uma tag é substituída durante a execução do cenário por seu valor. Você
 pode usar as seguintes tags :
 
-> **Dica**
+> ****
 >
 > Para exibir os zeros à esquerda, use o
 > Função Date (). Veja
@@ -767,7 +767,7 @@ No topo você pode :
 
 -   **** : Compartilhe o modelo no mercado,
 
--   **Deletar** : Excluir modelo,
+-   **** : Excluir modelo,
 
 -   **Baixar** : recuperar o modelo como um arquivo JSON
     para enviá-lo de volta para outro Jeedom, por exemplo.

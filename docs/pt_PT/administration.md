@@ -199,13 +199,13 @@ externe** (de outra rede, especialmente da Internet).
     -   **Complemento** : o fragmento de URL adicional (exemplo
         : / Jeedom) para acessar o Jeedom.
 
-> **Dica**
+> ****
 >
 > Se você estiver em HTTPS, a porta é 443 (por padrão) e em HTTP o
 > porta é 80 (padrão). Para usar HTTPS de fora,
 > um plugin letsencrypt já está disponível no mercado.
 
-> **Dica**
+> ****
 >
 > Para descobrir se você precisa definir um valor no campo
 > **Complemento**, olha, quando você entra no Jeedom em
@@ -260,7 +260,7 @@ widgets globalmente (esse será o padrão. Ele é
 então é possível modificar esse widget de valor por widget). Para não
 não coloque transparência, deixe 1.0 .
 
-> **Dica**
+> ****
 >
 > Não se esqueça de salvar após qualquer modificação.
 
@@ -312,7 +312,7 @@ histórico de pedidos.
     de um pedido. Quanto menor o período, mais rápido o Jeedom será
     para exibir o gráfico solicitado.
 
-> **Observação**
+> ****
 >
 > O primeiro parâmetro **Mostrar estatísticas sobre os widgets** est
 > possível, mas desativado por padrão porque aumenta significativamente a
@@ -358,7 +358,7 @@ Permite monitorar e agir no cache Jeedom :
 Essa guia permite definir parâmetros globais relativos a
 interações que você encontrará em Ferramentas → Interações.
 
-> **Dica**
+> ****
 >
 > Para ativar o log de interação, vá para a guia
 > Administração → Configuração → Logs e marque **** na lista
@@ -433,7 +433,7 @@ Interação automática, contextual e aviso
     -   ** : OK (* Assim que a temperatura da sala exceda 25 ° C,
         Jeedom lhe dirá, apenas uma vez*)
 
-> **Observação**
+> ****
 >
 > Por padrão, o Jeedom responderá pelo mesmo canal que você
 > costumava pedir-lhe para notificá-lo. Se ele não encontrar um
@@ -548,7 +548,7 @@ no topo, à direita, na barra de menus do Jeedom ou ao lado do
 
 -   **** : Chave para o resumo, especialmente para não tocar.
 
--   **Sobrenome** : Nome do resumo.
+-   **** : Nome do resumo.
 
 -   **** : Método de cálculo, pode ser do tipo :
 
@@ -749,13 +749,13 @@ uma participação do Samba (ex : ).
 -   **Caminho \ [Backup \]** : Caminho no compartilhamento (para definir
     relativo), deve existir.
 
-> **Observação**
+> ****
 >
 > Se o caminho para a pasta de backup do samba for :
 > \\\\ 192.168.0.1 \\ Backups \\ Domótica \\ Jeedom Then IP = 192.168.0.1
 > , Partilha = //192.168.0.1 / Backups, Caminho = Domótica / Jeedom
 
-> **Observação**
+> ****
 >
 > Ao validar o compartilhamento Samba, conforme descrito acima,
 > uma nova forma de backup aparece na seção

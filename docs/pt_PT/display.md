@@ -28,7 +28,7 @@ Quadros de objetos
 
 Abaixo há um quadro por objeto. Em cada quadro, encontramos
 a lista de equipamentos (em azul) que têm esse objeto como pai. O
-primeiro quadro **Nenhum** representa equipamento que não possui
+primeiro quadro **** representa equipamento que não possui
 pai afetado. Para cada objeto, próximo ao seu rótulo, três botões
 estão disponíveis. Da esquerda para a direita :
 
@@ -40,12 +40,12 @@ estão disponíveis. Da esquerda para a direita :
 -   o último permite exibir ou ocultar a lista de equipamentos
     atribuído a ele.
 
-> **Dica**
+> ****
 >
 > A cor de fundo dos quadros de objetos depende da cor escolhida em
 > configuração de objeto.
 
-> **Dica**
+> ****
 >
 > Ao clicar / soltar no equipamento, você pode alterar sua
 > encomendar ou mesmo atribuí-los a outro objeto. É da ordem
@@ -92,7 +92,7 @@ roda dentada isso abrirá sua janela de configuração.
 Configuração avançada de equipamentos 
 =====================================
 
-> **Dica**
+> ****
 >
 > É possível acessar (se o plugin o suportar) diretamente para
 > nesta janela da página de configuração do equipamento em
@@ -114,7 +114,7 @@ modificar. Primeiro, no canto superior direito, alguns botões
 -   **** : Salve as modificações feitas
     no equipamento.
 
--   **Deletar** : Remova o equipamento.
+-   **** : Remova o equipamento.
 
 Guia Informações 
 -------------------
@@ -124,7 +124,7 @@ o equipamento e seus controles :
 
 -   **** : Identificador exclusivo no banco de dados Jeedom.
 
--   **Sobrenome** : Nome de equipamentos.
+-   **** : Nome de equipamentos.
 
 -   **ID lógico** : Identificador de equipamento lógico (pode
     estar vazio).
@@ -140,7 +140,7 @@ o equipamento e seus controles :
 -   **** : Marque a caixa para tornar o equipamento visível (sem
     esqueça de salvar).
 
--   **Gentil** : Identificador do plug-in pelo qual ele foi criado.
+-   **** : Identificador do plug-in pelo qual ele foi criado.
 
 -   **Tentativa fracassada** : Número de tentativas de comunicação
     consecutivo com falha do equipamento.
@@ -202,7 +202,7 @@ novo. Para equipamentos, apenas o valor **** é para o
 momento utilizado, permite inserir código CSS no equipamento em
 question.
 
-> **Dica**
+> ****
 >
 > Não se esqueça de salvar após qualquer modificação.
 
@@ -237,7 +237,7 @@ Abaixo para cada caixa, o **Configuração detalhada** permite que você
     caixa (cuidado, este substitui e substitui o CSS geral
     caixas).
 
-> **Dica**
+> ****
 >
 > Em uma caixa na tabela, se você quiser colocar 2 comandos, um em
 > abaixo do outro, não se esqueça de adicionar um retorno ao
@@ -265,7 +265,7 @@ Você também pode gerenciar o tempo limite, em minutos, do equipamento. Por
 Por exemplo, 30 informa a jeedom que se o equipamento não tiver se comunicado
 por 30 minutos, então você deve colocá-lo em alerta.
 
-> **Dica**
+> ****
 >
 > Os parâmetros globais estão em **Administração → Configuração → Logs**
 > ( ****)
@@ -297,12 +297,12 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
 -   **** : Salve as alterações feitas em
     o equipamento
 
-> **Dica**
+> ****
 >
 > Em um gráfico, um clique duplo em um elemento leva você ao seu
 > .
 
-> **Observação**
+> ****
 >
 > Dependendo do tipo de pedido, as informações / ações exibidas
 > pode mudar.
@@ -318,9 +318,9 @@ Guia Informações
 -   **ID lógico** : Identificador lógico do comando (pode
     estar vazio).
 
--   **Sobrenome** : Nome do comando.
+-   **** : Nome do comando.
 
--   **Gentil** : Tipo de comando (ação ou informação).
+-   **** : Tipo de comando (ação ou informação).
 
 -   **** : Subtipo de comando (binário, digital etc.)).
 
@@ -357,7 +357,7 @@ Você também tem três outros botões laranja embaixo :
 -   **Substituir esse comando pelo comando** : O reverso substitui
     a ordem por outra ordem.
 
-> **Observação**
+> ****
 >
 > Esse tipo de ação substitui comandos em todo o Jeedom
 > (cenário, interação, comando, equipamento.)
@@ -467,7 +467,7 @@ Permite definir um nível de alerta (****  ****) en
 dependendo de certas condições. Por exemplo, se `valor> 8` para 30
 minutos, então o equipamento pode ficar em alerta ****.
 
-> **Observação**
+> ****
 >
 > Na página **Administração → Configuração → Logs**, Você pode
 > configure um comando de tipo de mensagem que permitirá que o Jeedom o obtenha
@@ -502,7 +502,7 @@ Abaixo, encontramos parâmetros opcionais de exibição que
 pode mudar para o widget. Esses parâmetros dependem do widget em questão,
 então você tem que olhar para o cartão dele no mercado para conhecê-los.
 
-> **Dica**
+> ****
 >
 > Não se esqueça de salvar após qualquer modificação.
 
@@ -511,7 +511,7 @@ Guia Código
 
 Permite modificar o código do widget apenas para o comando atual.
 
-> **Observação**
+> ****
 >
 > Se você deseja modificar o código, não esqueça de marcar a caixa
 > **Ativar personalização do widget**

@@ -52,7 +52,7 @@ Jeedom. Depois que você clica nele, temos diferentes
 > restaurar automaticamente o backup feito logo antes. Este princípio
 > é válido apenas para atualizações do Jeedom e não para plugins.
 
-> **Dica**
+> ****
 >
 > Você pode forçar uma atualização do Jeedom, mesmo que isso não ocorra
 > não ofereça nenhum.
@@ -68,13 +68,13 @@ A tabela consiste em duas guias :
 -   **** : Contém widgets, scripts etc.
 
 Você encontrará as seguintes informações : * **** : OK ou NÃO.
-Permite que você saiba o estado atual do plug-in. \* **Sobrenome** : Voce ai
+Permite que você saiba o estado atual do plug-in. \* **** : Voce ai
 encontre a fonte do elemento, o tipo de elemento e seu nome. \*
 **** : Indica a versão específica do item. \* **** :
 Marque esta caixa se não desejar que este item seja atualizado
 dia durante a atualização geral (Button **Atualizar**).
 
-> **Dica**
+> ****
 >
 > Para cada tabela, a primeira linha permite o seguinte filtro
 > o estado, nome ou versão dos elementos presentes.
@@ -84,7 +84,7 @@ todo elemento :
 
 -   **Reinstalar** : Forçar reassentamento.
 
--   **Deletar** : Permite desinstalá-lo.
+-   **** : Permite desinstalá-lo.
 
 -   **Verificar** : Consulte a fonte de atualizações para descobrir se
     uma nova atualização está disponível.
@@ -103,7 +103,7 @@ todo elemento :
 > mudanças, uma vez que não há necessariamente. (é frequentemente uma aposta
 > da tradução da documentação)
 
-> **Dica**
+> ****
 >
 > Note que "core : jeedom "significa" atualizar o software
 > Base de Jeedom".

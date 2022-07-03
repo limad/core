@@ -32,7 +32,7 @@ aqui 2 parâmetros, um para o tamanho do pacote e outro para saber
 quando fazê-lo (por padrão, são pacotes
 1 hora com dados com mais de 2 horas de antiguidade).
 
-> **Dica**
+> ****
 >
 > Se você seguiu bem, deve ter uma alta precisão no
 > Apenas nas últimas 2 horas. No entanto, quando eu entro às 17h,
@@ -69,10 +69,10 @@ semana porque, por padrão, quero que seja apenas uma semana - veja
 (esses parâmetros são mantidos de uma exibição para outra; então você não
 do que configurá-los uma vez).
 
--   **Escadas** : exibe a curva como um
+-   **** : exibe a curva como um
     escada ou exibição contínua.
 
--   **Variação** : exibe a diferença no valor de
+-   **** : exibe a diferença no valor de
     ponto anterior.
 
 -   **** : Exibe o gráfico como linhas.
@@ -91,21 +91,21 @@ as opções :
 
 Depois que os dados são ativados, você pode escolher :
 
--   **Cor** : A cor da curva.
+-   **** : A cor da curva.
 
--   **Gentil** : O tipo de gráfico (área, linha ou coluna).
+-   **** : O tipo de gráfico (área, linha ou coluna).
 
--   **Escada** : já que você pode colocar várias curvas (dados)
+-   **** : já que você pode colocar várias curvas (dados)
     no mesmo gráfico, é possível distinguir as escalas
     (direita ou esquerda).
 
--   **Escadas** : exibe a curva como um
+-   **** : exibe a curva como um
     escada ou exibição contínua
 
--   **Pilha** : permite empilhar os valores das curvas (veja em
+-   **** : permite empilhar os valores das curvas (veja em
     abaixo para o resultado).
 
--   **Variação** : exibe a diferença no valor de
+-   **** : exibe a diferença no valor de
     ponto anterior.
 
 Opção na página do histórico 
@@ -125,7 +125,7 @@ vida \] \ [Higrometria \] \ [Temperatura \]*)
 Você também tem acesso a um gerenciamento de fórmulas de cálculo que permite
 salve-os para facilitar a visualização
 
-> **Dica**
+> ****
 >
 > Basta clicar no nome do objeto para desdobrar;
 > aparecem os comandos históricos que podem ser representados graficamente.
@@ -135,7 +135,7 @@ Histórico de pedidos
 
 Na frente de cada dado que pode ser representado graficamente, você encontrará dois ícones :
 
--   **Cesto de lixo** : permite excluir os dados gravados; quando
+-   **** : permite excluir os dados gravados; quando
     clique, Jeedom pergunta se é necessário excluir os dados antes de um
     determinada data ou todos os dados.
 
@@ -166,7 +166,7 @@ comandos ou cenários desejados :
 -   **** : na configuração avançada do comando,
     seja na configuração da história para fazê-lo em "massa"
 
-> **Dica**
+> ****
 >
 > Você tem acesso às janelas de resumo dos cenários ou do
 > configuração do histórico diretamente da página
