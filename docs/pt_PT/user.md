@@ -42,7 +42,7 @@ Abaixo você tem uma tabela :
 -   **Alterar senha** : permite alterar a senha de
     l'utilisateur
 
--   **** : Remover usuário
+-   **Deletar** : Remover usuário
 
 -   **Regenerar chave de API** : Regenerar chave de API do usuário
 
@@ -65,9 +65,9 @@ o equipamento diferente. O segundo apresenta os cenários.
 Você obtém uma tabela que permite, para cada equipamento e cada
 cenário, defina direitos do usuário :
 
--   **** : o usuário não vê o equipamento / cenário
+-   **Nenhum** : o usuário não vê o equipamento / cenário
 
--   **** : o usuário vê o equipamento / cenário, mas não vê
+-   **Visualização** : o usuário vê o equipamento / cenário, mas não vê
     não pode agir sobre isso
 
 -   **Visualização e execução** : o usuário vê

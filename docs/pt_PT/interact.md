@@ -30,7 +30,7 @@ No topo da página, existem 3 botões :
 -   **** : que abre uma caixa de diálogo para escrever e
     testar uma sentença.
 
-> ****
+> **Dica**
 >
 > Se você tem uma interação que gera as frases para as luzes
 > por exemplo, e você adiciona um novo módulo de comando de
@@ -65,14 +65,14 @@ A página de configuração consiste em várias guias e
 
 -   **** : registra a interação atual
 
--   **** : excluir interação atual
+-   **Deletar** : excluir interação atual
 
 -   **** : duplicar a interação atual
 
 Geral 
 =======
 
--   **** : nome da interação (pode estar vazio, o nome substitui o
+-   **Sobrenome** : nome da interação (pode estar vazio, o nome substitui o
     solicitar texto na lista de interação).
 
 -   **** : grupo de interação, ajuda a organizá-los
@@ -133,7 +133,7 @@ ou passar parâmetros específicos.
  
 ========
 
-> ****
+> **Observação**
 >
 > As capturas de tela podem ser diferentes em vista dos desenvolvimentos.
 
@@ -166,7 +166,7 @@ uma única frase imagine ações combinadas entre vários comandos e
 vários cenários (também podemos ativar cenários no jogo
 ação de interações).
 
-> ****
+> **Dica**
 >
 > Para adicionar um cenário, crie uma nova ação, escreva "cenário"
 > sem sotaque, pressione a tecla Tab do teclado para
@@ -542,7 +542,7 @@ Então podemos ver uma regexp :
 Isso permite excluir todos os pedidos que possuem um destes
 palavras em sua frase
 
-> ****
+> **Observação**
 >
 > O regexp aqui é uma versão simplificada para fácil utilização.
 > Portanto, podemos usar expressões tradicionais ou
@@ -568,7 +568,7 @@ a resposta para garantir que Jeedom entendeu a solicitação corretamente.
 \* Ação : nós colocamos uma ação na lâmpada que queremos dirigir e
 o valor que passamos nossa tag **.
 
-> ****
+> **Observação**
 >
 > Você pode usar qualquer tag, exceto aquelas já usadas pelo
 > Jeedom, pode haver vários para dirigir, por exemplo
@@ -658,7 +658,7 @@ usar tags \#time# (se um horário específico estiver definido) ou
 
 ![interact23](../images/interact23.JPG)
 
-> ****
+> **Observação**
 >
 > Você notará na resposta a tag \#value# este contém
 > no caso de uma interação agendada, o tempo de programação

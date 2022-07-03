@@ -16,7 +16,7 @@ Meu perfil
 
     -   **** : Seu login no Market, não pode ser alterado
 
-    -   **** : Seu nome (esta informação é útil apenas para
+    -   **Sobrenome** : Seu nome (esta informação é útil apenas para
         Torne os emails mais divertidos)
 
     -   **Primeiro nome** : Seu primeiro nome (esta informação é útil apenas
@@ -73,7 +73,7 @@ Para os profissionais :
     -   **Resumo** Aqui você encontrará um resumo das suas diferentes
         direitos e serviços
 
-> ****
+> **Dica**
 >
 > Não esqueça de salvar
 
@@ -94,7 +94,7 @@ Minhas jeedoms
         das instalações Jeedom atualmente vinculadas à sua conta também
         que o limite permitido
 
-> ****
+> **Dica**
 >
 > Às vezes, o mercado pode solicitar que você redefina
 > suas chaves de instalação, é normal, basta seguir o que
@@ -102,7 +102,7 @@ Minhas jeedoms
 
 -   **Minhas jeedoms** : É aqui que todos os seus Jeedoms estão listados
 
-    -   **** : o nome que você deseja dar ao seu Jeedom (
+    -   **Sobrenome** : o nome que você deseja dar ao seu Jeedom (
         encontrado no nome do backup, se você tiver a assinatura de
         Backup em nuvem)
 
@@ -132,7 +132,7 @@ Minhas jeedoms
 
     -   **** : Versão Jeedom instalada
 
-> ****
+> **Dica**
 >
 > Não esqueça de salvar
 

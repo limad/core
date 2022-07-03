@@ -9,7 +9,7 @@ plugins. Depois de clicar nele, encontramos a lista de
 plugins em ordem alfabética e um link para o mercado. Plugins
 desativados estão acinzentados.
 
-> ****
+> **Dica**
 >
 > Como em muitos lugares em Jeedom, coloque o mouse na extremidade esquerda
 > abre um menu de acesso rápido (você pode
@@ -37,7 +37,7 @@ No canto superior direito, alguns botões :
 
 -   **Detalhes** : Permite encontrar a página do plug-in no mercado
 
--   **** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
+-   **Deletar** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
     também remove permanentemente todos os equipamentos deste plugin
 
 Abaixo à esquerda, há uma área de status com :
@@ -70,7 +70,7 @@ adicionais são exibidos nas áreas mencionadas acima.
 
 Dependências :
 
--   **** : Geralmente será local
+-   **Sobrenome** : Geralmente será local
 
 -   **** : dirá se as dependências estão OK ou KO
 
@@ -83,7 +83,7 @@ Dependências :
 
 Demônio :
 
--   **** : Geralmente será local
+-   **Sobrenome** : Geralmente será local
 
 -   **** : dirá se o demônio está OK ou KO
 
@@ -102,7 +102,7 @@ Demônio :
 
 -   **último lançamento** : Data do último lançamento do daemon
 
-> ****
+> **Dica**
 >
 > Alguns plugins possuem uma parte de configuração. Se sim,
 > aparecerá sob as dependências e zonas daemon descritas acima.
@@ -126,7 +126,7 @@ se o plug-in usar uma das principais funções do Jeedom, como :
 
 -   **** : Um cron diário
 
-> ****
+> **Dica**
 >
 > Se o plug-in usa uma dessas funções, você pode especificamente
 > proibi-lo de fazer isso desmarcando a caixa "ativar" que será
@@ -143,7 +143,7 @@ Para instalar um novo plugin, basta clicar no botão
 "Market "(e que o Jeedom está conectado à Internet). Após um curto período de
 carregando você receberá a página.
 
-> ****
+> **Dica**
 >
 > Você deve ter inserido as informações da sua conta do Market em
 > administração (Configuração → Atualizações → guia Mercado) para
@@ -169,7 +169,7 @@ No topo da janela você tem filtros :
 -   **Nome de Usuário** : exibe o nome de usuário usado para o
     conexão com o mercado e o status da conexão
 
-> ****
+> **Dica**
 >
 > A cruz pequena redefine o filtro em questão
 
@@ -191,7 +191,7 @@ informações sobre o plug-in, incluindo :
     -   **Instalar pro** : permite instalar a versão pro (muito
         pouco usado)
 
-    -   **** : se o plug-in estiver instalado atualmente, esse
+    -   **Deletar** : se o plug-in estiver instalado atualmente, esse
         para excluí-lo
 
 Abaixo, você encontrará a descrição do plugin, a compatibilidade
@@ -217,7 +217,7 @@ e as várias informações na data da última versão estável.
 > dez minutos (tempo de validação do pagamento), depois retorne
 > na folha de plug-ins para instalá-lo normalmente.
 
-> ****
+> **Dica**
 >
 > Você também pode adicionar um plugin ao Jeedom a partir de um arquivo ou
 > de um repositório do Github. Isso requer, na configuração de

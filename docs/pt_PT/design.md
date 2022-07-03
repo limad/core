@@ -4,7 +4,7 @@ sua imaginação.
 
 É acessível por Início → Design
 
-> ****
+> **Dica**
 >
 > É possível ir diretamente a um design graças ao submenu.
 
@@ -95,7 +95,7 @@ Encontrado aqui :
 
 -   **Geral**
 
-    -   **** : O nome do seu design
+    -   **Sobrenome** : O nome do seu design
 
     -   **Fundo transparente** : Torna o plano de fundo transparente. Tenha cuidado se o
         caixa estiver marcada, a cor do plano de fundo não será usada
@@ -123,11 +123,11 @@ Encontrado aqui :
 Configuração geral de elementos 
 ===================================
 
-> ****
+> **Observação**
 >
 > Dependendo do tipo de item, as opções podem mudar.
 
-> ****
+> **Observação**
 >
 > O item selecionado é destacado em vermelho (em vez de verde
 > por todos os outros).
@@ -145,7 +145,7 @@ Configuração de exibição
 
 -   **Altura (px)** :
 
- 
+Deletar 
 ---------
 
 Remover item
@@ -239,7 +239,7 @@ Nenhuma configuração de exibição específica
 Configurações de exibição 
 ---------------------
 
--   **** : Nome do link (texto exibido)
+-   **Sobrenome** : Nome do link (texto exibido)
 
 -   **** : Link para o design ou exibição em questão
 
