@@ -1,4 +1,4 @@
-Anzeige 
+Anzeigen 
 =========
 
 Über das Menü Protokolle können Sie verfolgen, was in Ihrer Hausautomation passiert. In der
@@ -11,7 +11,7 @@ Die Seite Protokolle ist recht einfach. Oben links befindet sich eine Dropdown-L
 Wenn Sie die Auswahl des Protokolls anzeigen möchten, haben Sie oben rechts 5
 Tasten :
 
--   **Forschen** : Ermöglicht das Filtern des Protokollplakats
+-   **Suche** : Ermöglicht das Filtern des Protokollplakats
 
 -   **Pause / Resume** : Mit dieser Option können Sie die Einstellung anhalten / fortsetzen
     Echtzeit-Protokollaktualisierung
@@ -20,12 +20,12 @@ Tasten :
 
 -   **Leer** : ermöglicht das Leeren des aktuellen Protokolls,
 
--   **Löschen** : Löschen Sie das aktuelle Protokoll, falls Jeedom eines hat
+-   **Entfernen** : Löschen Sie das aktuelle Protokoll, falls Jeedom eines hat
     brauche es wird es automatisch neu erstellen,
 
 -   **Löschen Sie alle Protokolle** : Löschen Sie alle vorhandenen Protokolle.
 
-> **Tipp**
+> **Spitze**
 >
 > Beachten Sie, dass das http-Protokoll.Fehler kann nicht gelöscht werden. Es ist wichtig
 > ! Wenn Sie es löschen (zum Beispiel in der Befehlszeile), wird es nicht

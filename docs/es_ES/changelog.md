@@ -418,7 +418,7 @@ Changelog
 -   JEED-284 : la conexión permanente ahora depende de una clave
     usuario único y dispositivo (en lugar de usuario)
 
--   JEED-283 : agregando un modo *rescate* a la libertad agregando & rescue = 1
+-   JEED-283 : agregando un modo *rescatar* a la libertad agregando & rescue = 1
     en la url
 
 -   JEED-8 : adición del nombre del escenario en el título de la página durante
@@ -980,7 +980,7 @@ Changelog
     / tmp es demasiado pequeño (tenga cuidado de que la corrección surta efecto en
     actualización n + 1)
 
--   Agregar una etiqueta *jeedom\_nombre* en los escenarios (dar el nombre
+-   Agregar una etiqueta *jeedom\_name* en los escenarios (dar el nombre
     jeedom)
 
 -   Correcciones de errores
@@ -1081,8 +1081,8 @@ Changelog
 
 -   Optimización de la actualización de widgets de comando y equipo
 
--   Agregar una etiqueta *comenzar\_atrás*, *fin\_copia de seguridad*, *comenzar\_actualizar*,
-    *fin\_actualizar*, *comenzar\_restaurar*, *finalizar\_restaurar* en los escenarios
+-   Agregar una etiqueta *comenzar\_atrás*, *end\_backup*, *comenzar\_actualizar*,
+    *fin\_actualizar*, *comenzar\_restaurar*, *end\_restore* en los escenarios
 
 2.2
 ---

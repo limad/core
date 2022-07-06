@@ -23,8 +23,8 @@ funktioniert nur, um sie besser zu verwalten :
     diese Seite.
 
 -   **Übersicht** : Ermöglicht Ihnen einen Überblick über alle
-    die Szenarien. Sie können die Werte ändern **Anlage**,
-    **sichtbar**, **Multi-Launch**, **synchroner Modus**, **Protokoll** et
+    die Szenarien. Sie können die Werte ändern **Aktiva**,
+    **sichtbar**, **Multi-Launch**, **synchroner Modus**, **Log** et
     **Zeitleiste** (Diese Parameter werden im folgenden Kapitel beschrieben).
     Sie können auch auf die Protokolle für jedes Szenario und zugreifen
     einzeln starten.
@@ -38,13 +38,13 @@ Meine Szenarien
 In diesem Abschnitt finden Sie die **Liste der Szenarien** dass du
 erstellt haben. Sie sind klassifiziert nach **Gruppen** das hast du
 für jeden von ihnen definiert. Jedes Szenario wird mit seinem angezeigt **Name**
-und seine **übergeordnetes Objekt**. Das **ausgegraute Szenarien** sind diejenigen, die sind
+und seine **übergeordnetes Objekt**. Die **ausgegraute Szenarien** sind diejenigen, die sind
 untauglich.
 
 Stellen Sie die Maus wie auf vielen Jeedom-Seiten links von
 Auf dem Bildschirm wird ein Schnellzugriffsmenü angezeigt (von
 Ihr Profil können Sie jederzeit sichtbar lassen). Du kannst
-dann **suchen** Ihr Szenario, aber auch in **hinzufügen** eins davon
+dann **suchen** Ihr Szenario, aber auch in **Hinzufügen** eins davon
 menu.
 
 Szenario bearbeiten
@@ -55,7 +55,7 @@ Szenario und Sie werden auf die Seite mit den allgemeinen Einstellungen weiterge
 Oben finden Sie einige nützliche Funktionen zum Verwalten unseres Szenarios
 :
 
--   **ICH WÜRDE** : Neben dem Wort **General**, Dies ist die Szenariokennung.
+-   **Identifikation** : Neben dem Wort **General**, Dies ist die Szenariokennung.
 
 -   **Status** : Aktueller Status Ihres Szenarios.
 
@@ -67,16 +67,16 @@ Oben finden Sie einige nützliche Funktionen zum Verwalten unseres Szenarios
     nein vorher speichern !). Die Auslöser sind daher nicht
     nicht berücksichtigt.
 
--   **Löschen** : Szenario löschen.
+-   **Entfernen** : Szenario löschen.
 
--   **Zu schützen** : Speichern Sie die vorgenommenen Änderungen.
+-   **Speichern** : Speichern Sie die vorgenommenen Änderungen.
 
 -   **Schablone** : Ermöglicht den Zugriff auf und das Anwenden von Vorlagen
     zum Drehbuch vom Markt. (am Ende der Seite erklärt).
 
 -   **Export** : Holen Sie sich eine Textversion des Skripts.
 
--   **Protokoll** : Zeigt die Szenarioprotokolle an.
+-   **Log** : Zeigt die Szenarioprotokolle an.
 
 -   **Duplikat** : Kopieren Sie das Szenario, um eines zu erstellen
     neu mit einem anderen Namen.
@@ -94,10 +94,10 @@ unser Szenario :
 
 -   **Name, der angezeigt werden soll** : Der Name, der für die Anzeige verwendet wird.
 
--   **Band** : Ermöglicht das Organisieren der Szenarien durch Klassifizieren in
+-   **Gruppe** : Ermöglicht das Organisieren der Szenarien durch Klassifizieren in
     Gruppen.
 
--   **Anlage** : Aktivieren Sie das Szenario.
+-   **Aktiva** : Aktivieren Sie das Szenario.
 
 -   **Sichtbar** : Wird verwendet, um das Szenario sichtbar zu machen.
 
@@ -108,12 +108,12 @@ unser Szenario :
 
 -   **Multi-Launch** : Aktivieren Sie dieses Kontrollkästchen, wenn Sie das möchten
     Das Szenario kann mehrmals gleichzeitig gestartet werden.
->**WICHTIG**
+>**Wichtig**
 >
 >Der Mehrfachstart funktioniert im Sekundentakt, dh wenn Sie zwei Starts in derselben Sekunde haben, ohne dass das Kontrollkästchen aktiviert ist, gibt es immer noch zwei Starts des Szenarios (wenn dies der Fall sein sollte)). In ähnlicher Weise ist es bei mehreren Starts in derselben Sekunde möglich, dass einige Starts die Tags verlieren. Fazit Sie MÜSSEN ABSOLUT mehrere Starts in denselben Sekunden vermeiden.
 -   **Synchroner Modus** : Starten Sie das Szenario im aktuellen Thread anstelle eines dedizierten Threads. Dies erhöht die Startgeschwindigkeit des Szenarios, kann jedoch das System instabil machen.
 
--   **Protokoll** : Der für das Szenario gewünschte Protokolltyp.
+-   **Log** : Der für das Szenario gewünschte Protokolltyp.
 
 -   **Folgen Sie der Zeitleiste** : Verfolgt das Szenario
     in der Timeline.
@@ -125,7 +125,7 @@ unser Szenario :
     beide gleichzeitig. Sie haben dann die Wahl, die (s) anzugeben)
     Trigger (s) (Vorsicht, die Anzahl der möglichen Trigger pro Szenario ist auf 15 begrenzt) und die Programmierung (en)).
 
-> **Tipp**
+> **Spitze**
 >
 > Aufmerksamkeit : Sie können maximal 28 haben
 > Trigger / Programmierung für ein Szenario.
@@ -135,9 +135,9 @@ Registerkarte &quot;Szenario&quot;
 
 Hier erstellen Sie Ihr Szenario. Wir müssen anfangen
 durch **Fügen Sie einen Block hinzu**, mit dem Knopf rechts. Einmal ein Block
-erstellt, können Sie eine weitere hinzufügen **Block** oder a **Lager**.
+erstellt, können Sie eine weitere hinzufügen **Block** oder a **Aktion**.
 
-> **Tipp**
+> **Spitze**
 >
 > Bei Bedingungen und Aktionen ist es besser, einfache Anführungszeichen (') anstelle von doppelten zu bevorzugen (")
 
@@ -148,23 +148,23 @@ Hier sind die verschiedenen Arten von Blöcken verfügbar :
 -   **If / Then / Oder** : Ermöglicht das Ausführen von Aktionen
     unter Bedingungen).
 
--   **Aktie** : Ermöglicht das Starten einfacher Aktionen ohne
+-   **Aktion** : Ermöglicht das Starten einfacher Aktionen ohne
     keine Bedingungen.
 
 -   **Schleife** : Ermöglicht das wiederholte Ausführen von Aktionen
     1 bis zu einer definierten Zahl (oder sogar dem Wert eines Sensors oder a
     Zufallszahl…).
 
--   **Im** : Startet eine Aktion in X Minute (n) (0 ist a
+-   **In** : Startet eine Aktion in X Minute (n) (0 ist a
     möglicher Wert). Die Besonderheit ist, dass die Aktionen gestartet werden
     im Hintergrund, damit sie den Rest des Szenarios nicht blockieren.
     Es ist also ein nicht blockierender Block.
 
--   **HAT** : Ermöglicht es Jeedom, die Aktionen des Blocks bei a zu starten
+-   **Bis** : Ermöglicht es Jeedom, die Aktionen des Blocks bei a zu starten
     gegebene Zeit (in der Form hhmm). Dieser Block ist nicht blockierend. Ex :
     0030 für 00:30 oder 0146 für 1h46 und 1050 für 10h50.
 
--   **Codiert** : Ermöglicht das direkte Schreiben in PHP-Code (Anfrage
+-   **CODE** : Ermöglicht das direkte Schreiben in PHP-Code (Anfrage
     etwas Wissen und kann riskant sein, erlaubt aber nicht zu haben
     Keine Einschränkungen).
 
@@ -199,7 +199,7 @@ Wählen Sie ein zu testendes Element aus :
     Jeedom öffnet ein Fenster und fragt Sie, welchen Test Sie möchten
     darauf ausführen. Wenn Sie möchten **Setzen Sie nichts**,
     Jeedom wird die Bestellung ohne Vergleich hinzufügen. Sie können auch
-    Wählen **und** Wo **Wo** Vor **Nächste** zu Kettentests
+    wählen **und** oder **oder** Front **Dann** zu Kettentests
     auf verschiedenen Geräten.
 
 -   **Suchen Sie ein Szenario** : Suchen wir nach einem Szenario
@@ -207,7 +207,7 @@ Wählen Sie ein zu testendes Element aus :
 
 -   **Suche nach Ausrüstung** : Gleiches gilt für die Ausrüstung.
 
-> **Tipp**
+> **Spitze**
 >
 > Es gibt eine Liste von Tags, die den Zugriff auf Variablen ermöglichen
 > aus dem Skript oder einem anderen oder nach Uhrzeit, Datum, a
@@ -216,9 +216,9 @@ Wählen Sie ein zu testendes Element aus :
 
 Sobald die Bedingung erfüllt ist, müssen Sie die Schaltfläche verwenden
 "add ", links, um ein neues hinzuzufügen **Block** oder a
-**Lager** im aktuellen Block.
+**Aktion** im aktuellen Block.
 
-> **Tipp**
+> **Spitze**
 >
 > Sie dürfen [] NICHT in Bedingungstests verwenden, nur Klammern () sind möglich
 
@@ -230,20 +230,20 @@ Sobald die Bedingung erfüllt ist, müssen Sie die Schaltfläche verwenden
 
 Steuerungen (Sensoren und Aktoren):
 -   cmd::byString ($ string); : Gibt das entsprechende Befehlsobjekt zurück.
-  -   $string : Link zur gewünschten Bestellung : #[objet][Ausrüstung][commande]# (ex : #[Appartement][Alarme][Anlage]#)
+  -   $string : Link zur gewünschten Bestellung : #[objet][Gerät][commande]# (ex : #[Appartement][Alarme][Aktiva]#)
 -   cmd::BYID ($ id); : Gibt das entsprechende Befehlsobjekt zurück.
   -   $id : Bestellnummer
 -   $cmd->execCmd($options = null); : Führen Sie den Befehl aus und geben Sie das Ergebnis zurück.
   -   $options : Optionen für die Befehlsausführung (möglicherweise Plugin-spezifisch), Basisoption (Befehlssubtyp) :
-    -   Botschaft : $option = array('title' => 'titre du Botschaft , 'message' => 'Mon message');
+    -   Nachricht : $option = array('title' => 'titre du Nachricht , 'message' => 'Mon message');
     -   Farbe : $option = array('color' => 'couleur en hexadécimal');
-    -   Schieberegler : $option = array('slider' => 'valeur voulue de 0 à 100');
+    -   Schieber : $option = array('slider' => 'valeur voulue de 0 à 100');
 
-Protokoll :
+Log :
 -   log::add ( &#39;Dateiname&#39; &#39;Stufe&#39;, &#39;message&#39;);
   -   Dateiname : Name der Protokolldatei.
-  -   eben : [Debug], [Info], [Fehler], [Ereignis].
-  -   Botschaft : Nachricht zum Schreiben in die Protokolle.
+  -   Ebene : [Debug], [Info], [Fehler], [Ereignis].
+  -   Nachricht : Nachricht zum Schreiben in die Protokolle.
 
 Szenario :
 -   $scenario->getName(); : Gibt den Namen des aktuellen Szenarios zurück.
@@ -273,7 +273,7 @@ Zu Blöcken hinzugefügte Aktionen haben mehrere Optionen. In Ordnung :
 -   Eine Kiste **aktiviert** damit dieser Befehl berücksichtigt wird
     Konto im Szenario.
 
--   EIN **vertikaler Doppelpfeil** um die Aktion zu verschieben. Einfach
+-   Ein **vertikaler Doppelpfeil** um die Aktion zu verschieben. Einfach
     von dort ziehen und ablegen.
 
 -   Eine Schaltfläche zum Löschen der Aktion.
@@ -283,7 +283,7 @@ Zu Blöcken hinzugefügte Aktionen haben mehrere Optionen. In Ordnung :
 
 -   Eine Schaltfläche zum Suchen nach einem Aktionsbefehl.
 
-> **Tipp**
+> **Spitze**
 >
 > Abhängig vom ausgewählten Befehl können wir unterschiedliche sehen
 > zusätzliche Felder angezeigt.
@@ -343,13 +343,13 @@ Vergleiche in Bedingungen :
     nicht ([Badezimmer] [Hydrometrie] [Zustand] entspricht "/ nass /")),
 
 Sie können jeden Vergleich mit Operatoren kombinieren
-nächste :
+folgende :
 
 -   &amp;&amp; / ET / und / AND / und : et,
 
 -   \.|| / OR / oder / OR / oder : ou,
 
--   \.|^/XOR/xoder : oder exklusiv.
+-   \.|^ / XOR / xor : oder exklusiv.
 
 Tags
 --------
@@ -357,7 +357,7 @@ Tags
 Ein Tag wird während der Ausführung des Szenarios durch seinen Wert ersetzt. Sie
 kann die folgenden Tags verwenden :
 
-> **Tipp**
+> **Spitze**
 >
 > Verwenden Sie die Taste, um die führenden Nullen anzuzeigen
 > Date () Funktion. Ansicht
@@ -562,7 +562,7 @@ Beispiel :
 
 -   Gestern mittag : gestern mittag
 
--   Etc.
+-   Usw..
 
 Hier finden Sie praktische Beispiele zum Verständnis der von zurückgegebenen Werte
 diese verschiedenen Funktionen :
@@ -571,11 +571,11 @@ diese verschiedenen Funktionen :
 |--------------------------------------|--------------------------------------|
 | Durchschnitt (Fang, Zeitraum)             | Gibt den Durchschnitt von 0 und 1 zurück (can  |
 |                                      | durch Umfragen beeinflusst werden)      |
-| averageBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,01.01.2015 00:00:00,2015-01-15 00:00:00) | Gibt die durchschnittliche Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
+| averageBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt die durchschnittliche Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
 | min (Fang, Zeitraum)                 | Gibt 0 zurück : Der Stecker wurde während des Zeitraums gelöscht              |
-| minBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,01.01.2015 00:00:00,2015-01-15 00:00:00) | Gibt die Mindestbestellmenge zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
+| minBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt die Mindestbestellmenge zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
 | max (Fang, Zeitraum)                 | Rückgabe 1 : Der Stecker war in der Zeit gut beleuchtet              |
-| maxBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,01.01.2015 00:00:00,2015-01-15 00:00:00) | Gibt das Maximum der Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
+| maxBetween(\.#[Salle de bain][Hydrometrie][Humidité]\.#,2015-01-01 00:00:00,2015-01-15 00:00:00) | Gibt das Maximum der Bestellung zwischen dem 1. Januar 2015 und dem 15. Januar 2015 zurück                         |
 | Dauer (genommen, 1, Zeitraum)          | Gibt 60 zurück : Der Stecker war in diesem Zeitraum 60 Minuten lang eingeschaltet (bei 1)                              |
 | durationBetween(\.#[Salon][Prise][Etat]\.#,0, letzten Montag, jetzt)   | Gibt die Dauer in Minuten zurück, in der die Steckdose seit dem letzten Montag ausgeschaltet war.                |
 | Statistiken (Fang, Anzahl, Zeitraum)    | Rückgabe 8 : In diesem Zeitraum gab es 8 Eskalationen               |
@@ -681,9 +681,9 @@ Zusätzlich zu den Befehlen für die Hausautomation haben Sie Zugriff auf die fo
     Akzente und keine Sonderzeichen). Wir bekommen den Tag in der
     Zielszenario mit der Tag-Funktion (montag). Mit dem Befehl "Auf SI zurücksetzen" können Sie den Status von "SI" zurücksetzen (dieser Status wird verwendet, um die Aktionen eines "SI" nicht zu wiederholen, wenn Sie ihn zum zweiten Mal in Folge übergeben)
 
--   **Halt** (stop) : Stoppen Sie das Szenario.
+-   **STOP** (stop) : Stoppen Sie das Szenario.
 
--   **Erwarten von** (wait) : Warten Sie, bis die Bedingung gültig ist
+-   **Erwarten** (wait) : Warten Sie, bis die Bedingung gültig ist
     (maximal 2h), das Timeout ist in Sekunden (s)).
 
 -   **Gehe zum Design** (gotodesign) : Ändern Sie das auf allen angezeigte Design
@@ -714,11 +714,11 @@ Zusätzlich zu den Befehlen für die Hausautomation haben Sie Zugriff auf die fo
 
 -   **Symbol** (icon) : Ermöglicht das Ändern des Darstellungssymbols des Szenarios.
 
--   **Alarm** (alert) : Ermöglicht das Anzeigen einer kleinen Warnmeldung für alle
+-   **Warnung** (alert) : Ermöglicht das Anzeigen einer kleinen Warnmeldung für alle
     Browser mit geöffneter Jeedom-Seite. Du kannst
     Wählen Sie 4 Alarmstufen.
 
--   **Aufpoppen** (popup) : Ermöglicht die Anzeige eines Popups, das unbedingt angezeigt werden muss
+-   **Popup** (popup) : Ermöglicht die Anzeige eines Popups, das unbedingt angezeigt werden muss
     Validiert in allen Browsern, in denen eine Jeedom-Seite geöffnet ist.
 
 -   **Bericht** (report) : Exportieren Sie eine Ansicht im Format (PDF, PNG, JPEG)
@@ -726,12 +726,12 @@ Zusätzlich zu den Befehlen für die Hausautomation haben Sie Zugriff auf die fo
     Bitte beachten Sie, dass Ihr Internetzugang in nicht signiertem HTTPS erfolgt
     Funktionalität wird nicht funktionieren. Signiertes HTTP oder HTTPS ist erforderlich.
 
--   **Programmierten IN / A-Block löschen** (entfernen_inat) : Ermöglicht das Löschen der
+-   **Programmierten IN / A-Block löschen** (remove_inat) : Ermöglicht das Löschen der
     Programmierung aller Blöcke IN und A des Szenarios.
 
 -   **Ereignis** (event) : Ermöglicht das willkürliche Übertragen eines Werts in einen Befehl vom Typ Information
 
--   **Stichworte** (tag) : Ermöglicht das Hinzufügen / Ändern eines Tags (das Tag ist nur während der aktuellen Ausführung des Szenarios vorhanden, im Gegensatz zu den Variablen, die das Ende des Szenarios überleben)
+-   **Etikett** (tag) : Ermöglicht das Hinzufügen / Ändern eines Tags (das Tag ist nur während der aktuellen Ausführung des Szenarios vorhanden, im Gegensatz zu den Variablen, die das Ende des Szenarios überleben)
 
 Szenariovorlage
 ====================
@@ -765,9 +765,9 @@ Durch Klicken auf eine Vorlage erhalten Sie :
 
 Oben kannst du :
 
--   **Teilen** : Teilen Sie die Vorlage auf dem Markt,
+-   **Aktie** : Teilen Sie die Vorlage auf dem Markt,
 
--   **Löschen** : Vorlage löschen,
+-   **Entfernen** : Vorlage löschen,
 
 -   **Download** : Stellen Sie die Vorlage als JSON-Datei wieder her
     um es zum Beispiel an ein anderes Jeedom zurückzusenden.
@@ -784,7 +784,7 @@ Match Orders gelten dann.
 Hinzufügung der PHP-Funktion
 ====================
 
-> **WICHTIG**
+> **Wichtig**
 >
 > Das Hinzufügen der PHP-Funktion ist fortgeschrittenen Benutzern vorbehalten. Der kleinste Fehler kann Ihr Jeedom zum Absturz bringen
 
@@ -796,6 +796,6 @@ Gehen Sie in den Datenordner und dann in PHP und klicken Sie auf die Datei user.
 
 In dieser Klasse müssen Sie Ihre Funktionen hinzufügen. Dort finden Sie ein Beispiel für eine Grundfunktion.
 
-> **WICHTIG**
+> **Wichtig**
 >
 > Wenn Sie ein Problem haben, können Sie jederzeit zur Originaldatei zurückkehren und den Inhalt von user.function.class.sample kopieren.PHP in user.function.class.php

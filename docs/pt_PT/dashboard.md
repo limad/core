@@ -64,7 +64,7 @@ Você também pode editar o layout interno dos controles do widget
     -   **Padrão** : layout padrão, tudo é automático
         com apenas a capacidade de reorganizar a ordem dos pedidos
 
-    -   **Foto** : permite colocar os comandos em uma tabela :
+    -   **Mesa** : permite colocar os comandos em uma tabela :
         colunas e linhas são adicionadas e removidas por clique
         certo, basta mover os controles dentro
         caixas desejadas. Você pode fazer vários pedidos por caixa

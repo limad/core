@@ -10,13 +10,13 @@ Meu perfil
 ==========
 
 É aqui que você poderá ajustar diferentes parâmetros do seu
-perfil :
+Perfil :
 
 -   **Perfil**
 
-    -   **Conecte-se** : Seu login no Market, não pode ser alterado
+    -   **Entrar** : Seu login no Market, não pode ser alterado
 
-    -   **Sobrenome** : Seu nome (esta informação é útil apenas para
+    -   **Nome** : Seu nome (esta informação é útil apenas para
         Torne os emails mais divertidos)
 
     -   **Primeiro nome** : Seu primeiro nome (esta informação é útil apenas
@@ -26,7 +26,7 @@ perfil :
 
     -   **E-mail** : Seu e-mail
 
-    -   **Linguagem** : Seu idioma
+    -   **Idioma** : Seu idioma
 
     -   **Senha e Confirmar senha** : deixa
         mude sua senha
@@ -48,20 +48,20 @@ Para os profissionais :
 -   **Destinatário das solicitações de suporte** : saber quem receberá o
     e-mails de suporte (cliente final, instalador ou ambos)
 
-    -   **PARA% S**
+    -   **Termos e Condições**
 
--   **Do utilizador** : condições gerais de uso (preste atenção às
+-   **Usuário** : condições gerais de uso (preste atenção às
     leia-os bem, porque eles envolvem você)
 
 -   **Desenvolvedor** : condições gerais de uso para
     desenvolvedores
 
-    -   **Bilhetes**
+    -   **Ingressos**
 
 -   **Número de bilhetes** : Número de ingressos para o mês atual
     bem como o seu limite
 
--   **Apoiar** : para enviar uma solicitação de suporte (acessível
+-   **Suporte** : para enviar uma solicitação de suporte (acessível
     também pelo ponto de exclamação no canto superior direito do mercado ou
     no seu Jeedom)
 
@@ -102,7 +102,7 @@ Minhas jeedoms
 
 -   **Minhas jeedoms** : É aqui que todos os seus Jeedoms estão listados
 
-    -   **Sobrenome** : o nome que você deseja dar ao seu Jeedom (
+    -   **Nome** : o nome que você deseja dar ao seu Jeedom (
         encontrado no nome do backup, se você tiver a assinatura de
         Backup em nuvem)
 
@@ -114,7 +114,7 @@ Minhas jeedoms
 
     -   **DNS** : Permite que você personalize o nome do seu DNS
 
-    -   **URLs** : Listar os diferentes URLs de acesso Jeedom.
+    -   **URL ** : Listar os diferentes URLs de acesso Jeedom.
 
     -   **Servidor DNS** : informa se o servidor DNS ao qual você está
         estão anexados
@@ -156,7 +156,7 @@ Minhas compras / promoções / doações
 Aqui você encontra todas as suas compras e pode solicitar a devolução do
 e-mail da fatura ou recibo
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Se você comprar um plugin oficial, receberá uma fatura. Em
 > no entanto, para um plug-in de terceiros, é um recibo, para a fatura é necessário

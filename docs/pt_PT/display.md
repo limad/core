@@ -15,9 +15,9 @@ O topo da página
 No topo da página, encontramos : \* **Número de objetos** : Nombre
 total de objetos configurados em nosso Jeedom, contando os elementos
 inativo. \* **Número de equipamentos** : O mesmo vale para o equipamento. \*
-**Número de pedidos** : O mesmo vale para pedidos. \* **Parado** :
+**Número de pedidos** : O mesmo vale para pedidos. \* **Inativo** :
 Marque esta caixa se desejar que os itens inativos estejam bem
-exibido nesta página. \* **Pesquisar** : Procure um
+exibido nesta página. \* **Pesquisa** : Procure um
 elemento particular. Pode ser o nome de um equipamento, um pedido
 ou o nome do plugin pelo qual o equipamento foi criado.
 
@@ -28,7 +28,7 @@ Quadros de objetos
 
 Abaixo há um quadro por objeto. Em cada quadro, encontramos
 a lista de equipamentos (em azul) que têm esse objeto como pai. O
-primeiro quadro **Nenhum** representa equipamento que não possui
+primeiro quadro **Nemhum** representa equipamento que não possui
 pai afetado. Para cada objeto, próximo ao seu rótulo, três botões
 estão disponíveis. Da esquerda para a direita :
 
@@ -56,18 +56,18 @@ Os equipamentos
 
 Em cada equipamento encontramos :
 
--   UMA **caixa de seleção** para selecionar o equipamento (você pode
+-   Um **caixa de seleção** para selecionar o equipamento (você pode
     selecione vários). Se pelo menos um dispositivo estiver selecionado
     você tem botões de ação que aparecem no canto superior esquerdo
-    por **deletar**, para retornar **visível**/**invisível**,
-    **de ativos**/**parado** equipamento selecionado.
+    PARA **Remover**, devolver **Visivél**/**Invisível**,
+    **Ativos**/**Inativo** equipamento selecionado.
 
--   A **nome** equipamento.
+-   O **Nome** equipamento.
 
--   A **Gentil** equipamento : Identificador do plug-in ao qual
+-   O **Tipo** equipamento : Identificador do plug-in ao qual
     pertence.
 
--   **Parado** (pequena cruz) : Significa que o equipamento está inativo
+-   **Inativo** (pequena cruz) : Significa que o equipamento está inativo
     (se não estiver lá, o equipamento está ativo).
 
 -   **Invisível** (olho cruzado) : Significa que o equipamento está invisível
@@ -100,31 +100,31 @@ Configuração avançada de equipamentos
 
 A janela de **Configuração avançada de equipamentos** permite que o
 modificar. Primeiro, no canto superior direito, alguns botões
-acessível :
+disponível :
 
 -   **Conexões** : Exibe os links do equipamento com o
     objetos, comandos, cenários, variáveis, interações ... na forma
     gráfico (neste, um clique duplo em um elemento leva você a
     sua configuração).
 
--   **Registro** : exibe os eventos do equipamento em questão.
+-   **Log** : exibe os eventos do equipamento em questão.
 
--   **Em formação** : exibe as propriedades brutas do equipamento.
+-   **Informação** : exibe as propriedades brutas do equipamento.
 
--   **Registrar** : Salve as modificações feitas
+-   **Registro** : Salve as modificações feitas
     no equipamento.
 
--   **Deletar** : Remova o equipamento.
+-   **Remover** : Remova o equipamento.
 
 Guia Informações 
 -------------------
 
-Aba **Em formação** contém as informações gerais de
+A guia **Informação** contém as informações gerais de
 o equipamento e seus controles :
 
--   **EU IRIA** : Identificador exclusivo no banco de dados Jeedom.
+-   **ID** : Identificador exclusivo no banco de dados Jeedom.
 
--   **Sobrenome** : Nome de equipamentos.
+-   **Nome** : Nome de equipamentos.
 
 -   **ID lógico** : Identificador de equipamento lógico (pode
     estar vazio).
@@ -134,13 +134,13 @@ o equipamento e seus controles :
 
 -   **Data de criação** : Data de criação do equipamento.
 
--   **Permitir** : Marque a caixa para ativar o equipamento (não esqueça
+-   **Ativar** : Marque a caixa para ativar o equipamento (não esqueça
     salvar).
 
--   **Visível** : Marque a caixa para tornar o equipamento visível (sem
+-   **Visivél** : Marque a caixa para tornar o equipamento visível (sem
     esqueça de salvar).
 
--   **Gentil** : Identificador do plug-in pelo qual ele foi criado.
+-   **Tipo** : Identificador do plug-in pelo qual ele foi criado.
 
 -   **Tentativa fracassada** : Número de tentativas de comunicação
     consecutivo com falha do equipamento.
@@ -151,7 +151,7 @@ o equipamento e seus controles :
 -   **Última atualização** : Data da última chamada
     com equipamento.
 
--   **Tag** : etiquetas de equipamento, a serem separadas por ','. Ele permite que o painel faça filtros personalizados
+-   **Etiquetas** : etiquetas de equipamento, a serem separadas por ','. Ele permite que o painel faça filtros personalizados
 
 Abaixo, você encontrará uma tabela com a lista de comandos para
 o equipamento com, para cada um, um link para sua configuração.
@@ -159,13 +159,13 @@ o equipamento com, para cada um, um link para sua configuração.
 Guia Exibir 
 ----------------
 
-Na aba **Exibição**, você poderá configurar alguns
+Na aba **Visualizando**, você poderá configurar alguns
 exibir o comportamento do bloco no painel, as visualizações, o
 design, bem como móvel.
 
-### Widgets 
+### Widget 
 
--   **Visível** : Marque a caixa para tornar o equipamento visível.
+-   **Visivél** : Marque a caixa para tornar o equipamento visível.
 
 -   **Mostrar nome** : Marque a caixa para exibir o nome de
     equipamento na telha.
@@ -212,7 +212,7 @@ Guia Layout
 Esta parte permite que você escolha entre o arranjo padrão de
 comandos (lado a lado no widget) ou no modo de tabela. Existe
 nada para definir no modo padrão. Aqui estão as opções disponíveis no modo
-**Foto** :
+**Mesa** :
 
 -   **Número de linhas**
 
@@ -268,7 +268,7 @@ por 30 minutos, então você deve colocá-lo em alerta.
 > **Dica**
 >
 > Os parâmetros globais estão em **Administração → Configuração → Logs**
-> (Onde **Equipamento**)
+> (onde **Instalações**)
 
 Guia de comentários 
 ------------------
@@ -287,22 +287,22 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
     objetos, comandos, cenários, variáveis, interações…. sob
     forma gráfica.
 
--   **Registro** : Exibe os eventos do equipamento em questão.
+-   **Log** : Exibe os eventos do equipamento em questão.
 
--   **Em formação** : Exibe as propriedades brutas do equipamento.
+-   **Informação** : Exibe as propriedades brutas do equipamento.
 
 -   Aplicar a \* : Aplique a mesma configuração em
     pedidos múltiplos.
 
--   **Registrar** : Salve as alterações feitas em
+-   **Registro** : Salve as alterações feitas em
     o equipamento
 
 > **Dica**
 >
 > Em um gráfico, um clique duplo em um elemento leva você ao seu
-> configuração.
+> Configuração.
 
-> **Observação**
+> **NOTA**
 >
 > Dependendo do tipo de pedido, as informações / ações exibidas
 > pode mudar.
@@ -310,23 +310,23 @@ Primeiro, no canto superior direito, alguns botões disponíveis :
 Guia Informações 
 -------------------
 
-Aba **Em formação** contém informações gerais sobre o
-ordenado :
+A guia **Informação** contém informações gerais sobre o
+Ordem :
 
--   **EU IRIA** : Identificador exclusivo no banco de dados.
+-   **ID** : Identificador exclusivo no banco de dados.
 
 -   **ID lógico** : Identificador lógico do comando (pode
     estar vazio).
 
--   **Sobrenome** : Nome do comando.
+-   **Nome** : Nome do comando.
 
--   **Gentil** : Tipo de comando (ação ou informação).
+-   **Tipo** : Tipo de comando (ação ou informação).
 
 -   **Subtipo** : Subtipo de comando (binário, digital etc.)).
 
 -   **URL direta** : Fornece o URL para acessar este equipamento. (clique
     (copie o endereço do link) A URL iniciará o comando para um
-    **estoque** e retorne as informações para um **em formação**.
+    **Ação** e retorne as informações para um **Informações**.
 
 -   **Unidade** : Unidade de controle.
 
@@ -334,7 +334,7 @@ ordenado :
     outro comando que, se esse outro comando for alterado, forçará o
     atualização da ordem exibida.
 
--   **Visível** : Marque esta caixa para tornar o comando visível.
+-   **Visivél** : Marque esta caixa para tornar o comando visível.
 
 -   **Siga na Timeline** : Marque esta caixa para ter esta
     O comando é visível na linha do tempo quando é usado.
@@ -357,7 +357,7 @@ Você também tem três outros botões laranja embaixo :
 -   **Substituir esse comando pelo comando** : O reverso substitui
     a ordem por outra ordem.
 
-> **Observação**
+> **NOTA**
 >
 > Esse tipo de ação substitui comandos em todo o Jeedom
 > (cenário, interação, comando, equipamento.)
@@ -395,13 +395,13 @@ Guia Configuração
 
 -   **Histórico**
 
-    -   **Historizar** : Marque a caixa para ter os valores para este
+    -   **Historicizar** : Marque a caixa para ter os valores para este
         pedido seja gravado. (Veja **Análise → História**)
 
-    -   **Suavização moda** : Modo de **suavização** ou d'**arquivamento**
+    -   **Suavização moda** : Modo de **alisamento** ou d'**arquivamento**
         permite escolher como arquivar os dados. Por padrão,
-        é um **significa**. Também é possível escolher o
-        **máximo**, a **mínimo**, Onde **Nenhum**. **Nenhum** deixa
+        é um **Média**. Também é possível escolher o
+        **Máximo**, O **Mínimo**, onde **Nemhum**. **Nemhum** deixa
         diga ao Jeedom que ele não deve arquivar neste
         ordem (durante o primeiro período de 5 minutos e com o
         tarefa de arquivamento). Essa opção é perigosa porque o Jeedom
@@ -425,7 +425,7 @@ Guia Configuração
     -   **Duração antes do retorno do status (min)** : Tempo antes de voltar para
         valor acima.
 
--   **Outros**
+-   **Outro**
 
     -   **Gestão de valores repetidos** : Em automático se o
         comando sobe duas vezes o mesmo valor em uma linha e, em seguida, Jeedom
@@ -436,10 +436,10 @@ Guia Configuração
 
     -   **URL impulso** : Permite adicionar um URL para chamar em caso de
         atualização do pedido. Você pode usar tags
-        próximo : ``#value#`para o valor do pedido '#cmd_name#``
+        Seguinte : ``#value#`para o valor do pedido '#cmd_name#``
         para o nome do comando, `#cmd_id#`para o identificador exclusivo
         do comando, `#humanname#`para o nome completo do comando
-        (ex : ``#[Sala de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento
+        (ex : ``#[SalO de bain][Hydrometrie][Humidité]#`),`#eq_name#`para o nome do equipamento
 
 ### Para um comando de ação : 
 
@@ -455,19 +455,19 @@ Guia Configuração
     quando a ação é iniciada a partir da interface deste comando.
 
 -   **Ação antes de executar o comando** : Permite adicionar
-    ordens **antes da** cada execução da ordem.
+    Comandos **antes** cada execução da ordem.
 
 -   **Ação após a execução da ordem** : Permite adicionar
-    ordens **depois** cada execução da ordem.
+    Comandos **depois** cada execução da ordem.
 
 Guia Alertas 
 --------------
 
-Permite definir um nível de alerta (**aviso** Onde **perigo**) en
+Permite definir um nível de alerta (**Aviso** onde **Perigo**) en
 dependendo de certas condições. Por exemplo, se `valor> 8` para 30
-minutos, então o equipamento pode ficar em alerta **aviso**.
+minutos, então o equipamento pode ficar em alerta **Aviso**.
 
-> **Observação**
+> **NOTA**
 >
 > Na página **Administração → Configuração → Logs**, Você pode
 > configure um comando de tipo de mensagem que permitirá que o Jeedom o obtenha
@@ -480,11 +480,11 @@ Nesta parte, você poderá configurar certos comportamentos
 exibição do widget no painel, visualizações, design e
 mobile.
 
--   **Widgets** : Permite escolher o widget no dekstop ou no celular (em
+-   **Widget** : Permite escolher o widget no dekstop ou no celular (em
     Observe que você precisa do plug-in do widget e também pode fazer isso
     a partir dele).
 
--   **Visível** : Marque para tornar o comando visível.
+-   **Visivél** : Marque para tornar o comando visível.
 
 -   **Mostrar nome** : Marque para fazer o nome do
     comando, dependendo do contexto.
@@ -492,8 +492,8 @@ mobile.
 -   **Imprimir o nome eo ícone** : Marque para tornar o ícone visível
     além do nome do comando.
 
--   **Envoltório forçado antes Widget** : Carraça **antes
-    ferramenta** Onde **após o widget** para adicionar uma quebra de linha
+-   **Envoltório forçado antes Widget** : Tick **antes
+    Widget** onde **após o widget** para adicionar uma quebra de linha
     antes ou depois do widget (para forçar, por exemplo, uma exibição em
     coluna de comandos de equipamentos diferentes em vez de linhas
     Por padrão)
@@ -511,7 +511,7 @@ Guia Código
 
 Permite modificar o código do widget apenas para o comando atual.
 
-> **Observação**
+> **NOTA**
 >
 > Se você deseja modificar o código, não esqueça de marcar a caixa
 > **Ativar personalização do widget**

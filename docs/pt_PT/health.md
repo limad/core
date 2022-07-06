@@ -4,7 +4,7 @@ use it) estado de saúde por plugin.
 
 A página é acessível em Análise → Saúde
 
-> **Observação**
+> **NOTA**
 >
 > Clique no ícone à direita para acessar a referência do seu
 > Jeedom.
@@ -28,11 +28,11 @@ encontre os ícones :
 
 -   Estado geral do plug-in
 
-> **Observação**
+> **NOTA**
 >
 > Os ícones podem variar dependendo do plugin
 
-> **Observação**
+> **NOTA**
 >
 > Geralmente quando a linha está verde, está tudo bem
 > e quando está vermelho, há um problema.

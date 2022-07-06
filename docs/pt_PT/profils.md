@@ -61,12 +61,12 @@ Permite definir certos comportamentos de interface :
     -   **Tela cheia** : exibição padrão em tela cheia quando
         a chegada dos desenhos
         
--   **Painel**
+-   **Painel de instrumentos**
 
     -   **Desdobrar os objectos de painel** : permite tornar visível por
         padronize o menu de objetos (à esquerda) no painel
 
--   **Visto**
+-   **Vista**
 
     -   **Desdobrar o painel de vista** : permite tornar visível por
         menu de visualizações padrão (esquerda) nas visualizações
@@ -77,7 +77,7 @@ Segurança
 -   **Autenticação em duas etapas** : permite configurar
     Autenticação em duas etapas (como lembrete, esse é um código alterado
     exibido a cada X segundos em um aplicativo móvel, digite
-    autenticador do google). Observe que a autenticação dupla só será solicitada para conexões externas. Para conexões locais, o código não será solicitado.
+    google authentificator). Observe que a autenticação dupla só será solicitada para conexões externas. Para conexões locais, o código não será solicitado.
 
 -   **Senha** : permite que você altere sua senha (não
     esqueça de redigitá-lo abaixo)

@@ -11,14 +11,14 @@ Unten haben Sie eine Tabelle :
 
 -   **Benutzername** : Benutzer-ID
 
--   **Anlage** : ermöglicht das Deaktivieren des Kontos
+-   **Aktiva** : ermöglicht das Deaktivieren des Kontos
 
 -   **Nur lokal** : Benutzeranmeldung autorisieren
     Nur wenn es sich im lokalen Jeedom-Netzwerk befindet
 
 -   **Profile** : ermöglicht die Auswahl des Benutzerprofils :
 
-    -   **Administrator** : bekommt alle Rechte an Jeedom
+    -   **Verwalter** : bekommt alle Rechte an Jeedom
 
     -   **Benutzer** : kann das Dashboard sehen, Ansichten,
         Design usw. und auf Geräte / Kontrollen einwirken. Allerdings,
@@ -42,7 +42,7 @@ Unten haben Sie eine Tabelle :
 -   **Passwort ändern** : ermöglicht das Ändern des Passworts von
     l'utilisateur
 
--   **Löschen** : Benutzer löschen
+-   **Entfernen** : Benutzer löschen
 
 -   **API-Schlüssel neu generieren** : regeneriert den API-Schlüssel des Benutzers
 
@@ -65,7 +65,7 @@ die verschiedenen Geräte. Der zweite zeigt die Szenarien.
 Sie erhalten eine Tabelle, die für jede Ausrüstung und jede erlaubt
 Szenario definieren Benutzerrechte :
 
--   **Keiner** : Der Benutzer sieht die Ausrüstung / das Szenario nicht
+-   **Keine** : Der Benutzer sieht die Ausrüstung / das Szenario nicht
 
 -   **Visualisierung** : Der Benutzer sieht die Ausrüstung / das Szenario, jedoch nicht
     kann nicht darauf reagieren

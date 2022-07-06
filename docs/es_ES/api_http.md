@@ -33,7 +33,7 @@ Aquí está la URL =
     manera de encontrarlo : en &quot;Herramientas&quot; → &quot;Escenarios&quot;, haga clic en
     "Resumen".
 
--   **Valores** : corresponde a la acción que desea aplicar. la
+-   **acción** : corresponde a la acción que desea aplicar. la
     los pedidos disponibles son : "iniciar "," detener "," desactivar "y
     "activar "para iniciar, detener, desactivar o
     activar el escenario.
@@ -76,12 +76,12 @@ Interacción
 Aquí está la URL =
 [http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = interactuar y consultar = \#QUERY\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = interactuar y consultar=#QUERY#)
 
--   **consulta** : pregunta para hacerle a Jeedom
+-   **pregunta** : pregunta para hacerle a Jeedom
 
 -   **utf8** \ [Opcional \] : le dice a Jeedom si codifica la consulta
     en utf8 antes de intentar responder
 
--   **vacíoResponder** \ [Opcional \] : 0 para que Jeedom responda incluso si
+-   **vacío Respuesta** \ [Opcional \] : 0 para que Jeedom responda incluso si
     no entendí, 1 de lo contrario
 
 -   **perfil** \ [Opcional \] : nombre de usuario de la persona
@@ -98,7 +98,7 @@ Aquí está la URL =
 
 -   **categoría** : categoría de mensaje para agregar al centro de mensajes
 
--   **mensaje** : mensaje en cuestión, tenga cuidado de pensar en la codificación
+-   **Mensaje** : mensaje en cuestión, tenga cuidado de pensar en la codificación
     el mensaje (el espacio se convierte en% 20, =% 3D). Puedes usar un
     outil, [aquí](https://meyerweb.com/eric/tools/dencoder/)
 
@@ -119,7 +119,7 @@ Aquí está la URL =
 -   **el objeto\_id** : ID del objeto del que queremos recuperar
     équipements
 
-Ordenado 
+Orden 
 ========
 
 Aquí está la URL =
@@ -141,7 +141,7 @@ Variable
 ========
 
 Aquí está la URL =
-[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = variable & name = \#NAME\#&value=](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = variable & name=#NAME#&value=)*VALOR*
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = variable & name = \#NAME\#&value=](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = variable & name=#NAME#&value=)*Valor*
 
 -   **nombre** : nombre de la variable cuyo valor se desea (lectura de
     el valor)

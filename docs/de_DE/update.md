@@ -1,7 +1,7 @@
 Beschreibung 
 ===========
 
-Das **Update Center** ermöglicht es Ihnen, alle zu aktualisieren
+Die **Update Center** ermöglicht es Ihnen, alle zu aktualisieren
 Jeedom-Funktionen, einschließlich Kernsoftware,
 Plugins, Widgets usw. Andere Erweiterungsverwaltungsfunktionen
 verfügbar sind (löschen, neu installieren, prüfen usw.))
@@ -13,7 +13,7 @@ Es ist über das Menü zugänglich **Administration → Aktualisierungscenter
 jour**.
 
 Auf der linken Seite finden Sie alle Funktionen von
-Jeedom und auf der rechten Seite **Information** wer beschreibt was er
+Jeedom und auf der rechten Seite **Informationen** wer beschreibt was er
 passiert, als Sie ein Update gestartet haben.
 
 Funktionen oben auf der Seite. 
@@ -52,7 +52,7 @@ Optionen :
 > Stellen Sie das zuvor erstellte Backup automatisch wieder her. Dieses Prinzip
 > gilt nur für Jeedom-Updates und nicht für Plugins.
 
-> **Tipp**
+> **Spitze**
 >
 > Sie können ein Update von Jeedom erzwingen, auch wenn dies nicht der Fall ist
 > biete keine an.
@@ -65,16 +65,16 @@ Die Tabelle besteht aus zwei Registerkarten :
 -   **Core und Plugins** : Enthält grundlegende Jeedom-Software und
     Liste der installierten Plugins.
 
--   **Sonstiges** : Enthält Widgets, Skripte usw.
+-   **Andere** : Enthält Widgets, Skripte usw.
 
 Sie finden folgende Informationen : \.* **Status** : OK oder NOK.
-Ermöglicht es Ihnen, den aktuellen Status des Plugins zu kennen. \* **Nachname** : Du da
+Ermöglicht es Ihnen, den aktuellen Status des Plugins zu kennen. \* **Name** : Du da
 Suchen Sie die Quelle des Elements, den Elementtyp und seinen Namen. \*
-**Ausführung** : Gibt die spezifische Version des Elements an. \* **Optionen** :
+**Version** : Gibt die spezifische Version des Elements an. \* **Optionen** :
 Aktivieren Sie dieses Kontrollkästchen, wenn dieses Element nicht aktualisiert werden soll
 Tag während des allgemeinen Updates (Button **Update**).
 
-> **Tipp**
+> **Spitze**
 >
 > In der ersten Zeile ist für jede Tabelle der folgende Filter zulässig
 > den Status, Namen oder die Version der vorhandenen Elemente.
@@ -84,7 +84,7 @@ jedes Element :
 
 -   **Wieder einstellen** : Neuansiedlung erzwingen.
 
--   **Löschen** : Ermöglicht die Deinstallation.
+-   **Entfernen** : Ermöglicht die Deinstallation.
 
 -   **überprüfen** : Fragen Sie die Quelle nach Updates ab, um herauszufinden, ob
     Ein neues Update ist verfügbar.
@@ -103,7 +103,7 @@ jedes Element :
 > Änderungen, da es nicht unbedingt welche gibt. (Es ist oft eine Wette
 > der Übersetzung der Dokumentation)
 
-> **Tipp**
+> **Spitze**
 >
 > Beachten Sie, dass &quot;Kern : jeedom &quot;bedeutet&quot; das Aktualisieren der Software
 > Jeedom Basis".
@@ -118,10 +118,10 @@ Sobald die Verbindung hergestellt ist, ist dies der auszuführende Befehl :
 
 Die möglichen Parameter sind :
 
--   **"Modus".** : `force`, um ein Update im erzwungenen Modus zu starten (nicht
+-   **`Mode`** : `force`, um ein Update im erzwungenen Modus zu starten (nicht
     Fehler ignorieren).
 
--   **"Version".** : gefolgt von der Versionsnummer, um die erneut anzuwenden
+-   **`version`** : gefolgt von der Versionsnummer, um die erneut anzuwenden
     Änderungen seit dieser Version.
 
 Hier ist ein Beispiel für die Syntax, mit der ein erzwungenes Update durchgeführt werden soll

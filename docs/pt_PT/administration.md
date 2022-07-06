@@ -20,7 +20,7 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
     Jeedom no mercado, é aconselhável clicar no botão
     **Restabelecer**.
 
--   **Linguagem** : Idioma usado no seu Jeedom.
+-   **Idioma** : Idioma usado no seu Jeedom.
 
 -   **Gerar traduções** : Gerar traduções,
     tenha cuidado, isso pode tornar seu sistema mais lento. Opção mais útil
@@ -35,7 +35,7 @@ Nesta guia, encontramos informações gerais sobre o Jeedom :
 
 -   **Servidor de tempo opcional** : Indica qual servidor de horário deve
     ser usado se você clicar **Forçar sincronização de
-    Tempo**. (ser reservado para especialistas)
+    a hora**. (ser reservado para especialistas)
 
 -   **Ignorar verificar o tempo** : diz a Jeedom para não
     verifique se o tempo é consistente entre si e o sistema em
@@ -67,7 +67,7 @@ TTS, você pode definir seu escopo :
 -   **Localhost** : somente solicitações do sistema no qual está
     Jeedom instalado são permitidos,
 
--   **Habilitado** : sem restrições, qualquer sistema com acesso
+-   **Ativado** : sem restrições, qualquer sistema com acesso
     seu Jeedom poderá acessar esta API.
 
 &gt;\_OS / DB 
@@ -75,9 +75,9 @@ TTS, você pode definir seu escopo :
 
 Duas partes reservadas para especialistas estão presentes nesta guia.
 
-> **Importante**
+> **IMPORTANTE**
 >
-> AVISO : Se você modificar o Jeedom com uma dessas duas soluções,
+> Atenção : Se você modificar o Jeedom com uma dessas duas soluções,
 > o suporte pode se recusar a ajudá-lo.
 
 -   **&gt;\_System** : Permite o acesso a uma interface
@@ -86,10 +86,10 @@ Duas partes reservadas para especialistas estão presentes nesta guia.
     para obter informações sobre o sistema.
 
 -   **Banco de dados** : Permite acesso ao banco de dados
-    por Jeedom. Você pode iniciar comandos no campo
+    de Jeedom. Você pode iniciar comandos no campo
     de cima. Dois parâmetros são exibidos abaixo para obter informações :
 
-    -   **Do utilizador** : Nome de usuário usado por Jeedom em
+    -   **Usuário** : Nome de usuário usado por Jeedom em
         o banco de dados,
 
     -   **Senha** : senha de acesso ao banco de dados
@@ -125,7 +125,7 @@ LDAP
 -   **Permitir REMOTE\_USER** : Ative REMOTE\_USER (usado no SSO
     Por exemplo)
 
-Conecte-se 
+Logar 
 ---------
 
 -   **Número de falhas tolerada** : define o número de tentativas
@@ -155,7 +155,7 @@ Jeedom, caso contrário, muitos plugins podem não funcionar. Ele
 interne** (da mesma rede local que Jeedom) e l'**acesso
 externe** (de outra rede, especialmente da Internet).
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Esta parte existe apenas para explicar à Jeedom seu ambiente :
 > alterar a porta ou o IP nesta guia não altera o
@@ -165,7 +165,7 @@ externe** (de outra rede, especialmente da Internet).
 > etc / apache2 / sites-available / default\_ssl (para HTTPS).No entanto, em
 > Se o seu Jeedom for maltratado, a equipe do Jeedom não
 > responsabilizado e pode recusar qualquer pedido de
-> Apoio, suporte.
+> Suporte.
 
 -   **Acesso interno** : informações para ingressar no Jeedom de um
     mesmo equipamento de rede que o Jeedom (LAN)
@@ -230,7 +230,7 @@ externe** (de outra rede, especialmente da Internet).
 
     -   **Gestão** : permite parar e reiniciar o serviço DNS
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Se você não conseguir que o DNS Jeedom funcione, verifique o
 > configuração do firewall e filtro dos pais da sua caixa da Internet
@@ -264,7 +264,7 @@ não coloque transparência, deixe 1.0 .
 >
 > Não se esqueça de salvar após qualquer modificação.
 
-Pedidos 
+Comandos 
 =========
 
 Muitos pedidos podem ser registrados. Então em
@@ -312,7 +312,7 @@ Histórico
     de um pedido. Quanto menor o período, mais rápido o Jeedom será
     para exibir o gráfico solicitado.
 
-> **Observação**
+> **NOTA**
 >
 > O primeiro parâmetro **Mostrar estatísticas sobre os widgets** est
 > possível, mas desativado por padrão porque aumenta significativamente a
@@ -323,7 +323,7 @@ Histórico
 > [aqui](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
 > para o detalhe).
 
-Empurre 
+Empurrão 
 ----
 
 **URL esforço global** : permite adicionar um URL para chamar em caso de
@@ -333,12 +333,12 @@ nome do comando, **\#cmd\_id\#** para o identificador exclusivo do
 commande, **\#humanname\#** para o nome completo do pedido (ex :
 \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#), ``#eq_name#`para o nome do equipamento
 
-Escondido 
+Cobertura 
 =====
 
 Permite monitorar e agir no cache Jeedom :
 
--   **Estatisticas** : Número de objetos atualmente armazenados em cache
+-   **Estatística** : Número de objetos atualmente armazenados em cache
 
 -   **Cache de limpo** : Forçar a exclusão de objetos que não são
     mais útil. Jeedom faz isso automaticamente todas as noites.
@@ -433,12 +433,12 @@ Interação automática, contextual e aviso
     -   *Jeedom* : OK (* Assim que a temperatura da sala exceda 25 ° C,
         Jeedom lhe dirá, apenas uma vez*)
 
-> **Observação**
+> **NOTA**
 >
 > Por padrão, o Jeedom responderá pelo mesmo canal que você
 > costumava pedir-lhe para notificá-lo. Se ele não encontrar um
 > não, ele usará o comando padrão especificado neste
-> aba : **Ordem de devolução padrão**.
+> separador : **Ordem de devolução padrão**.
 
 Aqui estão as diferentes opções disponíveis :
 
@@ -500,7 +500,7 @@ palavras vermelho / azul / preto… Para adicionar uma cor :
 
 -   Escolha a cor associada clicando na caixa à direita.
 
-Relatórios 
+Relações 
 ========
 
 Configurar a geração e gerenciamento de relatórios
@@ -537,29 +537,29 @@ equipamentos, objetos, etc.
 -   **Prerender parâmetro** : Vamos agir no layout
     do gráfico.
 
--   **Parâmetro renderizar** : Mesmo.
+-   **Parâmetro renderizar** : Same.
 
 Sumários 
 =======
 
 Adicionar resumos de objetos. Esta informação é exibida
 no topo, à direita, na barra de menus do Jeedom ou ao lado do
-objetos :
+Objetos :
 
 -   **Chave** : Chave para o resumo, especialmente para não tocar.
 
--   **Sobrenome** : Nome do resumo.
+-   **Nome** : Nome do resumo.
 
 -   **Cálculo** : Método de cálculo, pode ser do tipo :
 
     -   **Soma** : somar os diferentes valores,
 
-    -   **Significa** : valores médios,
+    -   **Média** : valores médios,
 
     -   **Texto** : exibir o valor literalmente (especialmente para aqueles
         do tipo string).
 
--   **Ícone** : Ícone Resumo.
+-   **ícone** : Ícone Resumo.
 
 -   **Unidade** : Unidade de resumo.
 
@@ -579,10 +579,10 @@ objetos :
 -   **Excluir resumo** : O último botão, na extrema direita, permite
     para excluir o resumo da linha.
 
-Histórico 
+Toras 
 ====
 
-Linha do tempo 
+Cronograma 
 --------
 
 -   **O número máximo de eventos** : Define o número máximo para
@@ -591,7 +591,7 @@ Linha do tempo
 -   **Excluir todos os eventos** : Esvazie a linha do tempo de
     todos os seus eventos gravados.
 
-Postagens 
+Mensagens 
 --------
 
 -   **Adicione uma mensagem para cada erro nos logs** : se um plugin
@@ -603,42 +603,42 @@ Postagens
         - #message# : mensagem em questão
         - #plugin# : plugin que acionou a mensagem
 
-Alertas 
+Notificações 
 -------
 
 -   **Adicione uma mensagem a cada tempo limite** : Adicione uma mensagem no
-    centro de mensagens se o equipamento cair **tempo esgotado**.
+    centro de mensagens se o equipamento cair **Tempo limite**.
 
--   **Ordem de tempo limite** : Comando de tipo **mensagem** usar
-    se houver um equipamento **tempo esgotado**.
+-   **Ordem de tempo limite** : Comando de tipo **Mensagem** usar
+    se houver um equipamento **Tempo limite**.
 
 -   **Adicione uma mensagem a cada bateria em Aviso** : Adicione um
     mensagem no centro de mensagens se um dispositivo tiver seu nível de
-    bateria em **aviso**.
+    bateria em **Aviso**.
 
--   **Comando da bateria em Aviso** : Comando de tipo **mensagem**
-    a ser usado se o equipamento estiver com a bateria **aviso**.
+-   **Comando da bateria em Aviso** : Comando de tipo **Mensagem**
+    a ser usado se o equipamento estiver com a bateria **Aviso**.
 
 -   **Adicione uma mensagem a cada bateria em perigo** : Adicione um
     mensagem no centro de mensagens se um dispositivo tiver seu nível de
-    bateria em **perigo**.
+    bateria em **Perigo**.
 
--   **Comando na bateria em perigo** : Comando de tipo **mensagem** no
-    use se o equipamento estiver no nível da bateria **perigo**.
+-   **Comando na bateria em perigo** : Comando de tipo **Mensagem** à
+    use se o equipamento estiver no nível da bateria **Perigo**.
 
 -   **Adicione uma mensagem a cada aviso** : Adicione uma mensagem no
-    centro de mensagens se um pedido entrar em alerta **aviso**.
+    centro de mensagens se um pedido entrar em alerta **Aviso**.
 
--   **Comando no aviso** : Comando de tipo **mensagem** usar
-    se um pedido entrar em alerta **aviso**.
+-   **Comando no aviso** : Comando de tipo **Mensagem** usar
+    se um pedido entrar em alerta **Aviso**.
 
 -   **Adicione uma mensagem a cada Perigo** : Adicione uma mensagem no
-    centro de mensagens se um pedido entrar em alerta **perigo**.
+    centro de mensagens se um pedido entrar em alerta **Perigo**.
 
--   **Comando sobre Perigo** : Comando de tipo **mensagem** usar se
-    um pedido entra em alerta **perigo**.
+-   **Comando sobre Perigo** : Comando de tipo **Mensagem** usar se
+    um pedido entra em alerta **Perigo**.
 
-Registro 
+Log 
 ---
 
 -   **Log Motor** : Permite alterar o mecanismo de log para, por
@@ -661,7 +661,7 @@ Abaixo, você encontrará uma tabela para gerenciar com precisão o
 nível de log dos elementos essenciais do Jeedom, bem como do
 plugins.
 
-Equipamento 
+Instalações 
 ===========
 
 -   **Falha Contagem off equipamentos** : Nombre
@@ -694,7 +694,7 @@ Os depósitos são espaços de armazenamento (e serviço) para poder
 mover backups, recuperar plugins, recuperar núcleo
 Jeedom, etc.
 
-### Arquivo 
+### Ficheiro 
 
 Depósito usado para ativar o envio de plugins por arquivos.
 
@@ -702,7 +702,7 @@ Depósito usado para ativar o envio de plugins por arquivos.
 
 Depósito usado para conectar o Jeedom ao Github.
 
--   **Símbolo** : Token para acesso ao depósito privado.
+-   **Token** : Token para acesso ao depósito privado.
 
 -   **Usuário ou organização do repositório principal da Jeedom** : Nom
     o usuário ou a organização no github para o núcleo.
@@ -717,7 +717,7 @@ Depósito usado para conectar o Jeedom ao mercado, é altamente recomendado
 usar este repositório. Atenção : qualquer solicitação de suporte pode ser
 recusado se você usar um depósito diferente deste.
 
--   **Endereço** : Endereço do mercado.
+-   **Morada** : Endereço do mercado.
 
 -   **Nome de Usuário** : Seu nome de usuário no mercado.
 
@@ -749,13 +749,13 @@ uma participação do Samba (ex : NAS Synology).
 -   **Caminho \ [Backup \]** : Caminho no compartilhamento (para definir
     relativo), deve existir.
 
-> **Observação**
+> **NOTA**
 >
 > Se o caminho para a pasta de backup do samba for :
 > \\\\ 192.168.0.1 \\ Backups \\ Domótica \\ Jeedom Then IP = 192.168.0.1
 > , Partilha = //192.168.0.1 / Backups, Caminho = Domótica / Jeedom
 
-> **Observação**
+> **NOTA**
 >
 > Ao validar o compartilhamento Samba, conforme descrito acima,
 > uma nova forma de backup aparece na seção
@@ -763,12 +763,12 @@ uma participação do Samba (ex : NAS Synology).
 > quando é enviado automaticamente no próximo backup. Um teste é
 > possível executando um backup manual.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Pode ser necessário instalar o pacote smbclient para o diretório
 > obras de depósito.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > O protocolo Samba possui várias versões, o v1 está comprometido 
 > segurança e em alguns NAS, você pode forçar o cliente a usar a v2
@@ -781,14 +781,14 @@ uma participação do Samba (ex : NAS Synology).
 > O smbclient do lado do Jeedom usará v2 em que v3 e colocando SMB3 nos dois
 > SMB3. Cabe a você adaptar de acordo com as restrições no servidor NAS ou outro servidor Samba
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Jeedom deve ser o único a gravar nesta pasta e deve estar vazio
 > por padrão (ou seja, antes de configurar e enviar o
 > primeiro backup, a pasta não deve conter nenhum arquivo ou
 > dossier).
 
-### URLs 
+### URL  
 
 -   **URL principal do Jeedom**
 

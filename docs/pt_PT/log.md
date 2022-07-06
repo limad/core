@@ -1,4 +1,4 @@
-Exibição 
+Visualizando 
 =========
 
 O menu Logs permite acompanhar o que está acontecendo na sua automação residencial. No
@@ -11,7 +11,7 @@ A página Logs é bastante simples, no canto superior esquerdo uma lista suspens
 permitindo a escolha do registro para assistir, no canto superior direito você tem 5
 botões :
 
--   **Pesquisar** : permite filtrar o pôster do log
+-   **Pesquisa** : permite filtrar o pôster do log
 
 -   **Pausar / retomar** : permite pausar / retomar a configuração
     atualização de log em tempo real
@@ -20,7 +20,7 @@ botões :
 
 -   **Vazio** : Limpe o log atual,
 
--   **Deletar** : excluir o log atual, se o Jeedom tiver algum
+-   **Remover** : excluir o log atual, se o Jeedom tiver algum
     precisa dele irá recriá-lo automaticamente,
 
 -   **Excluir todos os logs** : Excluir todos os logs presentes.

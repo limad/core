@@ -4,7 +4,7 @@ tu imaginación.
 
 Es accesible por Inicio → Diseño
 
-> **Consejo**
+> **Punta**
 >
 > Es posible ir directamente a un diseño gracias al submenú.
 
@@ -52,9 +52,9 @@ siguientes acciones :
 -   **Agregar resumen** : Agrega información de un resumen de objeto o
     general
 
--   **Monitor**
+-   **Viendo**
 
-    -   **Ninguna** : No muestra ninguna cuadrícula
+    -   **No** : No muestra ninguna cuadrícula
 
     -   **10x10** : Muestra una cuadrícula de 10 por 10
 
@@ -80,13 +80,13 @@ siguientes acciones :
 
 -   **Configura el diseño** : acceso a la configuración de diseño
 
--   **Para salvaguardar** : permite guardar el diseño (atención, hay
+-   **Guardar** : permite guardar el diseño (atención, hay
     También copias de seguridad automáticas durante ciertas acciones)
 
 > **Importante**
 >
 > La configuración de los elementos de diseño se realiza haciendo clic en
-> estas.
+> estos.
 
 Configuración de diseño 
 =======================
@@ -103,7 +103,7 @@ Encontrado aquí :
     -   **Color de fondo** : diseño de color de fondo (blanco
         Por defecto)
 
-    -   **Codificado** : Código de acceso a su diseño (si está vacío, sin código
+    -   **Código** : Código de acceso a su diseño (si está vacío, sin código
         no se le pregunta)
 
     -   **Icono** : Un icono para ello (aparece en el menú
@@ -115,7 +115,7 @@ Encontrado aquí :
 
         -   **Eliminar imagen** : borrar imagen
 
--   **Tallas**
+-   **Tamaños**
 
     -   **Tamaño (WxH)** : Le permite fijar el tamaño de su diseño
         (marco gris en modo edición)
@@ -145,23 +145,23 @@ Ajuste de la pantalla
 
 -   **Altura (px)** :
 
-Borrar 
+Remove 
 ---------
 
 Eliminar elemento
 
-Duplicar 
+Duplicado 
 ---------
 
 Le permite duplicar el elemento
 
-Cerrar 
+Cerradura 
 -----------
 
 Bloquea el elemento para que ya no sea móvil o
 redimensionnable.
 
-Cuadro 
+Gráfico 
 =========
 
 Configuraciones de pantalla 
@@ -181,7 +181,7 @@ Configuraciones de pantalla
 
 -   **Fondo transparente** : hace que el fondo sea transparente
 
--   **Borde** : agregue un borde, tenga cuidado con la sintaxis
+-   **Frontera** : agregue un borde, tenga cuidado con la sintaxis
     HTML (tenga cuidado, debe usar la sintaxis CSS, por ejemplo :
     sólido 1px negro)
 
@@ -204,7 +204,7 @@ Text / html
 -   **Alrededor de los ángulos** : le permite redondear los ángulos (no
     olvida poner%, ex 50%)
 
--   **Borde** : agregue un borde, tenga cuidado con la sintaxis
+-   **Frontera** : agregue un borde, tenga cuidado con la sintaxis
     HTML (use la sintaxis CSS, por ejemplo : solid
     1px negro)
 
@@ -214,7 +214,7 @@ Text / html
 -   **Alineación de texto** : le permite elegir la alineación de
     texto (izquierda / derecha / centrado)
 
--   **Audaz** : texto en negrita
+-   **Grasa** : texto en negrita
 
 -   **Texto** : Texto en código HTML que estará en el elemento
 
@@ -261,7 +261,7 @@ Configuraciones de pantalla
 -   **Alineación de texto** : le permite elegir la alineación de
     texto (izquierda / derecha / centrado)
 
--   **Audaz** : texto en negrita
+-   **Grasa** : texto en negrita
 
 Equipo 
 ==========
@@ -277,7 +277,7 @@ Configuración avanzada
 Muestra la ventana de configuración avanzada del equipo (ver
 documentación resumida de domótica ("pantalla"))
 
-Ordenado 
+Orden 
 ========
 
 Configuraciones de pantalla 
@@ -297,7 +297,7 @@ Imagen / Cámara
 Configuraciones de pantalla 
 ---------------------
 
--   **Para mostrar** : define lo que desea mostrar, imagen fija o
+-   **Visualización** : define lo que desea mostrar, imagen fija o
     transmitir desde una cámara
 
 -   **Imagen** : le permite enviar la imagen en cuestión (si tiene
@@ -305,7 +305,7 @@ Configuraciones de pantalla
 
 -   **Cámara** : Cámara para mostrar (si elige cámara)
 
-Área 
+Zona 
 ====
 
 Configuraciones de pantalla 
@@ -370,7 +370,7 @@ Resumen
 -   **Tamaño de fuente (ex 50%, debe poner el signo%)** :
     le permite cambiar el tamaño de fuente
 
--   **Audaz** : texto en negrita
+-   **Grasa** : texto en negrita
 
 
 Preguntas frecuentes 

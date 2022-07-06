@@ -32,7 +32,7 @@ hier 2 Parameter, einer für die Paketgröße und einer für das Wissen
 wann es zu tun ist (standardmäßig sind dies Pakete
 1 Stunde mit Daten, die mehr als 2 Stunden Dienstalter haben).
 
-> **Tipp**
+> **Spitze**
 >
 > Wenn Sie gut gefolgt sind, sollten Sie eine hohe Präzision auf dem haben
 > Nur die letzten 2 Stunden. Doch wenn ich mich um 17 Uhr anmelde,
@@ -72,7 +72,7 @@ als sie einmal konfigurieren).
 -   **Treppe** : zeigt die Kurve als an
     Treppe oder kontinuierliche Anzeige.
 
--   **Variation** : zeigt die Wertdifferenz von an
+-   **Veränderung** : zeigt die Wertdifferenz von an
     vorheriger Punkt.
 
 -   **Linie** : zeigt das Diagramm als Linien an.
@@ -93,9 +93,9 @@ Sobald eine Daten aktiviert sind, können Sie auswählen :
 
 -   **Farbe** : die Farbe der Kurve.
 
--   **Nett** : Der Diagrammtyp (Bereich, Linie oder Spalte)).
+-   **Typ** : Der Diagrammtyp (Bereich, Linie oder Spalte)).
 
--   **Leiter** : da kann man mehrere kurven (daten) setzen)
+-   **Maßstab** : da kann man mehrere kurven (daten) setzen)
     Im selben Diagramm ist es möglich, die Skalen zu unterscheiden
     (rechts oder links).
 
@@ -105,7 +105,7 @@ Sobald eine Daten aktiviert sind, können Sie auswählen :
 -   **Stapel** : ermöglicht das Stapeln der Kurvenwerte (siehe in
     unten für das Ergebnis).
 
--   **Variation** : zeigt die Wertdifferenz von an
+-   **Veränderung** : zeigt die Wertdifferenz von an
     vorheriger Punkt.
 
 Option auf der Verlaufsseite 
@@ -125,7 +125,7 @@ Leben \] \ [Hygrometrie \] \ [Temperatur \]*)
 Sie haben auch Zugriff auf eine Verwaltung von Berechnungsformeln, die es Ihnen ermöglicht
 Speichern Sie sie zur einfacheren Anzeige
 
-> **Tipp**
+> **Spitze**
 >
 > Klicken Sie einfach auf den Namen des Objekts, um es zu entfalten
 > erscheinen die historischen Befehle, die grafisch dargestellt werden können.
@@ -160,13 +160,13 @@ chronologique.
 Um sie zu sehen, müssen Sie zuerst das Tracking auf der Timeline von aktivieren
 gewünschte Befehle oder Szenarien :
 
--   **Skript** : entweder direkt auf der Szenarioseite oder auf der
+-   **Szenario** : entweder direkt auf der Szenarioseite oder auf der
     Szenario-Übersichtsseite, um dies in "Masse" zu tun"
 
--   **Bestellt** : entweder in der erweiterten Konfiguration des Befehls,
+-   **Bestellen** : entweder in der erweiterten Konfiguration des Befehls,
     entweder in der Konfiguration der Geschichte, um es in "Masse" zu tun"
 
-> **Tipp**
+> **Spitze**
 >
 > Sie haben Zugriff auf die Zusammenfassungsfenster der Szenarien oder der
 > Konfiguration des Verlaufs direkt von der Seite

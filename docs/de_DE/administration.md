@@ -43,7 +43,7 @@ Auf dieser Registerkarte finden Sie allgemeine Informationen zu Jeedom :
     Kein Jeedom zum Internet und dass es keine PSTN-Batterie auf dem hat
     verwendetes Material.
 
-APIs 
+API 
 ===
 
 Hier ist die Liste der verschiedenen API-Schlüssel, die in verfügbar sind
@@ -67,7 +67,7 @@ TTS können Sie deren Umfang definieren :
 -   **Localhost** : nur Anfragen vom System, auf dem sich befindet
     installierte Jeedom sind erlaubt,
 
--   **Ermöglicht** : Keine Einschränkungen, jedes System mit Zugriff
+-   **Aktiviert** : Keine Einschränkungen, jedes System mit Zugriff
     Ihr Jeedom kann auf diese API zugreifen.
 
 &gt;;\_OS / DB 
@@ -77,7 +77,7 @@ Auf dieser Registerkarte befinden sich zwei Teile, die Experten vorbehalten sind
 
 > **Wichtig**
 >
-> WARNUNG : Wenn Sie Jeedom mit einer dieser beiden Lösungen ändern,
+> VORSICHT : Wenn Sie Jeedom mit einer dieser beiden Lösungen ändern,
 > Der Support kann sich weigern, Ihnen zu helfen.
 
 -   **&gt;;\_SYSTEM** : Ermöglicht den Zugriff auf eine Schnittstelle
@@ -117,7 +117,7 @@ LDAP
 
 -   **Benutzersuchfelder** : Suchfelder von
     Benutzer Login. Normalerweise uid für LDAP, samaccountname für
-    Windows-AD
+    Windows AD
 
 -   **Filter (optional)** : Filter auf dem AD (zum Verwalten
     Gruppen zum Beispiel)
@@ -125,7 +125,7 @@ LDAP
 -   **REMOTE\_USER zulassen** : Aktivieren Sie REMOTE\_USER (wird in SSO verwendet
     Zum Beispiel)
 
-Anmeldung 
+Einloggen 
 ---------
 
 -   **Anzahl der tolerierten Fehler** : Legt die Anzahl der Versuche fest
@@ -199,13 +199,13 @@ externe** (aus einem anderen Netzwerk, insbesondere aus dem Internet).
     -   **Ergänzen** : das Fragment einer zusätzlichen URL (Beispiel
         : / jeedom), um auf Jeedom zuzugreifen.
 
-> **Tipp**
+> **Spitze**
 >
 > Wenn Sie sich in HTTPS befinden, ist der Port 443 (standardmäßig) und in HTTP der
 > Port ist 80 (Standard). HTTPS von außen verwenden,
 > Ein Letsencrypt-Plugin ist jetzt auf dem Markt erhältlich.
 
-> **Tipp**
+> **Spitze**
 >
 > Um herauszufinden, ob Sie einen Wert im Feld festlegen müssen
 > **Ergänzen**, Schau, wenn du dich bei Jeedom anmeldest
@@ -260,11 +260,11 @@ Widgets global (dies ist die Standardeinstellung. Er ist
 dann möglich, diesen Wert Widget für Widget zu ändern). Um nicht
 keine Transparenz setzen, 1 lassen.0 .
 
-> **Tipp**
+> **Spitze**
 >
 > Vergessen Sie nicht, nach jeder Änderung zu speichern.
 
-Aufträge 
+Befehle 
 =========
 
 Viele Bestellungen können protokolliert werden. Also rein
@@ -323,7 +323,7 @@ Historisch
 > [hier](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
 > für das Detail).
 
-Drücken 
+Druck 
 ----
 
 **Globale Push-URL** : ermöglicht das Hinzufügen einer URL zum Aufrufen im Falle von
@@ -333,7 +333,7 @@ Befehlsname, **\.#cmd\._id\.#** für die eindeutige Kennung des
 commande, **\.#humanname\.#** für den vollständigen Namen der Bestellung (z :
 \.#\.[Salle de bain\.]\.[Hydrometrie\.]\.[Humidité\.]\.#), ``#eq_name#`für den Namen des Geräts
 
-Versteckt 
+Abdeckung 
 =====
 
 Ermöglicht die Überwachung und Bearbeitung des Jeedom-Cache :
@@ -352,17 +352,17 @@ Ermöglicht die Überwachung und Bearbeitung des Jeedom-Cache :
     Die Schnittstelle wird im Gegenzug schnell aktualisiert
     verbraucht mehr Ressourcen und kann daher Jeedom verlangsamen.
 
-Interaktionen 
+Wechselwirkungen 
 ============
 
 Auf dieser Registerkarte können Sie globale Parameter für festlegen
 Interaktionen, die Sie unter Extras → Interaktionen finden.
 
-> **Tipp**
+> **Spitze**
 >
 > Um das Interaktionsprotokoll zu aktivieren, wechseln Sie zur Registerkarte
 > Administration → Konfiguration → Protokolle, dann kreuzen Sie an **Debuggen** in der Liste
-> von unten. Aufmerksamkeit : Die Protokolle sind dann sehr ausführlich !
+> von unten. VORSICHT : Die Protokolle sind dann sehr ausführlich !
 
 General 
 -------
@@ -400,27 +400,27 @@ Hier haben Sie drei Parameter :
 Automatische Interaktion, Kontext &amp; Warnung 
 -----------------------------------------------------
 
--   Das **automatische Interaktionen** Erlaube Jeedom, es zu versuchen
+-   Die **automatische Interaktionen** Erlaube Jeedom, es zu versuchen
     eine Interaktionsanfrage verstehen, auch wenn es keine gibt
     von definiert. Er sucht dann nach einem Objekt- und / oder Gerätenamen
     und / oder um zu versuchen, so gut wie möglich zu antworten.
 
--   Das **kontextuelle Interaktionen** erlauben Sie zu verketten
+-   Die **kontextuelle Interaktionen** erlauben Sie zu verketten
     Zum Beispiel mehrere Anfragen, ohne alles zu wiederholen :
 
     -   *Jeedom hält den Kontext :*
 
-        -   *Du* : Wie viel ist er im Raum ?
+        -   *Sie* : Wie viel ist er im Raum ?
 
         -   *Jeedom* : Temperatur 25.2 ° C.
 
-        -   *Du* : und im Wohnzimmer ?
+        -   *Sie* : und im Wohnzimmer ?
 
         -   *Jeedom* : Temperatur 27.2 ° C.
 
     -   *Stellen Sie zwei Fragen in einer :*
 
-        -   *Du* : Wie ist es im Schlafzimmer und im Wohnzimmer? ?
+        -   *Sie* : Wie ist es im Schlafzimmer und im Wohnzimmer? ?
 
         -   *Jeedom* : Temperatur 23.6 ° C, Temperatur 27.2 ° C.
 
@@ -428,7 +428,7 @@ Automatische Interaktion, Kontext &amp; Warnung
     Jeedom, um Sie zu benachrichtigen, wenn eine Bestellung a überschreitet / absteigt oder a wert ist
     bestimmter Wert.
 
-    -   *Du* : Benachrichtigen Sie mich, wenn die Wohnzimmertemperatur 25 ° C überschreitet ?
+    -   *Sie* : Benachrichtigen Sie mich, wenn die Wohnzimmertemperatur 25 ° C überschreitet ?
 
     -   *Jeedom* : OK (* Sobald die Wohnzimmertemperatur 25 ° C überschreitet,
         Jeedom wird es dir nur einmal sagen*)
@@ -500,7 +500,7 @@ Wörter rot / blau / schwarz… Um eine Farbe hinzuzufügen :
 
 -   Wählen Sie die zugehörige Farbe aus, indem Sie auf das Feld rechts klicken.
 
-Berichte 
+Verhältnis 
 ========
 
 Konfigurieren Sie die Erstellung und Verwaltung von Berichten
@@ -537,7 +537,7 @@ Ausrüstung, Gegenstände usw.
 -   **Parameter des Prerenders** : Lasst uns auf das Layout einwirken
     des Graphen.
 
--   **Parameter rendern** : Dasselbe.
+-   **Parameter rendern** : Idem.
 
 Zusammenfassungen 
 =======
@@ -546,15 +546,15 @@ Objektzusammenfassungen hinzufügen. Diese Informationen werden angezeigt
 ganz oben rechts in der Jeedom-Menüleiste oder neben dem
 Objekte :
 
--   **Taste** : Schlüssel zur Zusammenfassung, vor allem nicht zu berühren.
+-   **Schlüssel** : Schlüssel zur Zusammenfassung, vor allem nicht zu berühren.
 
--   **Nachname** : Abstrakter Name.
+-   **Name** : Abstrakter Name.
 
 -   **Berechnung** : Berechnungsmethode, kann vom Typ sein :
 
     -   **Summe** : summiere die verschiedenen Werte,
 
-    -   **Bedeuten** : Durchschnittswerte,
+    -   **Durchschnitt** : Durchschnittswerte,
 
     -   **Text** : Zeigen Sie den Wert wörtlich an (insbesondere für diese
         vom String-Typ).
@@ -579,7 +579,7 @@ Objekte :
 -   **Zusammenfassung löschen** : Die letzte Schaltfläche ganz rechts erlaubt
     um die Zusammenfassung aus der Zeile zu löschen.
 
-Protokolle 
+Logs 
 ====
 
 Zeitleiste 
@@ -603,42 +603,42 @@ Beiträge
         - #message# : Nachricht in Frage
         - #plugin# : Plugin, das die Nachricht ausgelöst hat
 
-Warnungen 
+Benachrichtigungen 
 -------
 
 -   **Fügen Sie jedem Timeout eine Nachricht hinzu** : Fügen Sie eine Nachricht in die
-    Nachrichtenzentrum, wenn Geräte hineinfallen **Auszeit**.
+    Nachrichtenzentrum, wenn Geräte hineinfallen **Timeout**.
 
--   **Timeout-Reihenfolge** : Befehl eingeben **Botschaft** zu verwenden
-    wenn ein Gerät in ist **Auszeit**.
+-   **Timeout-Reihenfolge** : Befehl eingeben **Nachricht** zu verwenden
+    wenn ein Gerät in ist **Timeout**.
 
 -   **Fügen Sie jeder Batterie in Warnung eine Nachricht hinzu** : Fügen Sie a hinzu
     Nachricht im Nachrichtencenter, wenn ein Gerät die Stufe hat
     Batterie ein **Warnung**.
 
--   **Batteriebefehl in Warnung** : Befehl eingeben **Botschaft**
+-   **Batteriebefehl in Warnung** : Befehl eingeben **Nachricht**
     zu verwenden, wenn sich das Gerät auf Batteriestand befindet **Warnung**.
 
 -   **Fügen Sie jeder gefährdeten Batterie eine Nachricht hinzu** : Fügen Sie a hinzu
     Nachricht im Nachrichtencenter, wenn ein Gerät die Stufe hat
-    Batterie ein **Achtung**.
+    Batterie ein **Gefahr**.
 
--   **Befehl zur Batterie in Gefahr** : Befehl eingeben **Botschaft** zu
-    Verwenden Sie diese Option, wenn sich das Gerät auf Batteriestand befindet **Achtung**.
+-   **Befehl zur Batterie in Gefahr** : Befehl eingeben **Nachricht** zu
+    Verwenden Sie diese Option, wenn sich das Gerät auf Batteriestand befindet **Gefahr**.
 
 -   **Fügen Sie jeder Warnung eine Nachricht hinzu** : Fügen Sie eine Nachricht in die
     Message Center, wenn eine Bestellung in Alarmbereitschaft versetzt wird **Warnung**.
 
--   **Befehl zur Warnung** : Befehl eingeben **Botschaft** zu verwenden
+-   **Befehl zur Warnung** : Befehl eingeben **Nachricht** zu verwenden
     wenn eine Bestellung in Alarmbereitschaft geht **Warnung**.
 
 -   **Fügen Sie jeder Gefahr eine Nachricht hinzu** : Fügen Sie eine Nachricht in die
-    Message Center, wenn eine Bestellung in Alarmbereitschaft versetzt wird **Achtung**.
+    Message Center, wenn eine Bestellung in Alarmbereitschaft versetzt wird **Gefahr**.
 
--   **Befehl zur Gefahr** : Befehl eingeben **Botschaft** zu verwenden, wenn
-    Eine Bestellung wird in Alarmbereitschaft versetzt **Achtung**.
+-   **Befehl zur Gefahr** : Befehl eingeben **Nachricht** zu verwenden, wenn
+    Eine Bestellung wird in Alarmbereitschaft versetzt **Gefahr**.
 
-Protokoll 
+Log 
 ---
 
 -   **Log Engine** : Ermöglicht das Ändern der Protokoll-Engine für, z
@@ -661,7 +661,7 @@ Nachfolgend finden Sie eine Tabelle zur Feinverwaltung
 logarithmische Ebene der wesentlichen Elemente von Jeedom sowie die von
 plugins.
 
-Ausrüstung 
+Einrichtungen 
 ===========
 
 -   **Anzahl der Fehler vor Deaktivierung des Geräts** : Nombre
@@ -698,7 +698,7 @@ Jeedom usw.
 
 Einzahlung verwendet, um das Senden von Plugins durch Dateien zu aktivieren.
 
-### GitHub 
+### Github 
 
 Kaution verwendet, um Jeedom mit Github zu verbinden.
 
@@ -714,7 +714,7 @@ Kaution verwendet, um Jeedom mit Github zu verbinden.
 ### Markt 
 
 Eine Kaution, die verwendet wird, um Jeedom mit dem Markt zu verbinden, wird dringend empfohlen
-um dieses Repository zu verwenden. Aufmerksamkeit : Jede Supportanfrage kann sein
+um dieses Repository zu verwenden. VORSICHT : Jede Supportanfrage kann sein
 abgelehnt, wenn Sie eine andere Einzahlung als diese verwenden.
 
 -   **Adresse** : Marktadresse.

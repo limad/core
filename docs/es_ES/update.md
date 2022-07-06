@@ -19,7 +19,7 @@ sucedió, cuando lanzaste una actualización.
 Funciones en la parte superior de la página. 
 ---------------------------------
 
-En la parte superior de la tabla están los botones de control. Jeedom sí
+En la parte superior de la tabla están los botones de control. Jeedom se
 conectarse periódicamente con Market para ver si hay actualizaciones
 están disponibles (la fecha de la última verificación se indica en la parte superior
 izquierda de la mesa). Si desea realizar una verificación manual,
@@ -43,7 +43,7 @@ opciones :
     la salvaguardia.
 
 -   **Actualización para volver a aplicar** : Le permite volver a aplicar una apuesta
-    al día. (Nótese bien : No se pueden volver a aplicar todas las actualizaciones.)
+    al día. (NB : No se pueden volver a aplicar todas las actualizaciones.)
 
 > **Importante**
 >
@@ -52,7 +52,7 @@ opciones :
 > restaurar automáticamente la copia de seguridad realizada justo antes. Este principio
 > solo es válido para las actualizaciones de Jeedom y no para los complementos.
 
-> **Consejo**
+> **Punta**
 >
 > Puede forzar una actualización de Jeedom, incluso si no lo hace
 > no ofrezcas ninguna.
@@ -67,14 +67,14 @@ La tabla consta de dos pestañas :
 
 -   **Otro** : Contiene widgets, scripts, etc.
 
-Encontrará la siguiente información : \* **Estado** : OK o NOK.
+Encontrará la siguiente información : \* **Estatus** : OK o NOK.
 Le permite conocer el estado actual del complemento. \* **Apellido** : Tu ahi
 encuentre la fuente del elemento, el tipo de elemento y su nombre. \*
 **Versión** : Indica la versión específica del artículo. \* **Opciones** :
 Marque esta casilla si no desea que este artículo se actualice
 día durante la actualización general (Botón **Poner al día**).
 
-> **Consejo**
+> **Punta**
 >
 > Para cada tabla, la primera línea permite el siguiente filtro
 > El estado, nombre o versión de los elementos presentes.
@@ -84,7 +84,7 @@ cada elemento :
 
 -   **Restablecer** : Reasentamiento forzado.
 
--   **Borrar** : Le permite desinstalarlo.
+-   **Remove** : Le permite desinstalarlo.
 
 -   **Comprobar** : Consulte la fuente de actualizaciones para averiguar si
     hay una nueva actualización disponible.
@@ -92,7 +92,7 @@ cada elemento :
 -   **Poner al día** : Le permite actualizar el elemento (si tiene
     una actualización).
 
--   **Registro de cambios** : Acceda a la lista de cambios en el
+-   **Cambios** : Acceda a la lista de cambios en el
     actualización.
 
 > **Importante**
@@ -103,7 +103,7 @@ cada elemento :
 > cambios, ya que no necesariamente hay. (a menudo es una apuesta
 > de la traducción de la documentación)
 
-> **Consejo**
+> **Punta**
 >
 > Tenga en cuenta que &quot;núcleo : jeedom &quot;significa&quot; actualizar el software
 > Base Jeedom".
@@ -118,10 +118,10 @@ Una vez conectado, este es el comando para realizar :
 
 Los posibles parámetros son :
 
--   **`modo`** : `force`, para iniciar una actualización en modo forzado (no
+-   **`moda`** : `force`, para iniciar una actualización en modo forzado (no
     ignorar errores).
 
--   **`liberar`** : seguido del número de versión, para volver a aplicar el
+-   **`version`** : seguido del número de versión, para volver a aplicar el
     cambios desde esta versión.
 
 Aquí hay un ejemplo de sintaxis para hacer una actualización forzada en
@@ -132,4 +132,4 @@ volver a aplicar los cambios desde 1.188.0 :
 Atención, después de una actualización en la línea de comando, es necesario
 volver a aplicar los derechos en la carpeta Jeedom :
 
-    chown -R www-datos:www-data / var / www / html
+    chown -R www-data:www-data / var / www / html

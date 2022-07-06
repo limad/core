@@ -13,7 +13,7 @@ o desea cambiar la configuración de
 historización. La configuración predeterminada es adecuada para la mayoría
 cas.
 
-Archivar 
+Archivado 
 ---------
 
 El archivo de datos le permite a Jeedom reducir la cantidad de datos
@@ -32,7 +32,7 @@ Aquí 2 parámetros, uno para el tamaño del paquete y otro para conocer
 cuándo hacerlo (por defecto, estos son paquetes
 1 hora con datos que tienen más de 2 horas de antigüedad).
 
-> **Consejo**
+> **Punta**
 >
 > Si ha seguido bien, debe tener una alta precisión en el
 > Últimas 2 horas solamente. Sin embargo, cuando inicio sesión a las 5 p.m,
@@ -72,12 +72,12 @@ que configurarlos una vez).
 -   **Escalera** : muestra la curva como un
     escalera o pantalla continua.
 
--   **Variación** : muestra la diferencia en valor de
+-   **Cambio** : muestra la diferencia en valor de
     punto anterior.
 
 -   **Línea** : muestra el gráfico como líneas.
 
--   **Área** : muestra el gráfico como un área.
+-   **área** : muestra el gráfico como un área.
 
 -   **Columna**\* : muestra el gráfico como barras.
 
@@ -95,17 +95,17 @@ Una vez que se activan los datos, puede elegir :
 
 -   **Tipo** : El tipo de gráfico (área, línea o columna).
 
--   **Escalera** : ya que puedes poner varias curvas (datos)
+-   **Escala** : ya que puedes poner varias curvas (datos)
     en el mismo gráfico, es posible distinguir las escalas
     (derecha o izquierda).
 
 -   **Escalera** : muestra la curva como un
     escalera o pantalla continua
 
--   **Pila** : permite apilar los valores de las curvas (ver en
+-   **Montón** : permite apilar los valores de las curvas (ver en
     a continuación para el resultado).
 
--   **Variación** : muestra la diferencia en valor de
+-   **Cambio** : muestra la diferencia en valor de
     punto anterior.
 
 Opción en la página del historial 
@@ -125,7 +125,7 @@ vida \] \ [Higrometría \] \ [Temperatura \]*)
 También tiene acceso a una gestión de fórmulas de cálculo que le permite
 guárdelos para verlos más fácilmente
 
-> **Consejo**
+> **Punta**
 >
 > Simplemente haga clic en el nombre del objeto para desplegarlo;
 > aparecen los comandos históricos que se pueden graficar.
@@ -135,7 +135,7 @@ Historial de pedidos
 
 Frente a cada dato que se puede graficar, encontrará dos íconos :
 
--   **Bote de basura** : permite eliminar los datos grabados; entonces
+-   **Cubo de basura** : permite eliminar los datos grabados; entonces
     del clic, Jeedom pregunta si es necesario eliminar los datos antes de un
     cierta fecha o todos los datos.
 
@@ -160,17 +160,17 @@ chronologique.
 Para verlos, primero debe activar el seguimiento en la línea de tiempo de
 comandos o escenarios deseados :
 
--   **Guion** : ya sea directamente en la página del escenario o en el
+-   **Guión** : ya sea directamente en la página del escenario o en el
     página de resumen del escenario para hacerlo en "masa"
 
--   **Ordenado** : ya sea en la configuración avanzada del comando,
+-   **Orden** : ya sea en la configuración avanzada del comando,
     ya sea en la configuración de la historia para hacerlo en "masa"
 
-> **Consejo**
+> **Punta**
 >
 > Tiene acceso a las ventanas de resumen de los escenarios o del
 > configuración del historial directamente desde la página
-> línea de tiempo.
+> Línea de tiempo.
 
 Una vez que haya habilitado el seguimiento en la línea de tiempo del pedido y
 escenarios deseados, puede verlos aparecer en la línea de tiempo.

@@ -11,7 +11,7 @@ Abajo tienes una mesa :
 
 -   **Nombre del usuario** : ID de usuario
 
--   **Activo** : permite desactivar la cuenta
+-   **Bienes** : permite desactivar la cuenta
 
 -   **Solo local** : autorizar inicio de sesión de usuario
     solo si está en la red local de Jeedom
@@ -42,7 +42,7 @@ Abajo tienes una mesa :
 -   **Cambiar contraseña** : permite cambiar la contraseña de
     l'utilisateur
 
--   **Borrar** : eliminar usuario
+-   **Remove** : eliminar usuario
 
 -   **Regenerar clave API** : regenera la clave API del usuario
 
@@ -65,7 +65,7 @@ los diferentes equipos. El segundo presenta los escenarios.
 Obtiene una tabla que permite, para cada equipo y cada
 escenario, definir derechos de usuario :
 
--   **Ninguna** : el usuario no ve el equipo / escenario
+-   **No** : el usuario no ve el equipo / escenario
 
 -   **Visualización** : el usuario ve el equipo / escenario pero no ve
     no puedo actuar en consecuencia

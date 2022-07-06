@@ -8,7 +8,7 @@ sua imaginação.
 >
 > É possível ir diretamente a um design graças ao submenu.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Todas as ações são feitas clicando com o botão direito nesta página, atenção
 > fazê-lo bem no design. Durante a criação, é necessário, portanto,
@@ -17,9 +17,9 @@ sua imaginação.
 No menu (clique com o botão direito do mouse), encontramos o
 seguintes ações :
 
--   **Desenhos** : Exibe a lista de seus projetos e os acessa
+-   **Projetos** : Exibe a lista de seus projetos e os acessa
 
--   **Editando** : Mudar para o modo de edição
+-   **Edição** : Mudar para o modo de edição
 
 -   **Tela cheia** : Permite usar a página da web inteira, que
     irá remover o menu Jeedom da parte superior
@@ -52,9 +52,9 @@ seguintes ações :
 -   **Adicionar resumo** : Adiciona informações de um resumo de objeto ou
     Geral
 
--   **Exibição**
+-   **Visualizando**
 
-    -   **Nenhum** : Não exibe nenhuma grade
+    -   **Não** : Não exibe nenhuma grade
 
     -   **10x10** : Exibe uma grade 10 por 10
 
@@ -80,13 +80,13 @@ seguintes ações :
 
 -   **Cenografia** : Acesso à configuração do design
 
--   **Para salvaguardar** : permite salvar o design (atenção, existem
+-   **Salvar** : permite salvar o design (atenção, existem
     também backups automáticos durante determinadas ações)
 
-> **Importante**
+> **IMPORTANTE**
 >
 > A configuração dos elementos de design é feita clicando em
-> esses.
+> estes.
 
 Configuração do projeto 
 =======================
@@ -95,7 +95,7 @@ Encontrado aqui :
 
 -   **Geral**
 
-    -   **Sobrenome** : O nome do seu design
+    -   **Nome** : O nome do seu design
 
     -   **Fundo transparente** : Torna o plano de fundo transparente. Tenha cuidado se o
         caixa estiver marcada, a cor do plano de fundo não será usada
@@ -103,7 +103,7 @@ Encontrado aqui :
     -   **Cor de fundo** : cor de fundo do design (branco
         Por padrão)
 
-    -   **Codificado** : Código de acesso ao seu design (se vazio, nenhum código
+    -   **CÓDIGO** : Código de acesso ao seu design (se vazio, nenhum código
         não é perguntado)
 
     -   **ícone** : Um ícone para ele (aparece no menu
@@ -111,7 +111,7 @@ Encontrado aqui :
 
     -   **Imagem**
 
-        -   **Mandar** : Permite adicionar uma imagem de plano de fundo ao design
+        -   **Enviar** : Permite adicionar uma imagem de plano de fundo ao design
 
         -   **Excluir imagem** : Excluir imagem
 
@@ -123,11 +123,11 @@ Encontrado aqui :
 Configuração geral de elementos 
 ===================================
 
-> **Observação**
+> **NOTA**
 >
 > Dependendo do tipo de item, as opções podem mudar.
 
-> **Observação**
+> **NOTA**
 >
 > O item selecionado é destacado em vermelho (em vez de verde
 > por todos os outros).
@@ -145,12 +145,12 @@ Configuração de exibição
 
 -   **Altura (px)** :
 
-Deletar 
+Remover 
 ---------
 
 Remover item
 
-Duplicado 
+Duplicar 
 ---------
 
 Permite duplicar o elemento
@@ -193,7 +193,7 @@ Permite escolher os comandos para grapher
 Texto / html 
 =========
 
--   **Ícone** : Ícone a ser exibido na frente
+-   **ícone** : Ícone a ser exibido na frente
 
 -   **Cor de fundo** : permite alterar a cor do plano de fundo ou
     coloque transparente, não esqueça de passar "Default" em NO
@@ -214,11 +214,11 @@ Texto / html
 -   **Alinhamento de texto** : permite escolher o alinhamento do
     texto (esquerda / direita / centralizado))
 
--   **Audacioso** : texto em negrito
+-   **Gordura** : texto em negrito
 
 -   **Texto** : Texto em código HTML que estará no elemento
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Se você colocar código HTML (especialmente Javascript), tenha cuidado
 > para verificá-lo antes, porque você pode, se houver um erro nele
@@ -239,7 +239,7 @@ Link
 Configurações de exibição 
 ---------------------
 
--   **Sobrenome** : Nome do link (texto exibido)
+-   **Nome** : Nome do link (texto exibido)
 
 -   **Link** : Link para o design ou exibição em questão
 
@@ -261,7 +261,7 @@ Configurações de exibição
 -   **Alinhamento de texto** : permite escolher o alinhamento do
     texto (esquerda / direita / centralizado))
 
--   **Audacioso** : texto em negrito
+-   **Gordura** : texto em negrito
 
 Equipamento 
 ==========
@@ -277,7 +277,7 @@ Configuração avançada
 Exibe a janela de configuração avançada do equipamento (consulte
 documentação de resumo da automação residencial ("display"))
 
-Encomendado 
+Ordem 
 ========
 
 Configurações de exibição 
@@ -297,7 +297,7 @@ Imagem / Câmera
 Configurações de exibição 
 ---------------------
 
--   **Mostrar** : define o que você deseja exibir, imagem estática ou
+-   **Display** : define o que você deseja exibir, imagem estática ou
     transmitir a partir de uma câmera
 
 -   **Imagem** : permite enviar a imagem em questão (se você tiver
@@ -305,7 +305,7 @@ Configurações de exibição
 
 -   **Câmera** : Câmera a ser exibida (se você escolher a câmera)
 
-Área 
+Area 
 ====
 
 Configurações de exibição 
@@ -370,10 +370,10 @@ Resumo
 -   **Tamanho da fonte (ex 50%, você deve colocar o sinal de%)** :
     Permite alterar o tamanho da fonte
 
--   **Audacioso** : texto em negrito
+-   **Gordura** : texto em negrito
 
 
-Perguntas frequentes 
+Faq 
 ======
 
 >**Não consigo mais editar meu design**

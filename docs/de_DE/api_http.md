@@ -3,7 +3,7 @@ vollständig, damit Sie Jeedom von jedem Objekt aus steuern können
 connecté.
 
 Es stehen zwei APIs zur Verfügung : ein entwicklerorientierter Pilot
-JSON-RPC 2.0 und eine andere über URL und HTTP-Anfrage.
+JSON RPC 2.0 und eine andere über URL und HTTP-Anfrage.
 
 Diese API wird sehr einfach von einfachen HTTP-Anfragen über verwendet
 URL.
@@ -27,18 +27,18 @@ Szenario
 Hier ist die URL =
 [http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = Szenario & id = \#ID\#&action=\#ACTION\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = Szenario & ID=#ID#&action=#ACTION#)
 
--   **Ich würde** : entspricht Ihrer Szenario-ID. Die ID befindet sich auf der
+-   **Identifikation** : entspricht Ihrer Szenario-ID. Die ID befindet sich auf der
     Seite des betreffenden Szenarios, unter &quot;Tools&quot; → &quot;Szenarien&quot;, sobald die
     ausgewähltes Szenario neben dem Namen der Registerkarte &quot;Allgemein&quot;. andere
     Weg, um es zu finden : Klicken Sie unter &quot;Extras&quot; → &quot;Szenarien&quot; auf
     "Übersicht".
 
--   **Lager** : entspricht der Aktion, die Sie anwenden möchten. die
+-   **Aktion** : entspricht der Aktion, die Sie anwenden möchten. die
     verfügbare Bestellungen sind : "start "," stop "," disable "und
     "aktivieren "um zu starten, zu stoppen, zu deaktivieren oder
     Aktivieren Sie das Szenario.
 
--   **Stichworte** \ [Optional \] : Wenn die Aktion &quot;Start&quot; ist, können Sie überspringen
+-   **Tags** \ [Optional \] : Wenn die Aktion &quot;Start&quot; ist, können Sie überspringen
     Tags zum Szenario (siehe Dokumentation zu Szenarien) unter
     Die Formular-Tags = toto% 3D1% 20tata% 3D2 (beachten Sie, dass% 20 a entspricht
     Raum und% 3D zu = )
@@ -49,7 +49,7 @@ Info / Aktionsbefehl
 Hier ist die URL =
 [http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = cmd & id = \#ID\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = cmd & id=#ID#)
 
--   **Ich würde** : entspricht der ID dessen, was Sie fahren möchten oder von welchem
+-   **Identifikation** : entspricht der ID dessen, was Sie fahren möchten oder von welchem
     Sie möchten Informationen erhalten
 
 Der einfachste Weg, um diese URL zu erhalten, ist die Seite Extras →
@@ -76,12 +76,12 @@ Interaktion
 Hier ist die URL =
 [http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = interagiere & query = \#QUERY\#](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = interagieren & abfragen=#QUERY#)
 
--   **Anfrage** : Frage an Jeedom zu stellen
+-   **Abfrage** : Frage an Jeedom zu stellen
 
 -   **utf8** \ [Optional \] : teilt Jeedom mit, ob die Abfrage codiert werden soll
     in utf8 bevor Sie versuchen zu antworten
 
--   **leereAntwort** \ [Optional \] : 0 für Jeedom, um zu antworten, auch wenn es
+-   **leer Antworten** \ [Optional \] : 0 für Jeedom, um zu antworten, auch wenn es
     habe nicht verstanden, 1 sonst
 
 -   **Profil** \ [Optional \] : Benutzername der Person
@@ -98,7 +98,7 @@ Hier ist die URL =
 
 -   **Kategorie** : Nachrichtenkategorie, die dem Nachrichtenzentrum hinzugefügt werden soll
 
--   **Botschaft** : Nachricht in Frage, denken Sie sorgfältig über die Codierung
+-   **Nachricht** : Nachricht in Frage, denken Sie sorgfältig über die Codierung
     die Nachricht (Leerzeichen wird% 20, =% 3D…). Sie können eine verwenden
     outil, [hier](https://meyerweb.com/eric/tools/dencoder/)
 
@@ -119,7 +119,7 @@ Hier ist die URL =
 -   **Objekt\_id** : ID des Objekts, von dem wir abrufen möchten
     équipements
 
-Bestellt 
+Bestellen 
 ========
 
 Hier ist die URL =
@@ -141,7 +141,7 @@ Variable
 ========
 
 Hier ist die URL =
-[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = variable & name = \#NAME\#&value=](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = Variable & Name=#NAME#&value=)*WERT*
+[http://\#IP\_JEEDOM\#/core/api/jeeApi.php?apikey=\#APIKEY\#& type = variable & name = \#NAME\#&value=](http://#IP_JEEDOM#/core/api/jeeApi.php?apikey=#APIKEY#& type = Variable & Name=#NAME#&value=)*Wert*
 
 -   **Name** : Name der Variablen, deren Wert gewünscht wird (Lesen von
     der Wert)

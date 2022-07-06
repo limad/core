@@ -55,12 +55,12 @@ his name and type.
 
 On each zone you have the following general options :
 
--   **Lenght** : defines the width of the area (in mode
+-   **Width** : defines the width of the area (in mode
     desktop only)
 
 -   **Edit** : allows to change the name of the zone
 
--   **To delete** : allows to delete the zone
+-   **Remove** : allows to delete the zone
 
 Widget type area 
 -------------------
@@ -104,14 +104,14 @@ Once done you have access to the following options :
 
 -   **Color** : color of the curve
 
--   **Kind** : curve type
+-   **Type** : curve type
 
 -   **Group** : allows grouping of data (maximum type
     per day)
 
 -   **Ladder** : scale (right or left) of the curve
 
--   **Stairs** : displays the stepped curve
+-   **Staircase** : displays the stepped curve
 
 -   **Stack** : stack the curve with the other type curves
     empiler
@@ -133,7 +133,7 @@ Here you have the buttons :
 
 -   **Add line** : add a row to the table
 
-> **Note**
+> **NOTE**
 >
 > It is possible to re-organize the lines by dragging and dropping but not
 > the columns
@@ -143,7 +143,7 @@ information in the boxes :
 
 -   **text** : just text to write
 
--   **html** : any html code (javascript possible but
+-   **l'opération à mener** : any html code (javascript possible but
     strongly discouraged)
 
 -   **command widget** : the button on the right allows you to choose

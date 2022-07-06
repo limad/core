@@ -23,9 +23,9 @@ apenas funciona para gerenciá-los melhor :
     esta página.
 
 -   **Visão global** : Permite que você tenha uma visão geral de todos
-    os cenários. Você pode alterar os valores **de ativos**,
-    **visível**, **Multi lançamento**, **Sincronicamente**, **Registro** et
-    **Linha do tempo** (esses parâmetros são descritos no capítulo a seguir).
+    os cenários. Você pode alterar os valores **Ativos**,
+    **Visivél**, **Multi lançamento**, **Sincronicamente**, **Log** et
+    **Cronograma** (esses parâmetros são descritos no capítulo a seguir).
     Você também pode acessar os logs para cada cenário e
     comece individualmente.
 
@@ -37,14 +37,14 @@ Meus scripts
 
 Nesta seção, você encontrará o **lista de cenários** que você
 criaram. Eles são classificados de acordo com **grupos** que você tem
-definido para cada um deles. Cada cenário é exibido com seus **nome**
+definido para cada um deles. Cada cenário é exibido com seus **Nome**
 e o dele **Objeto pai**. O **cenários esmaecidos** são aqueles que são
 desabilitado.
 
 Como em muitas páginas Jeedom, coloque o mouse à esquerda de
 a tela exibe um menu de acesso rápido (de
 seu perfil, você sempre pode deixá-lo visível). Você pode
-então **olhe para** seu cenário, mas também em **adicionar** um por isso
+ENTÃO **pesquisar** seu cenário, mas também em **Adicionar** um por isso
 menu.
 
 Editando um Cenário
@@ -55,11 +55,11 @@ cenário e você será redirecionado para sua página de configurações gerais.
 No topo, existem algumas funções úteis para gerenciar nosso cenário
 :
 
--   **EU IRIA** : Ao lado da palavra **Geral**, este é o identificador de cenário.
+-   **ID** : Ao lado da palavra **Geral**, este é o identificador de cenário.
 
--   **status** : Estado atual do seu cenário.
+-   **Estado** : Estado atual do seu cenário.
 
--   **variáveis** : Ver variáveis.
+-   **Variáveis** : Ver variáveis.
 
 -   **Expressão** : Exibe o testador de expressão.
 
@@ -67,18 +67,18 @@ No topo, existem algumas funções úteis para gerenciar nosso cenário
     sem salvar de antemão !). Os gatilhos não são, portanto,
     não levado em consideração.
 
--   **Deletar** : Excluir cenário.
+-   **Remover** : Excluir cenário.
 
--   **Para salvaguardar** : Salve as alterações feitas.
+-   **Salvar** : Salve as alterações feitas.
 
 -   **Modelo** : Permite acessar e aplicar modelos
     para o script do mercado. (explicado na parte inferior da página).
 
--   **Exportar** : Obter uma versão em texto do script.
+-   **Exportação** : Obter uma versão em texto do script.
 
--   **Registro** : Exibe os logs do cenário.
+-   **Log** : Exibe os logs do cenário.
 
--   **Duplicado** : Copie o cenário para criar um
+-   **Duplicar** : Copie o cenário para criar um
     novo com outro nome.
 
 -   **Conexões** : Permite visualizar o gráfico dos elementos vinculados
@@ -94,12 +94,12 @@ nosso cenário :
 
 -   **Display Name** : O nome usado para sua exibição.
 
--   **Banda** : Permite organizar os cenários, classificando-os em
+-   **Grupo** : Permite organizar os cenários, classificando-os em
     grupos.
 
--   **De ativos** : Ativar o cenário.
+-   **Ativos** : Ativar o cenário.
 
--   **Visível** : Usado para tornar o cenário visível.
+-   **Visivél** : Usado para tornar o cenário visível.
 
 -   **Objeto pai** : Atribuição a um objeto pai.
 
@@ -113,7 +113,7 @@ nosso cenário :
 >O multi-lançamento funciona a partir do segundo, ou seja, se você tiver 2 lançamentos no mesmo segundo sem a caixa marcada, ainda haverá 2 lançamentos do cenário (quando não deve). Da mesma forma, durante vários lançamentos no mesmo segundo, é possível que alguns lançamentos percam as tags. Conclusão: você DEVE ABSOLUTAMENTE evitar vários lançamentos nos mesmos segundos.
 -   **Sincronicamente** : Inicie o cenário no segmento atual em vez de um segmento dedicado. Aumenta a velocidade de lançamento do cenário, mas pode tornar o sistema instável.
 
--   **Registro** : O tipo de log desejado para o cenário.
+-   **Log** : O tipo de log desejado para o cenário.
 
 -   **Siga na Timeline** : Acompanha o cenário
     na linha do tempo.
@@ -135,7 +135,7 @@ Guia Cenário
 
 É aqui que você criará seu cenário. Nós temos que começar
 por **Adicionar bloco**, com o botão à direita. Uma vez um bloco
-criado, você pode adicionar outro **quadra** ou um **estoque**.
+criado, você pode adicionar outro **Bloco** ou um **Ação**.
 
 > **Dica**
 >
@@ -148,27 +148,27 @@ Aqui estão os diferentes tipos de blocos disponíveis :
 -   **If / Then / Ou** : Permite que você execute ações
     sob condições).
 
--   **Ações** : Permite iniciar ações simples sem
+-   **Ação** : Permite iniciar ações simples sem
     sem condições.
 
--   **Ciclo** : Permite executar ações repetidamente
+-   **Laço** : Permite executar ações repetidamente
     1 até um número definido (ou mesmo o valor de um sensor ou um
     número aleatório…).
 
--   **Dentro** : Inicia uma ação em X minuto (s) (0 é um
+-   **Dans** : Inicia uma ação em X minuto (s) (0 é um
     valor possível). A peculiaridade é que as ações são lançadas
     em segundo plano, para que eles não bloqueiem o restante do cenário.
     Portanto, é um bloco sem bloqueio.
 
--   **TEM** : Permite que o Jeedom inicie as ações do bloco em um momento
+-   **à** : Permite que o Jeedom inicie as ações do bloco em um momento
     tempo determinado (na forma hhmm). Este bloco é sem bloqueio. Ex :
     0030 para 00:30 ou 0146 para 1h46 e 1050 para 10h50.
 
--   **Codificado** : Permite escrever diretamente no código PHP (solicitação
+-   **CÓDIGO** : Permite escrever diretamente no código PHP (solicitação
     algum conhecimento e pode ser arriscado, mas permite não ter
     sem restrições).
 
--   **Comente** : Permite adicionar comentários ao seu cenário.
+-   **COMMENTAIRE** : Permite adicionar comentários ao seu cenário.
 
 Cada um desses blocos tem suas opções para lidar melhor com eles :
 
@@ -182,7 +182,7 @@ Cada um desses blocos tem suas opções para lidar melhor com eles :
 
 #### Se / Então / Caso contrário, bloqueia, Loop, In e A
 
-> **Observação**
+> **NOTA**
 >
 > Nos blocos Si / Então / Caso contrário, setas circulares localizadas
 > à esquerda do campo de condição permitem ativar ou não o
@@ -199,7 +199,7 @@ selecione um item para testar :
     Jeedom abre uma janela para perguntar qual teste você deseja
     executar nele. Se você escolher **Não ponha nada**,
     Jeedom adicionará o pedido sem comparação. Você também pode
-    Escolher **e** Onde **Onde** antes da **Próximo** para encadear testes
+    Escolher **e** onde **onde** Na frente **Em seguida** para encadear testes
     em equipamentos diferentes.
 
 -   **Pesquisa cenário** : Permite procurar um cenário
@@ -215,8 +215,8 @@ selecione um item para testar :
 > Tags.
 
 Depois de concluída a condição, você deve usar o botão
-"adicionar ", à esquerda, para adicionar um novo **quadra** ou um
-**estoque** no bloco atual.
+"adicionar ", à esquerda, para adicionar um novo **Bloco** ou um
+**Ação** no bloco atual.
 
 > **Dica**
 >
@@ -224,26 +224,26 @@ Depois de concluída a condição, você deve usar o botão
 
 #### Código de bloco
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Observe que as tags não estão disponíveis em um bloco de código.
 
 Controles (sensores e atuadores):
 -   cmd::byString ($ string); : Retorna o objeto de comando correspondente.
-  -   $string : Link para o pedido desejado : #[objet][equipamento][commande]# (ex : #[Appartement][Alarme][De ativos]#)
+  -   $string : Link para o pedido desejado : #[objet][Equipamento][commande]# (ex : #[Appartement][Alarme][Ativos]#)
 -   cmd::byId ($ id); : Retorna o objeto de comando correspondente.
   -   $id : ID do pedido
 -   $cmd->execCmd($options = null); : Execute o comando e retorne o resultado.
   -   $options : Opções para execução de comandos (podem ser específicas do plug-in), opção básica (subtipo de comando) :
-    -   mensagem : $option = array('title' => 'titre du mensagem , 'message' => 'Mon message');
+    -   Mensagem : $option = array('title' => 'titre du Mensagem , 'message' => 'Mon message');
     -   cor : $option = array('color' => 'couleur en hexadécimal');
     -   controle deslizante : $option = array('slider' => 'valeur voulue de 0 à 100');
 
-Registro :
+Log :
 -   log::add ('nome do arquivo', 'nível', 'mensagem');
-  -   nome do arquivo : Nome do arquivo de log.
+  -   filename : Nome do arquivo de log.
   -   nível : [depuração], [informações], [erro], [evento].
-  -   mensagem : Mensagem para escrever nos logs.
+  -   Mensagem : Mensagem para escrever nos logs.
 
 Cenas :
 -   $scenario->getName(); : Retorna o nome do cenário atual.
@@ -273,7 +273,7 @@ As ações adicionadas aos blocos têm várias opções. Em ordem :
 -   Uma caixa **ativado** para que esse comando seja levado em consideração
     conta no cenário.
 
--   UMA **seta dupla vertical** para mover a ação. Apenas
+-   Um **seta dupla vertical** para mover a ação. Apenas
     arraste e solte a partir daí.
 
 -   Um botão para excluir a ação.
@@ -336,20 +336,20 @@ comparações em condições :
 
 -   != : Diferente de, não é igual a,
 
--   fósforos : contém (ex :
+-   correspondências : contém (ex :
     [Banheiro] [Hidrometria] [condição] corresponde a "/ molhado /" ),
 
 -   não (... corresponde) : não contém (ex :
     not ([Banheiro] [Hidrometria] [condição] corresponde a "/ molhado /")),
 
 Você pode combinar qualquer comparação com operadores
-próximo :
+seguindo :
 
 -   && / ET / e / AND / e : et,
 
 -   \|| / OU / ou / OU / ou : ou,
 
--   \|^/XOR/xor : ou exclusivo.
+-   \|^ / XOR / xor : ou exclusivo.
 
 Tags
 --------
@@ -412,7 +412,7 @@ desencadeado por uma interação :
 -   #profil# : perfil do usuário que iniciou o cenário
     (pode estar vazio).
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Quando um cenário é acionado por uma interação, é
 > necessariamente executado no modo rápido.
@@ -549,7 +549,7 @@ Várias funções estão disponíveis para o equipamento :
 Os períodos e intervalos dessas funções também podem
 use com [expressões
 PHP](http://php.net/manual/fr/datetime.formats.relative.php) comme par
-exemplo :
+Exemplo :
 
 -   Agora : maintenant
 
@@ -562,7 +562,7 @@ exemplo :
 
 -   Ontem meio-dia : ontem ao meio dia
 
--   Etc..
+-   Etc.
 
 Aqui estão exemplos práticos para entender os valores retornados por
 essas diferentes funções :
@@ -670,7 +670,7 @@ Além dos comandos de automação residencial, você tem acesso às seguintes a�
 
 -   **Pausa** (sleep) : Pausa de x segundo (s).
 
--   **variável** (variable) : Criação / modificação de uma variável ou valor
+-   **Variável** (variable) : Criação / modificação de uma variável ou valor
     de uma variável.
 
 -   **Remover variável** (delete_variable) : Permite excluir uma variável
@@ -683,7 +683,7 @@ Além dos comandos de automação residencial, você tem acesso às seguintes a�
 
 -   **Pare** (stop) : Pára o script.
 
--   **Espero** (wait) : Aguarde até que a condição seja válida
+-   **Esperar** (wait) : Aguarde até que a condição seja válida
     (máximo de 2h), o tempo limite é em segundos (s).
 
 -   **Vai o projeto** (gotodesign) : Mude o design exibido em todos
@@ -714,11 +714,11 @@ Além dos comandos de automação residencial, você tem acesso às seguintes a�
 
 -   **ícone** (icon) : Permite alterar o ícone de representação do cenário.
 
--   **Alerta** (alert) : Permite exibir uma pequena mensagem de alerta em todos
+-   **Aviso** (alert) : Permite exibir uma pequena mensagem de alerta em todos
     navegadores que têm uma página Jeedom aberta. Você pode
     mais, escolha 4 níveis de alerta.
 
--   **Aparecer** (popup) : Permite exibir um pop-up que deve ser absolutamente
+-   **Pop-up** (popup) : Permite exibir um pop-up que deve ser absolutamente
     validado em todos os navegadores que possuem uma página jeedom aberta.
 
 -   **Relatório** (report) : Exportar uma visualização em formato (PDF, PNG, JPEG
@@ -765,9 +765,9 @@ Ao clicar em um modelo, você obtém :
 
 No topo você pode :
 
--   **Compartilhar** : Compartilhe o modelo no mercado,
+-   **Compartilhe** : Compartilhe o modelo no mercado,
 
--   **Deletar** : Excluir modelo,
+-   **Remover** : Excluir modelo,
 
 -   **Baixar** : recuperar o modelo como um arquivo JSON
     para enviá-lo de volta para outro Jeedom, por exemplo.

@@ -14,9 +14,9 @@ Profil :
 
 -   **Profil**
 
-    -   **Anmeldung** : Ihr Login auf dem Markt kann nicht geändert werden
+    -   **Login** : Ihr Login auf dem Markt kann nicht geändert werden
 
-    -   **Nachname** : Ihr Name (diese Informationen sind nur nützlich für
+    -   **Name** : Ihr Name (diese Informationen sind nur nützlich für
         E-Mails machen mehr Spaß)
 
     -   **Vorname** : Ihr Vorname (diese Informationen sind nur nützlich
@@ -24,7 +24,7 @@ Profil :
 
     -   **Benutzername im Forum** : Dein Benutzername im Forum
 
-    -   **Email** : Deine Mail
+    -   **E-Mail** : Deine Mail
 
     -   **Sprache** : Deine Sprache
 
@@ -48,7 +48,7 @@ Für die Profis :
 -   **Supportanfragen Empfänger** : wissen, wer die erhalten wird
     Support-E-Mails (Endkunde, Installer oder beides)
 
-    -   **AGB**
+    -   **TOS**
 
 -   **Benutzer** : Allgemeine Nutzungsbedingungen (beachten Sie
     Lies sie gut, weil sie dich engagieren)
@@ -56,12 +56,12 @@ Für die Profis :
 -   **Entwickler** : Allgemeine Nutzungsbedingungen für
     Entwickler
 
-    -   **Eintrittskarten**
+    -   **Tickets**
 
 -   **Anzahl der Tickets** : Anzahl der Tickets für den aktuellen Monat
     sowie Ihr Limit
 
--   **Die Unterstützung** : Schaltfläche zum Senden einer Supportanfrage (zugänglich
+-   **Unterstützung** : Schaltfläche zum Senden einer Supportanfrage (zugänglich
     auch durch das Ausrufezeichen oben rechts auf dem Markt oder
     auf deinem Jeedom)
 
@@ -73,14 +73,14 @@ Für die Profis :
     -   **Zusammenfassung** Hier finden Sie eine Zusammenfassung Ihrer verschiedenen
         Rechte und Dienstleistungen
 
-> **Tipp**
+> **Spitze**
 >
 > Vergiss nicht zu sparen
 
 Meine Jeedoms 
 ===========
 
--   **Eben**
+-   **Ebene**
 
     -   **Jeedom** : Ihr Service Pack
 
@@ -94,7 +94,7 @@ Meine Jeedoms
         of Jeedom-Installationen, die derzeit ebenfalls mit Ihrem Konto verknüpft sind
         dass die Grenze erlaubt
 
-> **Tipp**
+> **Spitze**
 >
 > Manchmal werden Sie vom Markt zum Zurücksetzen aufgefordert
 > Ihre Installationsschlüssel, es ist normal, folgen Sie einfach was es ist
@@ -102,17 +102,17 @@ Meine Jeedoms
 
 -   **Meine Jeedoms** : Hier sind alle deine Jeedoms aufgelistet
 
-    -   **Nachname** : den Namen, den du deinem Jeedom geben willst (
+    -   **Name** : den Namen, den du deinem Jeedom geben willst (
         im Namen der Sicherung gefunden, wenn Sie das Abonnement von haben
         Cloud-Backup)
 
-    -   **Bundesland** : ermöglicht es, den Zustand der fraglichen Jeedom zu sehen
+    -   **Zustand** : ermöglicht es, den Zustand der fraglichen Jeedom zu sehen
 
     -   **Lokale / Remote-IP** : IP oder Adresse dieses Jeedom,
         Konfigurieren Sie in Jeedom, wenn Sie nichts setzen, wird es dort sein
         letzte bekannte IP
 
-    -   **DNS** : Mit dieser Option können Sie den Namen Ihres DNS anpassen
+    -   **Dns** : Mit dieser Option können Sie den Namen Ihres DNS anpassen
 
     -   **URLs** : Listen Sie die verschiedenen Jeedom-Zugriffs-URLs auf.
 
@@ -130,9 +130,9 @@ Meine Jeedoms
 
     -   **Hardware** : Jeedom Hardware-Name
 
-    -   **Ausführung** : die Version von Jeedom installiert
+    -   **Version** : die Version von Jeedom installiert
 
-> **Tipp**
+> **Spitze**
 >
 > Vergiss nicht zu sparen
 

@@ -204,7 +204,7 @@ Returns all equipment belonging to the specified type (plugin)
 
 Settings:
 
--   thong type
+-   string type
 
 eqLogic::byObjectId
 -------------------
@@ -355,9 +355,9 @@ Settings:
 
 -   string eqType
 
--   thong order
+-   string order
 
--   thong type
+-   string type
 
 -   string subType
 
@@ -367,7 +367,7 @@ Settings:
 
 -   string unit = ''
 
--   array config
+-   array configuration
 
 -   array template
 
@@ -375,11 +375,11 @@ Settings:
 
 -   array html
 
--   intvalue=null
+-   int value = null
 
 -   int isVisible = 1
 
--   array-alert
+-   array alert
 
 cmd::event
 -------------------
@@ -497,7 +497,7 @@ Get the value of a variable stored in the datastore
 
 Settings:
 
--   thong type : type of stored value (for scenarios
+-   string type : type of stored value (for scenarios
     it's scenario)
 
 -   id linkId : -1 for global (value for default scenarios,
@@ -512,7 +512,7 @@ Stores the value of a variable in the datastore
 
 Settings:
 
--   thong type : type of stored value (for scenarios
+-   string type : type of stored value (for scenarios
     it's scenario)
 
 -   id linkId : -1 for global (value for default scenarios,

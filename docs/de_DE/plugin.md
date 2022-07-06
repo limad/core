@@ -9,7 +9,7 @@ Plug-In. Sobald wir darauf klicken, finden wir die Liste von
 Plugins in alphabetischer Reihenfolge und ein Link zum Markt. Plugins
 deaktiviert sind ausgegraut.
 
-> **Tipp**
+> **Spitze**
 >
 > Setzen Sie die Maus wie an vielen Stellen auf Jeedom ganz links
 > ruft ein Schnellzugriffsmenü auf (Sie können
@@ -37,16 +37,16 @@ Oben rechts einige Schaltflächen :
 
 -   **Details** : ermöglicht es, die Plugin-Seite auf dem Markt zu finden
 
--   **Löschen** : Entfernen Sie das Plugin aus Ihrem Jeedom. Sei vorsichtig, das
+-   **Entfernen** : Entfernen Sie das Plugin aus Ihrem Jeedom. Sei vorsichtig, das
     entfernt auch dauerhaft alle Geräte von diesem Plugin
 
 Unten links befindet sich ein Statusbereich mit :
 
 -   **Status** : Hier können Sie den Status des Plugins anzeigen (aktiv / inaktiv)
 
--   **Ausführung** : die Version des installierten Plugins
+-   **Version** : die Version des installierten Plugins
 
--   **Aktie** : Ermöglicht das Aktivieren oder Deaktivieren des Plugins
+-   **Aktion** : Ermöglicht das Aktivieren oder Deaktivieren des Plugins
 
 -   **Jeedom Version** : Minimale Jeedom-Version erforderlich
     für den Betrieb des Plugins
@@ -70,11 +70,11 @@ Weitere werden unter den oben genannten Bereichen angezeigt.
 
 Nebengebäude :
 
--   **Nachname** : in der Regel wird lokal sein
+-   **Name** : in der Regel wird lokal sein
 
 -   **Status** : wird Ihnen sagen, ob die Abhängigkeiten OK oder KO sind
 
--   **Einrichtung** : wird installiert oder neu installiert
+-   **Installation** : wird installiert oder neu installiert
     Abhängigkeiten (wenn Sie es nicht manuell tun und sie sind
     KO, Jeedom wird nach einer Weile auf sich selbst aufpassen)
 
@@ -83,11 +83,11 @@ Nebengebäude :
 
 Dämon :
 
--   **Nachname** : in der Regel wird lokal sein
+-   **Name** : in der Regel wird lokal sein
 
 -   **Status** : wird dir sagen, ob der Dämon in Ordnung oder KO ist
 
--   **Aufbau** : wird in Ordnung sein, wenn alle Kriterien für den Dämon
+-   **Konfiguration** : wird in Ordnung sein, wenn alle Kriterien für den Dämon
     Wendungen sind erfüllt oder geben Anlass zur Blockierung
 
 -   **(Neustarten** : Ermöglicht das Starten oder Neustarten des Dämons
@@ -102,7 +102,7 @@ Dämon :
 
 -   **Letzter Start** : Datum des letzten Starts des Dämons
 
-> **Tipp**
+> **Spitze**
 >
 > Einige Plugins haben einen Konfigurationsteil. Wenn ja, es
 > wird unter den oben beschriebenen Abhängigkeiten und Dämonzonen angezeigt.
@@ -112,7 +112,7 @@ Dämon :
 Unten befindet sich ein Funktionsbereich. Dies ermöglicht es Ihnen zu sehen
 wenn das Plugin eine der Jeedom-Kernfunktionen verwendet, wie z :
 
--   **Interagieren** : spezifische Wechselwirkungen
+-   **Interact** : spezifische Wechselwirkungen
 
 -   **Cron** : ein Cron pro Minute
 
@@ -122,11 +122,11 @@ wenn das Plugin eine der Jeedom-Kernfunktionen verwendet, wie z :
 
 -   **Cron30** : alle 30 Minuten ein Cron
 
--   **CronStündlich** : eine Cron pro Stunde
+-   **CronHourly** : eine Cron pro Stunde
 
 -   **CronDaily** : ein täglicher cron
 
-> **Tipp**
+> **Spitze**
 >
 > Wenn das Plugin eine dieser Funktionen verwendet, können Sie dies speziell tun
 > Verbieten Sie ihm dies, indem Sie das Kontrollkästchen &quot;Aktivieren&quot; deaktivieren
@@ -143,7 +143,7 @@ Um ein neues Plugin zu installieren, klicken Sie einfach auf die Schaltfläche
 "Markt "(und dass Jeedom mit dem Internet verbunden ist). Nach kurzer Zeit von
 Beim Laden erhalten Sie die Seite.
 
-> **Tipp**
+> **Spitze**
 >
 > Sie müssen Ihre Marktkontoinformationen in eingegeben haben
 > Administration (Konfiguration → Updates → Registerkarte Markt), um
@@ -163,13 +163,13 @@ Oben im Fenster befinden sich Filter :
 -   **Dropdown-Menü Kategorie** : wird nur angezeigt
     bestimmte Plugin-Kategorien
 
--   **Forschen** : ermöglicht es Ihnen, nach einem Plugin zu suchen (im Namen oder
+-   **Suche** : ermöglicht es Ihnen, nach einem Plugin zu suchen (im Namen oder
     Beschreibung davon)
 
 -   **Benutzername** : Zeigt den Benutzernamen an, der für das verwendet wird
     Verbindung zum Markt und den Status der Verbindung
 
-> **Tipp**
+> **Spitze**
 >
 > Das kleine Kreuz setzt den betreffenden Filter zurück
 
@@ -191,7 +191,7 @@ Informationen über das Plugin, einschließlich :
     -   **Installieren Sie pro** : ermöglicht die Installation der Pro-Version (sehr
         wenig benutzt)
 
-    -   **Löschen** : Wenn das Plugin derzeit installiert ist, ist dies
+    -   **Entfernen** : Wenn das Plugin derzeit installiert ist, ist dies
         Schaltfläche, um es zu löschen
 
 Nachfolgend finden Sie die Beschreibung des Plugins, die Kompatibilität
@@ -217,7 +217,7 @@ und die verschiedenen Informationen zum Datum der letzten stabilen Version.
 > zehn Minuten (Zahlungsvalidierungszeit), dann zurück
 > auf dem Plugin Sheet, um es normal zu installieren.
 
-> **Tipp**
+> **Spitze**
 >
 > Sie können Jeedom auch ein Plugin aus einer Datei oder hinzufügen
 > aus einem Github-Repository. Dies erfordert in der Konfiguration von

@@ -104,7 +104,7 @@ diferente porque não é possível salvar as inclusões.
 Eles estão diretamente incluídos no controlador, então você precisa
 mantenha o mesmo controlador para encontrar seus módulos Zwave.
 
-> **Observação**
+> **NOTA**
 >
 > O sistema no qual o Jeedom está instalado não é copiado. Se
 > você modificou os parâmetros deste sistema (em particular via SSH),
@@ -117,7 +117,7 @@ O backup na nuvem permite que o Jeedom envie seus backups
 diretamente no mercado. Isso permite que você os restaure facilmente
 e certifique-se de não perdê-los. O mercado mantém os últimos 6
 backups. Para se inscrever basta ir à sua página
-**perfil** no mercado e depois na guia **meus backups**. Vous
+**Perfil** no mercado e depois na guia **meus backups**. Vous
 pode, nesta página, recuperar um backup ou comprar um
 assinatura (por 1, 3, 6 ou 12 meses).
 

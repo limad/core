@@ -65,12 +65,12 @@ Podemos colocar o Jeedom em https ?
 ================================
 
 Sim : Você tem um pacote de força ou mais, nesse caso, você
-basta usar o [Jeedom-DNS](https://doc.jeedom.com/pt_PT/howto/mise_en_place_dns_jeedom). Com um DNS e você sabe como configurar um certificado válido, nesse caso, é uma instalação padrão de um certificado.
+basta usar o [DNS Jeedom](https://doc.jeedom.com/pt_PT/howto/mise_en_place_dns_jeedom). Com um DNS e você sabe como configurar um certificado válido, nesse caso, é uma instalação padrão de um certificado.
 
 Como se conectar no SSH ?
 =============================
 
-Aqui está um [documentação](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". O "hostname" sendo o ip do seu Jeedom, os identificadores sendo :
+Aqui está um [Documentação](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". O "hostname" sendo o ip do seu Jeedom, os identificadores sendo :
 
 - Nome de usuário : "root ", senha : "Mjeedom96"
 - Nome de usuário : "jeedom ", senha : "Mjeedom96"
@@ -133,7 +133,7 @@ Eu tenho uma página em branco
 =====================
 
 Você precisa se conectar no SSH ao Jeedom e iniciar o script
-auto diagnóstico :
+auto-diagnóstico :
 
 `` `{.bash}
 sudo chmod + x / var / www / html / saúde.sh; sudo /var/www/html/health.sh
@@ -179,7 +179,7 @@ Não tenho mais acesso ao Jeedom, nem pela interface da web nem no console via S
 
 Este erro não se deve ao Jeedom, mas a um problema com o sistema.
 Se persistir após uma reinstalação, é aconselhável
-consulte o serviço pós-venda para obter informações sobre problemas de hardware. Aqui está o [documentação](https://doc.jeedom.com/pt_PT/installation/smart) para Smart
+consulte o serviço pós-venda para obter informações sobre problemas de hardware. Aqui está o [Documentação](https://doc.jeedom.com/pt_PT/installation/smart) para Smart
 
 Meu cenário não para mais 
 =================================
@@ -233,7 +233,7 @@ Os botões Desligar / Reiniciar não funcionam
 
 Em uma instalação DIY é normal. No SSH, você precisa solicitar
 visudo e no final do arquivo você deve adicionar : www-data ALL = (ALL)
-NOPASSWD: TUDO.
+NOPASSWD: TODOS.
 
 `` `{.bash}
 serviço sudo reinício apache2

@@ -20,7 +20,7 @@ Ao clicar em um plug-in, você acessa sua configuração. Lá em cima você
 encontre o nome do plug-in e, entre parênteses, seu nome no Jeedom
 (ID) e, finalmente, o tipo de versão instalada (estável, beta).
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Ao baixar um plug-in, ele é desativado por padrão.
 > Então você tem que ativá-lo sozinho.
@@ -30,23 +30,23 @@ No canto superior direito, alguns botões :
 -   **Documentação** : Permite acesso direto à página de
     documentação do plugin
 
--   **Registro de alterações** : Vamos ver o log de alterações do plugin, se existir
+-   **Changelog** : Vamos ver o log de alterações do plugin, se existir
 
 -   **Enviar para o mercado** : permite enviar o plugin no Market
     (disponível apenas se você é o autor)
 
 -   **Detalhes** : Permite encontrar a página do plug-in no mercado
 
--   **Deletar** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
+-   **Remover** : Remova o plugin do seu Jeedom. Tenha cuidado, isso
     também remove permanentemente todos os equipamentos deste plugin
 
 Abaixo à esquerda, há uma área de status com :
 
--   **Status** : Permite ver o status do plug-in (ativo / inativo))
+-   **Estado** : Permite ver o status do plug-in (ativo / inativo))
 
 -   **Versão** : A versão do plug-in instalado
 
--   **Ações** : Permite ativar ou desativar o plug-in
+-   **Ação** : Permite ativar ou desativar o plug-in
 
 -   **Versão Jeedom** : Versão mínima do Jeedom necessária
     para a operação do plugin
@@ -61,7 +61,7 @@ Administração → Configuração na guia Logs, na parte inferior da página)
 
 -   veja os logs do plugin
 
--   Batimento cardiaco : a cada 5 minutos, o Jeedom verifica se pelo menos um dispositivo de plug-in se comunicou nos últimos X minutos (se você deseja desativar a funcionalidade, basta colocar 0)
+-   Batimento cardíaco : a cada 5 minutos, o Jeedom verifica se pelo menos um dispositivo de plug-in se comunicou nos últimos X minutos (se você deseja desativar a funcionalidade, basta colocar 0)
 
 -   Reiniciar demônio : se o batimento cardíaco der errado, o Jeedom reiniciará o daemon
 
@@ -70,9 +70,9 @@ adicionais são exibidos nas áreas mencionadas acima.
 
 Dependências :
 
--   **Sobrenome** : Geralmente será local
+-   **Nome** : Geralmente será local
 
--   **Status** : dirá se as dependências estão OK ou KO
+-   **Estado** : dirá se as dependências estão OK ou KO
 
 -   **Instalação** : instalará ou reinstalará
     dependências (se você não fizer isso manualmente e elas forem
@@ -83,9 +83,9 @@ Dependências :
 
 Demônio :
 
--   **Sobrenome** : Geralmente será local
+-   **Nome** : Geralmente será local
 
--   **Status** : dirá se o demônio está OK ou KO
+-   **Estado** : dirá se o demônio está OK ou KO
 
 -   **Configuração** : ficará bem se todos os critérios para o demônio
     voltas são cumpridas ou causam bloqueio
@@ -163,7 +163,7 @@ No topo da janela você tem filtros :
 -   **Menu suspenso Categoria** : apenas exibe
     certas categorias de plugins
 
--   **Pesquisar** : permite procurar um plug-in (em nome ou
+-   **Pesquisa** : permite procurar um plug-in (em nome ou
     descrição disso)
 
 -   **Nome de Usuário** : exibe o nome de usuário usado para o
@@ -191,7 +191,7 @@ informações sobre o plug-in, incluindo :
     -   **Instalar pro** : permite instalar a versão pro (muito
         pouco usado)
 
-    -   **Deletar** : se o plug-in estiver instalado atualmente, esse
+    -   **Remover** : se o plug-in estiver instalado atualmente, esse
         para excluí-lo
 
 Abaixo, você encontrará a descrição do plugin, a compatibilidade
@@ -204,13 +204,13 @@ histórico de alterações, um botão "Documentação" que retorna
 para a documentação do plugin. Então você tem o idioma disponível
 e as várias informações na data da última versão estável.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Não é realmente recomendável colocar um plugin beta em um
 > Jeedom não beta, muitos problemas operacionais podem
 > resultado.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Alguns plugins são cobrados; nesse caso, a folha de plugins será
 > vai oferecer para comprá-lo. Feito isso, aguarde um

@@ -66,7 +66,7 @@ Allows you to define certain interface behaviors :
     -   **Unfold the objects panel** : allows to make visible by
         default the objects menu (on the left) on the dashboard
 
--   **Seen**
+-   **View**
 
     -   **Unfold the view panel** : allows to make visible by
         default views menu (left) on views
@@ -77,7 +77,7 @@ Security
 -   **2-step authentication** : allows to configure
     2-step authentication (as a reminder, this is a changing code
     displayed every X seconds on a mobile application, type
-    google authenticator). Note that double authentication will only be requested for external connections. For local connections the code will therefore not be requested.
+    google authentificator). Note that double authentication will only be requested for external connections. For local connections the code will therefore not be requested.
 
 -   **Password** : allows you to change your password (do not
     forget to retype it below)

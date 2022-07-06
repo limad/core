@@ -112,7 +112,7 @@ My jeedoms
         configure in Jeedom, if you don&#39;t put anything it will be there
         last known IP
 
-    -   **DNS** : allows you to customize the name of your DNS
+    -   **Dns** : allows you to customize the name of your DNS
 
     -   **URLs** : list the different Jeedom access URLs.
 
@@ -156,7 +156,7 @@ My purchases / promotions / donations
 Here you find all your purchases and you can request the return of the
 invoice or receipt email
 
-> **Important**
+> **IMPORTANT**
 >
 > If you buy an official plugin you will receive an invoice. In
 > however for a third party plugin it is a receipt, for the invoice it is necessary

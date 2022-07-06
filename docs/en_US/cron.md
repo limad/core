@@ -2,7 +2,7 @@ It informs of all Jeedom application tasks that run on the
 server. This menu is to be used knowingly, or at the
 request technical support.
 
-> **Important**
+> **IMPORTANT**
 >
 > In case of mishandling on this page, any request for
 > support may be denied you.
@@ -20,9 +20,9 @@ At the top right, you have :
 
 -   **Refresh** : a button to refresh the task table
 
--   **To add** : a button to add a cron job
+-   **Add** : a button to add a cron job
 
--   **To register** : a button to save your changes.
+-   **Save** : a button to save your changes.
 
 Below you have the table of all existing tasks
 (be careful, some tasks may launch subtasks, so it's
@@ -32,10 +32,10 @@ page). In this table, we find :
 -   **\#** : Task ID, can be useful for linking a
     process that is running and what it really does
 
--   **Stock** : a button to start or stop the task in function
+-   **ACTION** : a button to start or stop the task in function
     its status and a button to view the cron in detail (as stored in the database)
 
--   **Asset** : indicates if the task is active (can be launched
+-   **Active** : indicates if the task is active (can be launched
     by Jeedom) or not
 
 -   **PID** : indicates the current process ID
@@ -69,7 +69,7 @@ page). In this table, we find :
 -   **Status** : current status of the task (as a reminder, a daemon task
     is still at "run")
 
--   **Deletion** : delete task
+-   **Suppression** : delete task
 
 
 # Listener

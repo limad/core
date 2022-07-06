@@ -1,7 +1,7 @@
 Jeedom hat die Möglichkeit, von oder von gerettet und wiederhergestellt zu werden
 von verschiedenen Orten.
 
-Aufbau 
+Konfiguration 
 =============
 
 Zugänglich von **Administration → Backups**, Diese Seite ermöglicht die
@@ -87,7 +87,7 @@ oder Wiederherstellung), wenn Sie eine gestartet haben.
 -   **Backup wiederherstellen** : Startet die Wiederherstellung der Sicherung
     Samba oben ausgewählt.
 
-> **WICHTIG**
+> **Wichtig**
 >
 > Jeedom-Backups dürfen nur für ihn in einen Ordner fallen !!! Es wird alles, was kein Jeedom-Backup ist, aus dem Ordner gelöscht
 
@@ -121,7 +121,7 @@ Backups. Um sich anzumelden, gehen Sie einfach auf Ihre Seite
 kann auf dieser Seite ein Backup abrufen oder ein kaufen
 Abonnement (für 1, 3, 6 oder 12 Monate).
 
-> **Tipp**
+> **Spitze**
 >
 > Sie können den Namen der Sicherungsdateien von anpassen
 > der Registerkarte **Meine Jeedoms**, Vermeiden Sie jedoch die Zeichen

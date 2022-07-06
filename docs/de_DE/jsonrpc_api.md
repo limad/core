@@ -106,7 +106,7 @@ Info-Typ-Befehle)
 
 Einstellungen :
 
--   int-ID
+-   int id
 
 object::byId
 ------------
@@ -115,7 +115,7 @@ Gibt das angegebene Objekt zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 object::fullById
 ----------------
@@ -165,7 +165,7 @@ Gibt die Zusammenfassung für die Objekt-ID zurück
 
 Einstellungen:
 
--   int-ID : Objekt-ID
+-   int id : Objekt-ID
 
 -   String-Schlüssel : (optional), Schlüssel der gewünschten Zusammenfassung, wenn leer, dann Jeedom
     sendet Ihnen die Zusammenfassung aller Schlüssel
@@ -186,7 +186,7 @@ Gibt Geräte und ihre Befehle sowie deren Status zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 eqLogic::byId
 -------------
@@ -195,7 +195,7 @@ Gibt das angegebene Gerät zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 eqLogic::byType
 ---------------
@@ -213,7 +213,7 @@ Gibt alle Geräte zurück, die zum angegebenen Objekt gehören
 
 Einstellungen:
 
--   int Objekt\_id
+-   int object\_id
 
 eqLogic::byTypeAndId
 --------------------
@@ -274,7 +274,7 @@ Gibt den angegebenen Befehl zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 cmd::byEqLogicId
 ----------------
@@ -292,7 +292,7 @@ Führen Sie den angegebenen Befehl aus
 
 Einstellungen:
 
--   int-ID : ID eines Befehls oder ID-Arrays, wenn Sie ausführen möchten
+-   int id : ID eines Befehls oder ID-Arrays, wenn Sie ausführen möchten
     mehrere Bestellungen gleichzeitig
 
 -   \ [Optionen \] Liste der Befehlsoptionen (abhängig von Typ und
@@ -306,7 +306,7 @@ Infos und historische Befehle)
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 -   Zeichenfolge startTime : Startdatum der Statistikberechnung
 
@@ -320,7 +320,7 @@ Info und historischer Typ)
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 -   Zeichenfolge startTime : Startdatum der Trendberechnung
 
@@ -334,7 +334,7 @@ Info und historischer Typ)
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 -   Zeichenfolge startTime : Startdatum der Geschichte
 
@@ -375,7 +375,7 @@ Einstellungen:
 
 -   Array HTML
 
--   intvalue=null
+-   int value = null
 
 -   int isVisible = 1
 
@@ -388,7 +388,7 @@ Ermöglicht das Senden eines Werts an eine Bestellung
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 -   Zeichenfolgenwert : valeur
 
@@ -409,7 +409,7 @@ Gibt das angegebene Szenario zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 scenario::export
 ----------------
@@ -418,7 +418,7 @@ Gibt den Export des Szenarios sowie den menschlichen Namen des Szenarios zurück
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 scenario::import
 ----------------
@@ -427,7 +427,7 @@ Ermöglicht das Importieren eines Szenarios.
 
 Einstellungen:
 
--   int-ID : ID des zu importierenden Szenarios (leer bei Erstellung)
+-   int id : ID des zu importierenden Szenarios (leer bei Erstellung)
 
 -   Zeichenfolge humanName : menschlicher Name des Szenarios (leer bei Erstellung)
 
@@ -440,7 +440,7 @@ scenario::changeState
 
 Einstellungen:
 
--   int-ID
+-   int id
 
 -   Zeichenfolgenstatus: \ [Run, Stop, aktivieren, deaktivieren \]
 
@@ -548,7 +548,7 @@ Einstellungen:
 
 -   Abfrage (Anforderungsphrase)
 
--   int Antwort\_cmd = NULL : Befehls-ID, die zum Antworten verwendet werden soll,
+-   int reply\_cmd = NULL : Befehls-ID, die zum Antworten verwendet werden soll,
     Wenn nicht angegeben, sendet Jeedom Ihnen die Antwort im JSON
 
 interactQuery::all

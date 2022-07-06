@@ -20,9 +20,9 @@ En la parte superior derecha, tienes :
 
 -   **Fresco** : un botón para actualizar la tabla de tareas
 
--   **Para agregar** : un botón para agregar un trabajo cron
+-   **Añadir** : un botón para agregar un trabajo cron
 
--   **Para registrarse** : un botón para guardar sus cambios.
+-   **Registro** : un botón para guardar sus cambios.
 
 A continuación tiene la tabla de todas las tareas existentes
 (tenga cuidado, algunas tareas pueden iniciar subtareas, por lo que es
@@ -32,10 +32,10 @@ página). En esta tabla, encontramos :
 -   **\#** : ID de tarea, puede ser útil para vincular un
     proceso que se está ejecutando y lo que realmente hace
 
--   **Valores** : un botón para iniciar o detener la tarea en función
+-   **Acción** : un botón para iniciar o detener la tarea en función
     su estado y un botón para ver el cron en detalle (como está almacenado en la base de datos)
 
--   **Activo** : indica si la tarea está activa (se puede iniciar
+-   **Bienes** : indica si la tarea está activa (se puede iniciar
     por Jeedom) o no
 
 -   **PID** : indica la ID del proceso actual
@@ -56,7 +56,7 @@ página). En esta tabla, encontramos :
 
 -   **Programación** : programar la tarea en formato CRON
 
--   **Se acabó el tiempo** : tiempo máximo de ejecución de la tarea. Si la
+-   **Tiempo de espera** : tiempo máximo de ejecución de la tarea. Si la
     la tarea es un demonio, entonces se detendrá automáticamente y
     reiniciado al final del tiempo de espera
 
@@ -66,7 +66,7 @@ página). En esta tabla, encontramos :
     demonio siempre estará a 0s, así que no te preocupes por otras tareas
     puede estar a 0s)
 
--   **Estado** : estado actual de la tarea (como recordatorio, una tarea de demonio
+-   **Estatus** : estado actual de la tarea (como recordatorio, una tarea de demonio
     todavía está en "correr")
 
 -   **Supresión** : eliminar tarea

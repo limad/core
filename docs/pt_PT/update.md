@@ -1,7 +1,7 @@
 Descrição 
 ===========
 
-A **Update Center** permite atualizar todos
+O **Update Center** permite atualizar todos
 Recursos Jeedom, incluindo software básico,
 plugins, widgets, etc. Outras funções de gerenciamento de extensão
 estão disponíveis (excluir, reinstalar, verificar etc.))
@@ -13,7 +13,7 @@ A página Centro de Atualização
 jour**.
 
 Você encontrará, à esquerda, todas as funcionalidades do
-Jeedom e na parte direita **Em formação** quem descreve o que ele
+Jeedom e na parte direita **Informação** quem descreve o que ele
 aconteceu, quando você lançou uma atualização.
 
 Funções no topo da página. 
@@ -27,7 +27,7 @@ você pode pressionar o botão "Verificar atualizações".
 
 O botão **Atualizar** permite atualizar o conjunto de
 Jeedom. Depois que você clica nele, temos diferentes
-opções :
+Opções :
 
 -   **Salvar antes** : Faça backup do Jeedom antes
     realize a atualização.
@@ -45,7 +45,7 @@ opções :
 -   **Update para reaplicar** : Permite reaplicar uma aposta
     atualizado. (NB : Todas as atualizações não podem ser reaplicadas.)
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Antes de uma atualização, por padrão, o Jeedom fará um backup. Em
 > Se houver um problema ao aplicar uma atualização, o Jeedom irá
@@ -67,8 +67,8 @@ A tabela consiste em duas guias :
 
 -   **Outro** : Contém widgets, scripts etc.
 
-Você encontrará as seguintes informações : \* **Status** : OK ou NÃO.
-Permite que você saiba o estado atual do plug-in. \* **Sobrenome** : Voce ai
+Você encontrará as seguintes informações : \* **Estado** : OK ou NOK.
+Permite que você saiba o estado atual do plug-in. \* **Nome** : Voce ai
 encontre a fonte do elemento, o tipo de elemento e seu nome. \*
 **Versão** : Indica a versão específica do item. \* **Opções** :
 Marque esta caixa se não desejar que este item seja atualizado
@@ -84,7 +84,7 @@ todo elemento :
 
 -   **Reinstalar** : Forçar reassentamento.
 
--   **Deletar** : Permite desinstalá-lo.
+-   **Remover** : Permite desinstalá-lo.
 
 -   **Verificar** : Consulte a fonte de atualizações para descobrir se
     uma nova atualização está disponível.
@@ -92,10 +92,10 @@ todo elemento :
 -   **Atualizar** : Permite atualizar o elemento (se houver)
     uma atualização).
 
--   **Registro de alterações** : Acesse a lista de alterações no
+-   **Changelog** : Acesse a lista de alterações no
     Update.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Se o changelog estiver vazio, mas você ainda tiver uma atualização
 > update significa que a documentação foi atualizada.
@@ -118,10 +118,10 @@ Uma vez conectado, este é o comando para executar :
 
 Os possíveis parâmetros são :
 
--   **`modo`** : `force ', para iniciar uma atualização no modo forçado (não
+-   **`moda`** : `force ', para iniciar uma atualização no modo forçado (não
     ignorar erros).
 
--   **`versão`** : seguido do número da versão, para reaplicar o
+-   **`version`** : seguido do número da versão, para reaplicar o
     mudanças desde esta versão.
 
 Aqui está um exemplo de sintaxe para fazer uma atualização forçada no

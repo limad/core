@@ -65,15 +65,15 @@ Können wir Jeedom in https setzen? ?
 ================================
 
 Ja : Entweder Sie haben ein Netzteil oder mehr, in diesem Fall Sie
-benutze einfach die [Jeedom-DNS](https://doc.jeedom.com/de_DE/howto/mise_en_place_dns_jeedom). Entweder mit einem DNS und Sie wissen, wie man ein gültiges Zertifikat einrichtet. In diesem Fall handelt es sich um eine Standardinstallation eines Zertifikats.
+benutze einfach die [DNS Jeedom](https://doc.jeedom.com/de_DE/howto/mise_en_place_dns_jeedom). Entweder mit einem DNS und Sie wissen, wie man ein gültiges Zertifikat einrichtet. In diesem Fall handelt es sich um eine Standardinstallation eines Zertifikats.
 
 So verbinden Sie sich in SSH ?
 =============================
 
 Hier ist ein [Dokumentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". Der &quot;Hostname&quot; ist die IP Ihres Jeedom, die Bezeichner sind :
 
-- Nutzername : "root ", Passwort : "Mjeedom96"
-- Nutzername : "jeedom ", Passwort : "Mjeedom96"
+- Benutzername : "root ", Passwort : "Mjeedom96"
+- Benutzername : "jeedom ", Passwort : "Mjeedom96"
 - Oder was Sie in die Installation einfügen, wenn Sie in DIY sind
 
 Beachten Sie, dass beim Schreiben des Passworts nichts auf dem Bildschirm angezeigt wird. Dies ist normal.
@@ -158,7 +158,7 @@ echo &quot;GEWÄHRLEISTUNG ALLER PRIVILEGIEN FÜR jeedom.* TO &#39;jeedom&#39; @
 cd / usr / share / nginx / www / jeedom
 sudo cp core / config / common.config.sample.PHP Core / Config / Common.config.php
 sudo sed -i -e "s /#PASSWORD#/ $ {bdd_password} / g "core / config / common.config.php
-sudo chown www-Daten:www-data core / config / common.config.php
+sudo chown www-data:www-data core / config / common.config.php
 `` ''
 
 Ich habe überall \ {\ {… \} \} 
@@ -233,7 +233,7 @@ Die Schaltflächen Herunterfahren / Neustart funktionieren nicht
 
 Bei einer DIY-Installation ist das normal. In SSH müssen Sie bestellen
 visudo und am Ende der Datei müssen Sie hinzufügen : www-data ALL = (ALL)
-NOPASSWD: ALLE.
+NOPASSWD: Alle.
 
 `` `{.bash}
 sudo service apache2 neu starten

@@ -14,7 +14,7 @@ Management
 
 You have two options :
 
--   **To add** : Create a new object.
+-   **Add** : Create a new object.
 
 -   **Overview** : Displays the list of created objects
     as well as their configuration.
@@ -40,7 +40,7 @@ Here are the different characteristics to configure an object :
     to parent the apartment. An object can only have one parent
     but several objects can have the same parent.
 
--   **Visible** : Check this box to make this object visible.
+-   **Jeedom** : Check this box to make this object visible.
 
 -   **Hide on the dashboard** : Check this box to hide
     the object on the dashboard. It is still kept in the
@@ -80,7 +80,7 @@ Here are the different characteristics to configure an object :
 > **Tip**
 >
 > When a device is created and no parent has been defined, it
-> will have as parent : **None** .
+> will have as parent : **No** .
 
 Summary tab 
 -------------
@@ -124,13 +124,13 @@ Overview
 The overview allows you to view all the objects in
 Jeedom, as well as their configuration :
 
--   **ID** : Object ID.
+-   **Id** : Object ID.
 
 -   **Object** : Object name.
 
 -   **Dad** : Name of parent object.
 
--   **Visible** : Object visibility.
+-   **Jeedom** : Object visibility.
 
 -   **Mask** : Indicates if the object is hidden on the dashboard.
 

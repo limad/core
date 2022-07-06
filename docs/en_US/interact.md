@@ -4,14 +4,14 @@ from text or voice commands.
 These orders can be obtained by :
 
 -   SMS : send an SMS to launch commands (action) or ask a
-    question (information).
+    question (info).
 
 -   Cat : Telegram, Slack, etc.
 
 -   Vocal : dictate a phrase with Siri, Google Now, SARAH, etc. For
     launch commands (action) or ask a question (info).
 
--   HTTP : launch an HTTP URL containing the text (ex. Tasker, Slack)
+-   D'informations sont indispensables à la bonne compréhension de : launch an HTTP URL containing the text (ex. Tasker, Slack)
     To launch commands (action) or ask a question (info).
 
 The interest of interactions lies in the simplified integration in
@@ -22,7 +22,7 @@ Interactions :
 
 At the top of the page, there are 3 buttons :
 
--   **To add** : which allows to create new interactions.
+-   **Add** : which allows to create new interactions.
 
 -   **Regenerate** : which will recreate all the interactions (maybe
     très long &gt; 5mn).
@@ -54,7 +54,7 @@ the interaction is not linked to an action but to information or if we
 wish to carry out a specific action after it (it is also
 possible to execute a scenario, to control several commands…).
 
-Configuration 
+D'actualité 
 =============
 
 The configuration page consists of several tabs and
@@ -63,9 +63,9 @@ buttons :
 -   **Sentences** : Displays the number of sentences in the interaction (one click
     above shows them to you)
 
--   **To register** : records the current interaction
+-   **Save** : records the current interaction
 
--   **To delete** : delete current interaction
+-   **Remove** : delete current interaction
 
 -   **Duplicate** : duplicate the current interaction
 
@@ -75,10 +75,10 @@ General
 -   **Last name** : name of the interaction (can be empty, the name replaces the
     request text in the interaction list).
 
--   **Band** : interaction group, it helps organize them
+-   **Group** : interaction group, it helps organize them
     (can be empty, so will be in the group "none").
 
--   **Asset** : allows to activate or deactivate the interaction.
+-   **Active** : allows to activate or deactivate the interaction.
 
 -   **Request** : The generating model sentence (required).
 
@@ -124,7 +124,7 @@ Filters
     single equipment / module (Jeedom automatically creates the list at
     from the equipment / modules you have).
 
-Stock 
+ACTION 
 ======
 
 Use if you want to target one or more specific commands
@@ -133,7 +133,7 @@ or pass particular parameters.
 Examples 
 ========
 
-> **Note**
+> **NOTE**
 >
 > The screenshots may be different in view of developments.
 
@@ -455,7 +455,7 @@ Is there anyone in the room ?
 This example specifically targets specific equipment which allows
 to have a personalized response. So we could imagine replacing
 the example answer with &quot;no there is no one in the room
-*Julie*|yes there is someone in the room *Julie*"
+*julie*|yes there is someone in the room *julie*"
 
 ### Evolution 
 
@@ -542,7 +542,7 @@ So we can see a regexp :
 This allows you to delete all orders that have one of these
 words in their sentence
 
-> **Note**
+> **NOTE**
 >
 > The regexp here is a simplified version for easy use.
 > So we can either use traditional expressions or
@@ -565,10 +565,10 @@ dimmer to apply the desired value. To do this, we have 3 parts
 : \* Request : in which we create a tag that will represent the value
 which will be sent to the interaction. \* Reply : we reuse the tag for
 the answer to make sure Jeedom understood the request correctly.
-\* Stock : we put an action on the lamp that we want to drive and in
-the value we pass our tag *order*.
+\* Action : we put an action on the lamp that we want to drive and in
+the value we pass our tag *Instructions*.
 
-> **Note**
+> **NOTE**
 >
 > You can use any tag except those already used by
 > Jeedom, there can be several to drive for example
@@ -658,7 +658,7 @@ to use tags \#time\# (if a specific time is defined) or
 
 ![interact23](../images/interact23.JPG)
 
-> **Note**
+> **NOTE**
 >
 > You will notice in the response the tag \#value\# this one contains
 > in the case of a scheduled interaction, the programming time

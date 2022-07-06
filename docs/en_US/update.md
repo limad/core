@@ -27,7 +27,7 @@ you can press the button "Check for updates".
 
 The button **Update** allows to update the set of
 Jeedom. Once you click on it, we get these different
-options :
+Jeedoms Sources :
 
 -   **Save before** : Back up Jeedom before
     perform the update.
@@ -45,7 +45,7 @@ options :
 -   **Update to reapply** : Allows you to reapply a bet
     up to date. (NB : All updates cannot be reapplied.)
 
-> **Important**
+> **IMPORTANT**
 >
 > Before an update, by default, Jeedom will make a backup. In
 > if there is a problem when applying an update, Jeedom will
@@ -70,7 +70,7 @@ The table consists of two tabs :
 You will find the following information : \* **Status** : OK or NOK.
 Allows you to know the current state of the plugin. \* **Last name** : You there
 find the source of the element, the type of element and its name. \*
-**Version** : Indicates the specific version of the item. \* **Options** :
+**Version** : Indicates the specific version of the item. \* **Jeedoms Sources** :
 Check this box if you do not want this item to be updated
 day during the general update (Button **Update**).
 
@@ -84,7 +84,7 @@ every element :
 
 -   **Reinstate** : Force resettlement.
 
--   **To delete** : Allows you to uninstall it.
+-   **Remove** : Allows you to uninstall it.
 
 -   **Check** : Query source for updates to find out if
     a new update is available.
@@ -95,7 +95,7 @@ every element :
 -   **Changelog** : Access the list of changes in the
     update.
 
-> **Important**
+> **IMPORTANT**
 >
 > If the changelog is empty but you still have an update
 > update means that the documentation has been updated.
@@ -118,7 +118,7 @@ Once connected, this is the command to perform :
 
 The possible parameters are :
 
--   **`mode`** : `force`, to launch an update in forced mode (do not
+-   **`fashion`** : `force`, to launch an update in forced mode (do not
     ignore errors).
 
 -   **`version`** : followed by the version number, to reapply the

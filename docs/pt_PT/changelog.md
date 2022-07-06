@@ -129,7 +129,7 @@ Changelog
 
 - Correções de bugs
 - Suporte móvel para sliders em designs
-- INTELIGENTE : otimização do gerenciamento de swap
+- SMART : otimização do gerenciamento de swap
 
 3.3.31
 =====
@@ -474,7 +474,7 @@ Changelog
 
 -   Melhoria do sistema de atualização com uma página de notas
     versão (que você deve verificar antes de cada atualização
-    dia !!!!)
+    Dia !!!!)
 
 -   Correção de um bug que recuperou os logs durante restaurações
 
@@ -1081,8 +1081,8 @@ Changelog
 
 -   Otimização da atualização de widgets de comando e equipamento
 
--   Adicionando uma tag *iniciar\_backup*, *fim\_backup*, *começar\_atualizar*,
-    *fim\_update*, *começar\_restaurar*, *fim\_restaurar* nos cenários
+-   Adicionando uma tag *begin\_backup*, *end\_backup*, *begin\_update*,
+    *fim\_update*, *begin\_restore*, *end\_restore* nos cenários
 
 2.2
 ---

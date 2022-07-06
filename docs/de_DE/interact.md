@@ -11,14 +11,14 @@ Diese Bestellungen erhalten Sie von :
 -   Vokal : diktieren Sie eine Phrase mit Siri, Google Now, SARAH usw. für
     Befehle starten (Aktion) oder eine Frage stellen (Info).
 
--   HTTP : Starten Sie eine HTTP-URL, die den Text enthält (z. Tasker, Slack)
+-   Http : Starten Sie eine HTTP-URL, die den Text enthält (z. Tasker, Slack)
     Befehle starten (Aktion) oder eine Frage stellen (Info).
 
 Das Interesse an Interaktionen liegt in der vereinfachten Integration in
 andere Systeme wie Smartphone, Tablet, andere Hausautomationsbox usw.
 
 Um auf die Interaktionsseite zuzugreifen, gehen Sie zu Extras →
-Interaktionen :
+Wechselwirkungen :
 
 Am oberen Rand der Seite befinden sich 3 Schaltflächen :
 
@@ -27,10 +27,10 @@ Am oberen Rand der Seite befinden sich 3 Schaltflächen :
 -   **Regenerat** : Dadurch werden alle Interaktionen wiederhergestellt (möglicherweise
     très long &gt; 5mn).
 
--   **Prüfen** : das öffnet einen Dialog zum Schreiben und
+-   **Test** : das öffnet einen Dialog zum Schreiben und
     teste einen Satz.
 
-> **Tipp**
+> **Spitze**
 >
 > Wenn Sie eine Interaktion haben, die die Sätze für die Lichter generiert
 > Zum Beispiel und Sie fügen ein neues Befehlsmodul von hinzu
@@ -54,7 +54,7 @@ Die Interaktion ist nicht an eine Handlung gebunden, sondern an Informationen od
 möchte danach eine bestimmte Aktion ausführen (es ist auch
 möglich, ein Szenario auszuführen, mehrere Befehle zu steuern).
 
-Aufbau 
+Konfiguration 
 =============
 
 Die Konfigurationsseite besteht aus mehreren Registerkarten und
@@ -63,26 +63,26 @@ Tasten :
 -   **Sätze** : Zeigt die Anzahl der Sätze in der Interaktion an (ein Klick
     oben zeigt sie dir)
 
--   **Zur Anmeldung** : zeichnet die aktuelle Interaktion auf
+-   **Rekord** : zeichnet die aktuelle Interaktion auf
 
--   **Löschen** : aktuelle Interaktion löschen
+-   **Entfernen** : aktuelle Interaktion löschen
 
 -   **Duplikat** : Dupliziere die aktuelle Interaktion
 
 General 
 =======
 
--   **Nachname** : Name der Interaktion (kann leer sein, der Name ersetzt den
+-   **Name** : Name der Interaktion (kann leer sein, der Name ersetzt den
     Anforderungstext in der Interaktionsliste).
 
--   **Band** : Interaktionsgruppe, es hilft, sie zu organisieren
+-   **Gruppe** : Interaktionsgruppe, es hilft, sie zu organisieren
     (kann leer sein, wird also in der Gruppe "keine" sein").
 
--   **Anlage** : ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
+-   **Aktiva** : ermöglicht das Aktivieren oder Deaktivieren der Interaktion.
 
--   **Anfrage** : Der generierende Modellsatz (erforderlich).
+-   **Anwendung** : Der generierende Modellsatz (erforderlich).
 
--   **Gleichbedeutend** : ermöglicht das Definieren von Synonymen für Namen
+-   **Synonym** : ermöglicht das Definieren von Synonymen für Namen
     Bestellungen.
 
 -   **Antwort** : die Antwort zu geben.
@@ -124,7 +124,7 @@ Filter
     Einzelausrüstung / Modul (Jeedom erstellt die Liste automatisch unter
     von den Geräten / Modulen, die Sie haben).
 
-Aktie 
+Aktion 
 ======
 
 Verwenden Sie diese Option, wenn Sie einen oder mehrere bestimmte Befehle als Ziel festlegen möchten
@@ -166,7 +166,7 @@ einzelner Satz stellen sich kombinierte Aktionen zwischen verschiedenen Befehlen
 verschiedene Szenarien (wir können auch Szenarien im Spiel auslösen
 Aktion von Interaktionen).
 
-> **Tipp**
+> **Spitze**
 >
 > Um ein Szenario hinzuzufügen, erstellen Sie eine neue Aktion und schreiben Sie "Szenario""
 > Drücken Sie ohne Akzent die Tabulatortaste auf Ihrer Tastatur, um
@@ -455,7 +455,7 @@ Ist jemand im Raum? ?
 Dieses Beispiel zielt speziell auf bestimmte Geräte ab, die dies zulassen
 eine personalisierte Antwort zu haben. Wir könnten uns also vorstellen, zu ersetzen
 Die Beispielantwort lautet &quot;Nein, es ist niemand im Raum
-*Julia*|Ja, da ist jemand im Raum *Julia*"
+*Julie*|Ja, da ist jemand im Raum *Julie*"
 
 ### Evolution 
 
@@ -566,7 +566,7 @@ Dimmer, um den gewünschten Wert anzuwenden. Dazu haben wir 3 Teile
 welches an die Interaktion gesendet wird. \* Antwort : Wir verwenden das Tag für
 die Antwort, um sicherzustellen, dass Jeedom die Anfrage richtig verstanden hat.
 \* Aktion : Wir setzen eine Aktion auf die Lampe, die wir fahren und einfahren möchten
-den Wert, den wir unserem Tag übergeben *bestellen*.
+den Wert, den wir unserem Tag übergeben *Anleitung*.
 
 > **Notiz**
 >

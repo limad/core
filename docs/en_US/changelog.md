@@ -18,7 +18,7 @@ Changelog
 - Correction of bugs on cloud backups
 - Database data encryption management
 
->**IMPORTANT**
+>**Important**
 >
 >During the update you may get an error resembling "PHP Fatal error: Uncaught Error: Call to undefined method utils::decrypt () "it does not matter, you just have to restart the update.
 
@@ -83,7 +83,7 @@ Changelog
 - Better consideration of plugin widgets
 - Optimization of the health calculation on the swap
 
->**IMPORTANT**
+>**Important**
 >
 >This update fixes an issue that may prevent any history recording as of January 1, 2020, it is more than highly recommended
 

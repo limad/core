@@ -2,7 +2,7 @@ Informa todas as tarefas de aplicativos Jeedom executadas no
 garçom. Este menu deve ser usado conscientemente ou no
 solicitar suporte técnico.
 
-> **Importante**
+> **IMPORTANTE**
 >
 > Em caso de manuseio incorreto nesta página, qualquer solicitação de
 > suporte pode ser negado você.
@@ -22,7 +22,7 @@ No canto superior direito, você tem :
 
 -   **Adicionar** : um botão para adicionar um trabalho cron
 
--   **Registrar** : um botão para salvar suas alterações.
+-   **Registro** : um botão para salvar suas alterações.
 
 Abaixo você tem a tabela de todas as tarefas existentes
 (tenha cuidado, algumas tarefas podem iniciar subtarefas, por isso é
@@ -32,10 +32,10 @@ página). Nesta tabela, encontramos :
 -   **\#** : ID da tarefa, pode ser útil para vincular um
     processo em execução e o que realmente faz
 
--   **Ações** : um botão para iniciar ou parar a tarefa em função
+-   **Ação** : um botão para iniciar ou parar a tarefa em função
     seu status e um botão para visualizar o cron em detalhes (conforme armazenado no banco de dados)
 
--   **De ativos** : indica se a tarefa está ativa (pode ser iniciada
+-   **Ativos** : indica se a tarefa está ativa (pode ser iniciada
     por Jeedom) ou não
 
 -   **PID** : Indica o ID do processo atual
@@ -45,10 +45,10 @@ página). Nesta tabela, encontramos :
     aconselhado a nunca tocar nesse valor e, especialmente, nunca
     diminua
 
--   **Único** : se for "sim", a tarefa será iniciada uma vez
+-   **único** : se for "sim", a tarefa será iniciada uma vez
     então excluirá
 
--   **Classe** : Classe PHP chamada para executar a tarefa (pode
+-   **Class** : Classe PHP chamada para executar a tarefa (pode
     estar vazio)
 
 -   **Função** : Função PHP chamada na classe chamada (ou não
@@ -56,7 +56,7 @@ página). Nesta tabela, encontramos :
 
 -   **Programação** : programando a tarefa no formato CRON
 
--   **Tempo esgotado** : Tempo máximo de execução da tarefa. Se o
+-   **Tempo limite** : Tempo máximo de execução da tarefa. Se o
     Se a tarefa for um demônio, ela será automaticamente interrompida e
     reiniciado no final do tempo limite
 
@@ -66,10 +66,10 @@ página). Nesta tabela, encontramos :
     demon sempre estará no zero, então não se preocupe com outras tarefas
     pode estar em 0s)
 
--   **Status** : status atual da tarefa (como lembrete, uma tarefa daemon
+-   **Estado** : status atual da tarefa (como lembrete, uma tarefa daemon
     ainda está em "run")
 
--   **Eliminação** : Excluir tarefa
+-   **Remoção** : Excluir tarefa
 
 
 # Listener

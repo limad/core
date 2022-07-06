@@ -11,7 +11,7 @@ Themen
 
 Im Themenbereich können Sie die Schnittstellenparameter anpassen :
 
--   **Schreibtisch** : Thema im Desktop-Modus zu verwenden, seien Sie vorsichtig nur die
+-   **Desktop** : Thema im Desktop-Modus zu verwenden, seien Sie vorsichtig nur die
     Das Standardthema wird offiziell von Jeedom unterstützt
 
 -   **Farbe mobil** : ermöglicht die Auswahl der Schnittstellenfarbe
@@ -66,7 +66,7 @@ Ermöglicht das Definieren bestimmter Schnittstellenverhalten :
     -   **Klappen Sie das Objektfenster auf** : ermöglicht sichtbar zu machen durch
         Standardmäßig das Objektmenü (links) im Dashboard
 
--   **Gesehen**
+-   **Ansicht**
 
     -   **Klappen Sie das Ansichtsfenster auf** : ermöglicht sichtbar zu machen durch
         Standardansichtsmenü (links) für Ansichten

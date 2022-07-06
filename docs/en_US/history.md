@@ -40,7 +40,7 @@ when to do it (by default, these are packages
 > to avoid consuming resources unnecessarily, the task that makes
 > archiving takes place only once a day, in the evening.
 
-> **Important**
+> **IMPORTANT**
 >
 > Of course, this archiving principle only applies to orders from
 > digital type; on binary type commands, Jeedom does not keep
@@ -69,7 +69,7 @@ week because by default I want it to be only one week - see
 (these parameters are kept from one display to another; so you don't
 than configure them once).
 
--   **Stairs** : displays the curve as a
+-   **Staircase** : displays the curve as a
     staircase or continuous display.
 
 -   **Variation** : displays the difference in value from
@@ -93,13 +93,13 @@ Once a data is activated, you can choose :
 
 -   **Color** : the color of the curve.
 
--   **Kind** : The type of graph (area, line or column).
+-   **Type** : The type of graph (area, line or column).
 
 -   **Ladder** : since you can put several curves (data)
     on the same graph, it is possible to distinguish the scales
     (right or left).
 
--   **Stairs** : displays the curve as a
+-   **Staircase** : displays the curve as a
     staircase or continuous display
 
 -   **Stack** : allows to stack the values of the curves (see in
@@ -160,7 +160,7 @@ chronologique.
 To see them, you must first activate the tracking on the timeline of
 desired commands or scenarios :
 
--   **Script** : either directly on the scenario page, or on the
+-   **Scenario** : either directly on the scenario page, or on the
     scenario summary page to do it in "mass"
 
 -   **Ordered** : either in the advanced configuration of the command,
@@ -175,7 +175,7 @@ desired commands or scenarios :
 Once you&#39;ve enabled tracking in the order timeline and
 desired scenarios, you can see them appear on the timeline.
 
-> **Important**
+> **IMPORTANT**
 >
 > You have to wait for new events after activating tracking
 > on the timeline before seeing them appear.

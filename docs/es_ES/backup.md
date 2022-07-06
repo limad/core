@@ -87,7 +87,7 @@ o restauración), si ha lanzado uno.
 -   **Restaurar copia de seguridad** : Comienza a restaurar la copia de seguridad
     samba seleccionada arriba.
 
-> **IMPORTANTE**
+> **Importante**
 >
 > Las copias de seguridad de Jeedom deben caer absolutamente en una carpeta solo para él !!! Eliminará todo lo que no sea una copia de seguridad de la carpeta
 
@@ -121,7 +121,7 @@ copias de seguridad. Para suscribirte solo ve a tu página
 puede, desde esta página, recuperar una copia de seguridad o comprar un
 suscripción (por 1, 3, 6 o 12 meses).
 
-> **Consejo**
+> **Punta**
 >
 > Puede personalizar el nombre de los archivos de respaldo desde
 > de la pestaña **Mis jeedoms**, evitando sin embargo los personajes
@@ -132,6 +132,6 @@ Frecuencia de respaldos automáticos
 
 Jeedom realiza una copia de seguridad automática todos los días al mismo tiempo
 hora. Es posible modificar esto, desde el &quot;Motor
-tareas &quot;(la tarea se llama **Copia de seguridad de Jeedom**), pero no lo es
+tareas &quot;(la tarea se llama **Jeedom backup**), pero no lo es
 recomendadas. De hecho, se calcula en relación con la carga de la
 Market.

@@ -12,7 +12,7 @@ To access it, nothing simpler, just go to Tools ->
 Scenarios. You will find there the list of scenarios for your Jeedom as well
 only functions to manage them better :
 
--   **To add** : Create a scenario. The procedure is described
+-   **Add** : Create a scenario. The procedure is described
     in the next chapter.
 
 -   **Disable scenarios** : Disables all scenarios.
@@ -23,8 +23,8 @@ only functions to manage them better :
     this page.
 
 -   **Overview** : Allows you to have an overview of all
-    scenarios. You can change the values **asset**,
-    **visible**, **multi launch**, **synchronous mode**, **Log** et
+    scenarios. You can change the values **active**,
+    **Jeedom**, **multi launch**, **synchronous mode**, **Log** et
     **Timeline** (these parameters are described in the following chapter).
     You can also access the logs for each scenario and
     start individually.
@@ -37,25 +37,25 @@ My scenarios
 
 In this section you will find the **list of scenarios** that you
 have created. They are classified according to **groups** that you have
-defined for each of them. Each scenario is displayed with its **name**
+defined for each of them. Each scenario is displayed with its **last name**
 and his **parent object**. The **grayed out scenarios** are those who are
 disabled.
 
 As in many Jeedom pages, put the mouse to the left of
 the screen displays a quick access menu (from
 your profile, you can always leave it visible). You will be able
-then **look for** your scenario, but also in **to add** one by this
+so **search** your scenario, but also in **Add** one by this
 menu.
 
 Editing a scenario
 =====================
 
-After clicking on **To add**, you must choose the name of your
+After clicking on **Add**, you must choose the name of your
 scenario and you are redirected to its general settings page.
 At the top, there are some useful functions to manage our scenario
 :
 
--   **ID** : Next to the word **General**, this is the scenario identifier.
+-   **Id** : Next to the word **General**, this is the scenario identifier.
 
 -   **status** : Current state of your scenario.
 
@@ -67,9 +67,9 @@ At the top, there are some useful functions to manage our scenario
     no save beforehand !). The triggers are therefore not
     not taken into account.
 
--   **To delete** : Delete scenario.
+-   **Remove** : Delete scenario.
 
--   **To safeguard** : Save the changes made.
+-   **Save** : Save the changes made.
 
 -   **Template** : Allows you to access and apply templates
     to the script from the market. (explained at the bottom of the page).
@@ -94,12 +94,12 @@ our scenario :
 
 -   **Name to display** : The name used for its display.
 
--   **Band** : Allows you to organize the scenarios, by classifying them in
+-   **Group** : Allows you to organize the scenarios, by classifying them in
     groups.
 
--   **Asset** : Activate the scenario.
+-   **Active** : Activate the scenario.
 
--   **Visible** : Used to make the scenario visible.
+-   **Jeedom** : Used to make the scenario visible.
 
 -   **Parent object** : Assignment to a parent object.
 
@@ -127,15 +127,15 @@ our scenario :
 
 > **Tip**
 >
-> Attention : you can have a maximum of 28
+> Warning : you can have a maximum of 28
 > triggers / programming for a scenario.
 
 Scenario tab
 ---------------
 
 This is where you will build your scenario. We must start
-by **add a block**, with the button on the right. Once a block
-created, you can add another **block** or a **stock**.
+through **add a block**, with the button on the right. Once a block
+created, you can add another **block** or a **Action**.
 
 > **Tip**
 >
@@ -148,7 +148,7 @@ Here are the different types of blocks available :
 -   **If / Then / Or** : Allows you to perform actions
     under conditions).
 
--   **Stock** : Allows you to launch simple actions without
+-   **Action** : Allows you to launch simple actions without
     no conditions.
 
 -   **Loop** : Allows you to perform actions repeatedly
@@ -160,7 +160,7 @@ Here are the different types of blocks available :
     in the background, so they do not block the rest of the scenario.
     So it&#39;s a non-blocking block.
 
--   **HAS** : Allows to tell Jeedom to launch the actions of the block at a
+-   **AT** : Allows to tell Jeedom to launch the actions of the block at a
     given time (in the form hhmm). This block is non-blocking. Ex :
     0030 for 00:30, or 0146 for 1h46 and 1050 for 10h50.
 
@@ -182,7 +182,7 @@ Each of these blocks has its options for better handling them :
 
 #### If / Then / Otherwise blocks, Loop, In and A
 
-> **Note**
+> **NOTE**
 >
 > On Si / Then / Otherwise blocks, circular arrows located
 > to the left of the condition field allow to activate or not the
@@ -199,7 +199,7 @@ select an item to test :
     Jeedom opens a window to ask you which test you want
     perform on it. If you choose to **Put nothing**,
     Jeedom will add the order without comparison. You can also
-    Choose **and** Where **Where** before **Next** to chain tests
+    to choose **and** or **or** in front of **Then** to chain tests
     on different equipment.
 
 -   **Search a scenario** : Lets search for a scenario
@@ -216,7 +216,7 @@ select an item to test :
 
 Once the condition is completed, you must use the button
 "add ", left, to add a new **block** or a
-**stock** in the current block.
+**Action** in the current block.
 
 > **Tip**
 >
@@ -224,18 +224,18 @@ Once the condition is completed, you must use the button
 
 #### Block Code
 
-> **Important**
+> **IMPORTANT**
 >
 > Please note, tags are not available in a code block.
 
 Controls (sensors and actuators):
 -   cmd::byString ($ string); : Returns the corresponding command object.
-  -   $string : Link to the desired order : #[objet][equipment][commande]# (ex : #[Appartement][Alarme][Asset]#)
+  -   $string : Link to the desired order : #[objet][Equipment][commande]# (Ex : #[Appartement][Alarme][Active]#)
 -   cmd::BYID ($ id); : Returns the corresponding command object.
   -   $id : Order ID
 -   $cmd->execCmd($options = null); : Execute the command and return the result.
   -   $options : Options for command execution (may be plugin specific), basic option (command subtype) :
-    -   message : $option = array('title' => 'titre du message , 'message' => 'Mon message');
+    -   Message : $option = array('title' => 'titre du Message , 'message' => 'Mon message');
     -   color : $option = array('color' => 'couleur en hexadécimal');
     -   slider : $option = array('slider' => 'valeur voulue de 0 à 100');
 
@@ -243,7 +243,7 @@ Log :
 -   log::add ( &#39;filename&#39; &#39;level&#39;, &#39;message&#39;);
   -   filename : Log file name.
   -   level : [debug], [info], [error], [event].
-  -   message : Message to write in the logs.
+  -   Message : Message to write in the logs.
 
 Scenario :
 -   $scenario->getName(); : Returns the name of the current scenario.
@@ -343,13 +343,13 @@ comparisons in conditions :
     not ([Bathroom] [Hydrometry] [condition] matches "/ wet /")),
 
 You can combine any comparison with operators
-next :
+following :
 
 -   &amp;&amp; / ET / and / AND / and : et,
 
 -   \|| / OR / or / OR / or : ou,
 
--   \|^/XOR/xor : or exclusive.
+-   \|^ / XOR / xor : or exclusive.
 
 Tags
 --------
@@ -367,10 +367,10 @@ can use the following tags :
     08:07:06),
 
 -   #heure# : Current time in 24h format (without leading zeros,
-    ex : 8 for 08:07:06 or 17 for 17:15),
+    Ex : 8 for 08:07:06 or 17 for 17:15),
 
 -   #heure12# : Current time in 12-hour format (without leading zeros,
-    ex : 8 for 08:07:06),
+    Ex : 8 for 08:07:06),
 
 -   #minute# : Current minute (without leading zeros, ex : 7 for
     08:07:06),
@@ -388,7 +388,7 @@ can use the following tags :
 -   #timestamp# : Number of seconds since January 1, 1970,
 
 -   #date# : Day and month. Attention, the first number is the month.
-    (ex : 1215 for December 15),
+    (Ex : 1215 for December 15),
 
 -   #semaine# : Week number (ex : 51),
 
@@ -412,7 +412,7 @@ triggered by an interaction :
 -   #profil# : profile of the user who started the scenario
     (can be empty).
 
-> **Important**
+> **IMPORTANT**
 >
 > When a scenario is triggered by an interaction, it is
 > necessarily run in fast mode.
@@ -562,7 +562,7 @@ example :
 
 -   Yesterday noon : yesterday afternoon
 
--   Etc.
+-   Etc..
 
 Here are practical examples to understand the values returned by
 these different functions :
@@ -670,7 +670,7 @@ In addition to home automation commands, you have access to the following action
 
 -   **Pause** (sleep) : Pause of x second (s).
 
--   **variable** (variable) : Creation / modification of a variable or value
+-   **Variable** (variable) : Creation / modification of a variable or value
     of a variable.
 
 -   **Remove variable** (delete_variable) : Allows you to delete a variable
@@ -681,9 +681,9 @@ In addition to home automation commands, you have access to the following action
     accents and no special characters). We get the tag in the
     target scenario with the tag function (montag). The command "Reset to SI" allows to reset the status of "SI" (this status is used for the non-repetition of the actions of an "SI" if you pass for the 2nd consecutive time in it)
 
--   **Stop** (stop) : Stop the scenario.
+-   **STOP** (stop) : Stop the scenario.
 
--   **Expect** (wait) : Wait until the condition is valid
+-   **Wait** (wait) : Wait until the condition is valid
     (maximum 2h), the timeout is in seconds (s).
 
 -   **Go to design** (gotodesign) : Change the design displayed on all
@@ -718,7 +718,7 @@ In addition to home automation commands, you have access to the following action
     browsers that have a Jeedom page open. You can
     more, choose 4 alert levels.
 
--   **Pop up** (popup) : Allows to display a pop-up which must absolutely be
+-   **Pop-up** (popup) : Allows to display a pop-up which must absolutely be
     validated on all browsers that have a jeedom page open.
 
 -   **Report** (report) : Export a view in format (PDF, PNG, JPEG
@@ -731,7 +731,7 @@ In addition to home automation commands, you have access to the following action
 
 -   **Event** (event) : Allows you to push a value in an information type command arbitrarily
 
--   **Tags** (tag) : Allows you to add / modify a tag (the tag only exists during the current execution of the scenario unlike the variables that survive the end of the scenario)
+-   **Tag** (tag) : Allows you to add / modify a tag (the tag only exists during the current execution of the scenario unlike the variables that survive the end of the scenario)
 
 Scenario template
 ====================
@@ -765,9 +765,9 @@ By clicking on a template, you get :
 
 At the top you can :
 
--   **To share** : share the template on the Market,
+-   **Share** : share the template on the Market,
 
--   **To delete** : delete template,
+-   **Remove** : delete template,
 
 -   **Download** : recover the template as a JSON file
     to send it back to another Jeedom for example.

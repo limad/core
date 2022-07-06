@@ -14,7 +14,7 @@ perfil :
 
 -   **Perfil**
 
-    -   **Acceso** : Su inicio de sesión en el mercado, no se puede cambiar
+    -   **Login** : Su inicio de sesión en el mercado, no se puede cambiar
 
     -   **Apellido** : Su nombre (esta información solo es útil para
         hacer que los correos electrónicos sean más divertidos)
@@ -24,7 +24,7 @@ perfil :
 
     -   **Nombre de usuario en el foro** : Tu nombre de usuario en el foro
 
-    -   **Correo electrónico** : Su correo
+    -   **E-mail** : Su correo
 
     -   **Lengua** : Tu idioma
 
@@ -53,7 +53,7 @@ Para los profesionales :
 -   **Usuario** : condiciones generales de uso (preste atención a
     léelos bien porque te involucran)
 
--   **Desarrollador** : condiciones generales de uso para
+-   **Revelador** : condiciones generales de uso para
     desarrolladores
 
     -   **Entradas**
@@ -73,7 +73,7 @@ Para los profesionales :
     -   **Resumen** Aquí encontrarás un resumen de tus diferentes
         derechos y servicios
 
-> **Consejo**
+> **Punta**
 >
 > No olvides guardar
 
@@ -94,7 +94,7 @@ Mis jeedoms
         de las instalaciones de Jeedom actualmente vinculadas a su cuenta también
         que el límite permitido
 
-> **Consejo**
+> **Punta**
 >
 > A veces el mercado puede pedirle que reinicie
 > sus claves de instalación, es normal, solo siga lo que
@@ -112,7 +112,7 @@ Mis jeedoms
         configurar en Jeedom, si no pones nada estará allí
         última IP conocida
 
-    -   **DNS** : le permite personalizar el nombre de su DNS
+    -   **Dns** : le permite personalizar el nombre de su DNS
 
     -   **URL** : enumerar las diferentes URL de acceso de Jeedom.
 
@@ -132,7 +132,7 @@ Mis jeedoms
 
     -   **Versión** : la versión de Jeedom instalada
 
-> **Consejo**
+> **Punta**
 >
 > No olvides guardar
 

@@ -64,7 +64,7 @@ TTS, puedes definir su alcance :
 -   **IP blanca** : solo se autoriza una lista de IP (ver
     Administración → Configuración → Redes),
 
--   **Servidor local** : solo solicitudes del sistema en el que está
+-   **Localhost** : solo solicitudes del sistema en el que está
     Jeedom instalado están permitidos,
 
 -   **Activado** : sin restricciones, cualquier sistema con acceso
@@ -86,7 +86,7 @@ Dos partes reservadas para expertos están presentes en esta pestaña.
     para obtener información sobre el sistema.
 
 -   **Base de datos** : Permite el acceso a la base de datos
-    por Jeedom. Luego puede ejecutar comandos en el campo
+    de Jeedom. Luego puede ejecutar comandos en el campo
     desde lo alto. A continuación se muestran dos parámetros para obtener información :
 
     -   **Usuario** : Nombre de usuario utilizado por Jeedom en
@@ -117,7 +117,7 @@ LDAP
 
 -   **Campos de busqueda de usuario** : campos de búsqueda de
     inicio de sesión de usuario. Por lo general, uid para LDAP, samaccountname para
-    Anuncio de Windows
+    Windows AD
 
 -   **Filtro (opcional)** : filtro en el AD (para administrar
     grupos por ejemplo)
@@ -125,7 +125,7 @@ LDAP
 -   **Permitir REMOTO\_USER** : Active REMOTE\_USER (usado en SSO
     Por ejemplo)
 
-Acceso 
+Acceder 
 ---------
 
 -   **Número de fallas toleradas** : establece el número de intentos
@@ -199,13 +199,13 @@ externe** (de otra red, especialmente de Internet).
     -   **Complementar** : el fragmento de URL adicional (ejemplo
         : / jeedom) para acceder a Jeedom.
 
-> **Consejo**
+> **Punta**
 >
 > Si está en HTTPS, el puerto es 443 (por defecto) y en HTTP el
 > el puerto es 80 (predeterminado). Para usar HTTPS desde afuera,
 > un complemento de letsencrypt ya está disponible en el mercado.
 
-> **Consejo**
+> **Punta**
 >
 > Para saber si necesita establecer un valor en el campo
 > **Complementar**, mira, cuando inicias sesión en Jeedom en
@@ -260,11 +260,11 @@ widgets a nivel mundial (este será el valor predeterminado. El es
 entonces es posible modificar este valor widget por widget). Para no
 no ponga transparencia, deje 1.0 .
 
-> **Consejo**
+> **Punta**
 >
 > No olvide guardar después de cualquier modificación.
 
-Pedidos 
+Comandos 
 =========
 
 Se pueden registrar muchos pedidos. Entonces en
@@ -323,7 +323,7 @@ Histórico
 > [aquí](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_moindres_carr%C3%A9s)
 > para el detalle).
 
-Empujar 
+Empuje 
 ----
 
 **URL de inserción global** : permite agregar una URL para llamar en caso de
@@ -333,12 +333,12 @@ nombre del comando, **\#cmd\_id\#** para el identificador único de la
 commande, **\#humanname\#** para el nombre completo de la orden (ej :
 \#\[Salle de bain\]\[Hydrometrie\]\[Humidité\]\#), ``#eq_name#`para el nombre del equipo
 
-Oculto 
+Cubierta 
 =====
 
 Permite monitorear y actuar en el caché Jeedom :
 
--   **Estadísticas** : Número de objetos actualmente en caché
+-   **Estadística** : Número de objetos actualmente en caché
 
 -   **Limpiar la tapa** : Forzar la eliminación de objetos que no son
     mas util. Jeedom hace esto automáticamente todas las noches.
@@ -358,11 +358,11 @@ Interacciones
 Esta pestaña le permite establecer parámetros globales relacionados con
 interacciones que encontrarás en Herramientas → Interacciones.
 
-> **Consejo**
+> **Punta**
 >
 > Para activar el registro de interacción, vaya a la pestaña
 > Administración → Configuración → Registros, luego marque **Depurar** en la lista
-> de abajo. Atención : los registros serán muy detallados !
+> de abajo. ATENCIÓN : los registros serán muy detallados !
 
 General 
 -------
@@ -400,12 +400,12 @@ Aquí tienes tres parámetros :
 Interacción automática, contextual y advertencia 
 -----------------------------------------------------
 
--   Los **interacciones automáticas** permitir que Jeedom intente
+-   La **interacciones automáticas** permitir que Jeedom intente
     entender una solicitud de interacción incluso si no hay ninguna
     de definido. Luego buscará un objeto y / o nombre del equipo
     y / o para tratar de responder lo mejor posible.
 
--   Los **interacciones contextuales** permitirte encadenar
+-   La **interacciones contextuales** permitirte encadenar
     múltiples solicitudes sin repetir todo, por ejemplo :
 
     -   *Jeedom manteniendo el contexto :*
@@ -500,7 +500,7 @@ palabras rojo / azul / negro ... Para agregar un color :
 
 -   Elija el color asociado haciendo clic en el cuadro de la derecha.
 
-Informes 
+Relaciones 
 ========
 
 Configurar la generación y gestión de informes
@@ -537,7 +537,7 @@ equipos, objetos, etc.
 -   **Parámetro de prerender** : Vamos a actuar sobre el diseño
     del gráfico.
 
--   **Parámetro de procesamiento** : Mismo.
+-   **Parámetro de procesamiento** : ídem.
 
 Resúmenes 
 =======
@@ -546,7 +546,7 @@ Agregar resúmenes de objetos. Esta información se muestra
 en la parte superior derecha, en la barra de menú de Jeedom, o al lado de
 objetos :
 
--   **Llave** : Clave para el resumen, especialmente para no tocar.
+-   **Clave** : Clave para el resumen, especialmente para no tocar.
 
 -   **Apellido** : Nombre abstracto.
 
@@ -554,7 +554,7 @@ objetos :
 
     -   **Suma** : suma los diferentes valores,
 
-    -   **Significar** : valores promedio,
+    -   **Promedio** : valores promedio,
 
     -   **Texto** : mostrar el valor literalmente (especialmente para aquellos
         de tipo de cadena).
@@ -579,7 +579,7 @@ objetos :
 -   **Eliminar resumen** : El último botón, en el extremo derecho, permite
     para eliminar el resumen de la línea.
 
-Registros 
+Troncos 
 ====
 
 Línea de tiempo 
@@ -591,7 +591,7 @@ Línea de tiempo
 -   **Eliminar todos los eventos** : Vaciar la línea de tiempo de
     todos sus eventos grabados.
 
-Publicaciones 
+Mensajes 
 --------
 
 -   **Agregue un mensaje a cada error en los registros** : si un complemento
@@ -603,14 +603,14 @@ Publicaciones
         - #message# : mensaje en cuestión
         - #plugin# : complemento que activó el mensaje
 
-Alertas 
+Notificaciones 
 -------
 
 -   **Agregar un mensaje a cada tiempo de espera** : Agregue un mensaje en el
-    centro de mensajes si el equipo cae en **se acabó el tiempo**.
+    centro de mensajes si el equipo cae en **tiempo de espera**.
 
 -   **Orden de tiempo de espera** : Comando de tipo **mensaje** a utilizar
-    si hay un equipo en **se acabó el tiempo**.
+    si hay un equipo en **tiempo de espera**.
 
 -   **Agregue un mensaje a cada batería en Advertencia** : Añadir un
     mensaje en el centro de mensajes si un dispositivo tiene su nivel de
@@ -638,7 +638,7 @@ Alertas
 -   **Comando en peligro** : Comando de tipo **mensaje** usar si
     una orden se pone en alerta **peligro**.
 
-Tronco 
+Registro 
 ---
 
 -   **Motor de registro** : Le permite cambiar el motor de registro para
@@ -661,7 +661,7 @@ A continuación encontrará una tabla para administrar finamente el
 nivel de registro de los elementos esenciales de Jeedom, así como el de
 plugins.
 
-Equipo 
+Comodidades 
 ===========
 
 -   **Número de fallas antes de la desactivación del equipo** : Nombre
@@ -714,7 +714,7 @@ Depósito utilizado para conectar Jeedom a Github.
 ### Mercado 
 
 Depósito utilizado para conectar Jeedom al mercado, es muy recomendable
-para usar este repositorio. Atención : cualquier solicitud de soporte puede ser
+para usar este repositorio. ATENCIÓN : cualquier solicitud de soporte puede ser
 rechazado si utiliza un depósito diferente a este.
 
 -   **Dirección** : Dirección del mercado.
@@ -732,7 +732,7 @@ rechazado si utiliza un depósito diferente a este.
 ### Samba 
 
 Deposite para enviar automáticamente una copia de seguridad de Jeedom a
-una parte de Samba (ex : Sinología NAS).
+una parte de Samba (ex : NAS Synology).
 
 -   **\ [Copia de seguridad \] IP** : IP del servidor Samba.
 

@@ -6,12 +6,12 @@ Estas órdenes pueden ser obtenidas por :
 -   SMS : enviar un SMS para iniciar comandos (acción) o pedir un
     pregunta (información).
 
--   Gato : Telegrama, Slack, etc.
+-   Gato : Telegram, Slack, etc.
 
 -   Vocal : dicta una frase con Siri, Google Now, SARAH, etc. Para
     iniciar comandos (acción) o hacer una pregunta (información).
 
--   HTTP : lanzar una URL HTTP que contenga el texto (ej. Tasker, Slack)
+-   Http : lanzar una URL HTTP que contenga el texto (ej. Tasker, Slack)
     Para iniciar comandos (acción) o hacer una pregunta (información).
 
 El interés de las interacciones radica en la integración simplificada en
@@ -22,7 +22,7 @@ Interacciones :
 
 En la parte superior de la página, hay 3 botones :
 
--   **Para agregar** : que permite crear nuevas interacciones.
+-   **Añadir** : que permite crear nuevas interacciones.
 
 -   **Regenerado** : que recreará todas las interacciones (tal vez
     très long &gt; 5mn).
@@ -30,7 +30,7 @@ En la parte superior de la página, hay 3 botones :
 -   **Prueba** : que abre un diálogo para escribir y
     prueba una oración.
 
-> **Consejo**
+> **Punta**
 >
 > Si tienes una interacción que genera las oraciones para las luces
 > por ejemplo y agrega un nuevo módulo de comando de
@@ -60,14 +60,14 @@ Configuración
 La página de configuración consta de varias pestañas y
 botones :
 
--   **Oraciones** : Muestra el número de oraciones en la interacción (un clic
+-   **Frases** : Muestra el número de oraciones en la interacción (un clic
     arriba te los muestra)
 
--   **Para registrarse** : registra la interacción actual
+-   **Registro** : registra la interacción actual
 
--   **Borrar** : eliminar la interacción actual
+-   **Remove** : eliminar la interacción actual
 
--   **Duplicar** : duplicar la interacción actual
+-   **Duplicado** : duplicar la interacción actual
 
 General 
 =======
@@ -75,10 +75,10 @@ General
 -   **Apellido** : nombre de la interacción (puede estar vacío, el nombre reemplaza el
     solicitar texto en la lista de interacción).
 
--   **Banda** : grupo de interacción, ayuda a organizarlos
+-   **Grupo** : grupo de interacción, ayuda a organizarlos
     (puede estar vacío, por lo que estará en el grupo "ninguno").
 
--   **Activo** : permite activar o desactivar la interacción.
+-   **Bienes** : permite activar o desactivar la interacción.
 
 -   **Solicitud** : La oración modelo generadora (requerida).
 
@@ -124,7 +124,7 @@ Filtros
     equipo / módulo único (Jeedom crea automáticamente la lista en
     del equipo / módulos que tienes).
 
-Valores 
+Acción 
 ======
 
 Úselo si desea apuntar a uno o más comandos específicos
@@ -166,7 +166,7 @@ frase única imagina acciones combinadas entre varios comandos y
 varios escenarios (también podemos desencadenar escenarios en el juego
 acción de interacciones).
 
-> **Consejo**
+> **Punta**
 >
 > Para agregar un escenario, crear una nueva acción, escriba "escenario"
 > sin acento, presione la tecla de tabulación en su teclado para
@@ -319,7 +319,7 @@ Exclusión de expresiones regulares
 ------------------
 
 Es posible crear
-[Expresión regular](https://fr.wikipedia.org/wiki/Expression_rationnelle)
+[Regexp](https://fr.wikipedia.org/wiki/Expression_rationnelle)
 de exclusión, si una oración generada corresponde a esta expresión regular será
 borrado. El punto es poder eliminar falsos positivos,
 decir una oración generada por Jeedom que activa algo que no
@@ -455,7 +455,7 @@ sola vez.
 Este ejemplo se dirige específicamente a equipos específicos que permiten
 tener una respuesta personalizada. Entonces podríamos imaginar reemplazar
 el ejemplo responde con &quot;no, no hay nadie en la habitación
-*julio*|si hay alguien en la sala *julio*"
+*Julie*|si hay alguien en la sala *Julie*"
 
 ### Evolución 
 
@@ -566,7 +566,7 @@ atenuador para aplicar el valor deseado. Para hacer esto, tenemos 3 partes
 que será enviado a la interacción. \* Respuesta : reutilizamos la etiqueta para
 la respuesta para asegurarse de que Jeedom entendió la solicitud correctamente.
 \* Acción : ponemos una acción sobre la lámpara que queremos conducir y en
-el valor le pasamos nuestra etiqueta *consigna*.
+el valor le pasamos nuestra etiqueta *Consigna*.
 
 > **Nota**
 >

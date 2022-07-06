@@ -8,7 +8,7 @@ It is accessible by Home → Design
 >
 > It is possible to go directly to a design thanks to the submenu.
 
-> **Important**
+> **IMPORTANT**
 >
 > All actions are done by right click on this page, attention
 > to do it well in design. During creation, it is therefore necessary to
@@ -52,9 +52,9 @@ following actions :
 -   **Add summary** : Adds information from an object summary or
     general
 
--   **Display**
+-   **Viewing**
 
-    -   **None** : Does not display any grid
+    -   **Any** : Does not display any grid
 
     -   **10x10** : Displays a 10 by 10 grid
 
@@ -80,10 +80,10 @@ following actions :
 
 -   **Configure the design** : access to design configuration
 
--   **To safeguard** : allows to save the design (attention, there are
+-   **Save** : allows to save the design (attention, there are
     also automatic backups during certain actions)
 
-> **Important**
+> **IMPORTANT**
 >
 > The configuration of the design elements is done by clicking on
 > these.
@@ -109,9 +109,9 @@ Found here :
     -   **Icon** : An icon for it (appears in the menu
         choice of design)
 
-    -   **Image**
+    -   **Picture**
 
-        -   **Send** : allows to add a background image to the design
+        -   **To send** : allows to add a background image to the design
 
         -   **Delete image** : delete image
 
@@ -123,11 +123,11 @@ Found here :
 General configuration of elements 
 ===================================
 
-> **Note**
+> **NOTE**
 >
 > Depending on the type of item, options may change.
 
-> **Note**
+> **NOTE**
 >
 > The selected item is highlighted in red (instead of green
 > for all the others).
@@ -137,15 +137,15 @@ Display setting
 
 -   **Depth** : allows to choose the depth level
 
--   **X-Position (%)** :
+-   **Position X (%)** :
 
--   **Y-Position (%)** :
+-   **Position Y (%)** :
 
 -   **Width (px)** :
 
 -   **Height (px)** :
 
-To delete 
+Remove 
 ---------
 
 Remove item
@@ -161,7 +161,7 @@ Lock
 Locks the element so that it is no longer movable or
 redimensionnable.
 
-Chart 
+Graphic 
 =========
 
 Display settings 
@@ -214,11 +214,11 @@ Text / html
 -   **Text alignment** : allows you to choose the alignment of the
     text (left / right / centered)
 
--   **Bold** : bold text
+-   **Fat** : bold text
 
 -   **Text** : Text in HTML code that will be in the element
 
-> **Important**
+> **IMPORTANT**
 >
 > If you put HTML code (especially Javascript), be careful
 > to check it before because you can if there is an error in it
@@ -261,7 +261,7 @@ Display settings
 -   **Text alignment** : allows you to choose the alignment of the
     text (left / right / centered)
 
--   **Bold** : bold text
+-   **Fat** : bold text
 
 Equipment 
 ==========
@@ -297,15 +297,15 @@ Picture / Camera
 Display settings 
 ---------------------
 
--   **To display** : defines what you want to display, still image or
+-   **Pin up** : defines what you want to display, still image or
     stream from a camera
 
--   **Image** : allows you to send the image in question (if you have
+-   **Picture** : allows you to send the image in question (if you have
     choose an image)
 
 -   **Camera** : Camera to display (if you chose camera)
 
-Area 
+Zoned 
 ====
 
 Display settings 
@@ -370,10 +370,10 @@ Summary
 -   **Font size (ex 50%, you must put the% sign)** :
     allows you to change the font size
 
--   **Bold** : bold text
+-   **Fat** : bold text
 
 
-FAQs 
+Faq 
 ======
 
 >**I can no longer edit my design**

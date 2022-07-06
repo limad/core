@@ -6,7 +6,7 @@ Esses pedidos podem ser obtidos por :
 -   SMS : envie um SMS para iniciar comandos (ação) ou peça a um
     pergunta (informações).
 
--   Gato : Telegrama, Slack, etc.
+-   Cat : Telegrama, Slack, etc.
 
 -   Vocal : dite uma frase com Siri, Google Now, SARAH etc. Para
     iniciar comandos (ação) ou fazer uma pergunta (informações).
@@ -63,29 +63,29 @@ botões :
 -   **Frases** : Exibe o número de frases na interação (um clique
     acima mostra para você)
 
--   **Registrar** : registra a interação atual
+-   **Registro** : registra a interação atual
 
--   **Deletar** : excluir interação atual
+-   **Remover** : excluir interação atual
 
--   **Duplicado** : duplicar a interação atual
+-   **Duplicar** : duplicar a interação atual
 
 Geral 
 =======
 
--   **Sobrenome** : nome da interação (pode estar vazio, o nome substitui o
+-   **Nome** : nome da interação (pode estar vazio, o nome substitui o
     solicitar texto na lista de interação).
 
--   **Banda** : grupo de interação, ajuda a organizá-los
+-   **Grupo** : grupo de interação, ajuda a organizá-los
     (pode estar vazio, então estará no grupo "none").
 
--   **De ativos** : permite ativar ou desativar a interação.
+-   **Ativos** : permite ativar ou desativar a interação.
 
--   **Solicitar** : A sentença do modelo de geração (obrigatório).
+-   **Aplicação** : A sentença do modelo de geração (obrigatório).
 
 -   **Sinônimo** : permite definir sinônimos em nomes
     pedidos.
 
--   **Responda** : a resposta para fornecer.
+-   **Réponse** : a resposta para fornecer.
 
 -   **Aguarde antes de responder (s))** : adicione um atraso de X segundos antes de gerar a resposta. Permite, por exemplo, aguardar o retorno do status de uma lâmpada antes de ser atendido.
 
@@ -124,7 +124,7 @@ Filtros
     único equipamento / módulo (o Jeedom cria automaticamente a lista em
     dos equipamentos / módulos que você possui).
 
-Ações 
+Ação 
 ======
 
 Use se você deseja direcionar um ou mais comandos específicos
@@ -133,7 +133,7 @@ ou passar parâmetros específicos.
 Exemplos 
 ========
 
-> **Observação**
+> **NOTA**
 >
 > As capturas de tela podem ser diferentes em vista dos desenvolvimentos.
 
@@ -455,7 +455,7 @@ Existe alguém na sala ?
 Este exemplo visa especificamente equipamentos específicos que permitem
 ter uma resposta personalizada. Então poderíamos imaginar substituir
 o exemplo responde com "não, não há ninguém na sala
-*Júlia*|sim tem alguém na sala *Júlia*"
+*julie*|sim tem alguém na sala *julie*"
 
 ### Evolução 
 
@@ -542,7 +542,7 @@ Então podemos ver uma regexp :
 Isso permite excluir todos os pedidos que possuem um destes
 palavras em sua frase
 
-> **Observação**
+> **NOTA**
 >
 > O regexp aqui é uma versão simplificada para fácil utilização.
 > Portanto, podemos usar expressões tradicionais ou
@@ -568,7 +568,7 @@ a resposta para garantir que Jeedom entendeu a solicitação corretamente.
 \* Ação : nós colocamos uma ação na lâmpada que queremos dirigir e
 o valor que passamos nossa tag *ordem*.
 
-> **Observação**
+> **NOTA**
 >
 > Você pode usar qualquer tag, exceto aquelas já usadas pelo
 > Jeedom, pode haver vários para dirigir, por exemplo
@@ -658,7 +658,7 @@ usar tags \#time\# (se um horário específico estiver definido) ou
 
 ![interact23](../images/interact23.JPG)
 
-> **Observação**
+> **NOTA**
 >
 > Você notará na resposta a tag \#value\# este contém
 > no caso de uma interação agendada, o tempo de programação

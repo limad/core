@@ -22,7 +22,7 @@ Oben rechts haben Sie :
 
 -   **Hinzufügen** : eine Schaltfläche zum Hinzufügen eines Cron-Jobs
 
--   **Zur Anmeldung** : eine Schaltfläche zum Speichern Ihrer Änderungen.
+-   **Rekord** : eine Schaltfläche zum Speichern Ihrer Änderungen.
 
 Unten finden Sie die Tabelle aller vorhandenen Aufgaben
 (Seien Sie vorsichtig, einige Aufgaben können Unteraufgaben starten
@@ -32,10 +32,10 @@ Seite). In dieser Tabelle finden wir :
 -   **\.#** : Aufgaben-ID, kann zum Verknüpfen von a hilfreich sein
     Prozess, der läuft und was er wirklich tut
 
--   **Aktie** : eine Schaltfläche zum Starten oder Stoppen der Funktion
+-   **Aktion** : eine Schaltfläche zum Starten oder Stoppen der Funktion
     seinen Status und eine Schaltfläche zum detaillierten Anzeigen des Cron (wie in der Datenbank gespeichert))
 
--   **Anlage** : Gibt an, ob die Aufgabe aktiv ist (kann gestartet werden
+-   **Aktiva** : Gibt an, ob die Aufgabe aktiv ist (kann gestartet werden
     von Jeedom) oder nicht
 
 -   **PID** : gibt die aktuelle Prozess-ID an
@@ -45,7 +45,7 @@ Seite). In dieser Tabelle finden wir :
     Es wird empfohlen, diesen Wert niemals zu berühren und insbesondere niemals
     verringern Sie es
 
--   **Einzigartig** : Wenn es "Ja" ist, wird die Aufgabe einmal gestartet
+-   **Single** : Wenn es "Ja" ist, wird die Aufgabe einmal gestartet
     dann wird gelöscht
 
 -   **Klasse** : PHP-Klasse aufgerufen, um die Aufgabe auszuführen (can
@@ -56,7 +56,7 @@ Seite). In dieser Tabelle finden wir :
 
 -   **Programmierung** : Programmieren der Aufgabe im CRON-Format
 
--   **Auszeit** : maximale Laufzeit der Aufgabe. Wenn die
+-   **Zeitüberschreitung** : maximale Laufzeit der Aufgabe. Wenn die
     Aufgabe ist ein Dämon, dann wird es automatisch gestoppt und
     am Ende des Timeouts neu gestartet
 
@@ -69,7 +69,7 @@ Seite). In dieser Tabelle finden wir :
 -   **Status** : aktueller Status der Aufgabe (zur Erinnerung eine Daemon-Aufgabe
     ist noch bei "run")
 
--   **Streichung** : Aufgabe löschen
+-   **Unterdrückung** : Aufgabe löschen
 
 
 # Listener

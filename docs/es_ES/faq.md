@@ -65,12 +65,12 @@ recomienda modificar estos identificadores para mayor seguridad.
 ================================
 
 Sí : O tienes una fuente de alimentación o más, en este caso
-solo usa el [Jeedom-DNS](https://doc.jeedom.com/es_ES/howto/mise_en_place_dns_jeedom). Con un DNS y sabes cómo configurar un certificado válido, en este caso es una instalación estándar de un certificado.
+solo usa el [DNS Jeedom](https://doc.jeedom.com/es_ES/howto/mise_en_place_dns_jeedom). Con un DNS y sabes cómo configurar un certificado válido, en este caso es una instalación estándar de un certificado.
 
 Cómo conectarse en SSH ?
 =============================
 
-Aquí hay un [documentación](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". El &quot;nombre de host&quot; es la ip de su Jeedom, los identificadores son :
+Aquí hay un [Documentación](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". El &quot;nombre de host&quot; es la ip de su Jeedom, los identificadores son :
 
 - Nombre de usuario : "root ", contraseña : "Mjeedom96"
 - Nombre de usuario : "jeedom ", contraseña : "Mjeedom96"
@@ -86,7 +86,7 @@ En SSH hacer :
 `` `{.bash}
 sudo su -
 chmod -R 775 / var / www / html
-chown -R www-datos:www-data / var / www / html
+chown -R www-data:www-data / var / www / html
 `` ''
 
 ¿Dónde están las copias de seguridad de Jeedom? ? 
@@ -101,9 +101,9 @@ En SSH hacer :
 
 `` `{.bash}
 sudo su -
-php /var/www/html/instalar/actualizar.php
+php /var/www/html/install/update.php
 chmod -R 775 / var / www / html
-chown -R www-datos:www-data / var / www / html
+chown -R www-data:www-data / var / www / html
 `` ''
 
 ¿Es compatible con Webapp Symbian? ? 
@@ -133,7 +133,7 @@ Tengo una pagina en blanco
 =====================
 
 Tienes que conectarte en SSH a Jeedom y ejecutar el script
-auto diagnóstico :
+autodiagnóstico :
 
 `` `{.bash}
 sudo chmod + x / var / www / html / health.sh; sudo /var/www/html/health.sh
@@ -158,7 +158,7 @@ echo &quot;CONCEDE TODOS LOS PRIVILEGIOS EN Jeedom.* TO &#39;jeedom&#39; @ &#39;
 cd / usr / share / nginx / www / jeedom
 sudo cp core / config / common.config.sample.php core / config / common.config.php
 sudo sed -i -e "s /#PASSWORD#/ $ {bdd_password} / g "core / config / common.config.php
-sudo chown www-datos:www-data core / config / common.config.php
+sudo chown www-data:www-data core / config / common.config.php
 `` ''
 
 Tengo \ {\ {… \} \} en todas partes 
@@ -179,7 +179,7 @@ Ya no tengo acceso a Jeedom, ni a través de la interfaz web ni en la consola a 
 
 Este error no se debe a Jeedom, sino a un problema con el sistema.
 Si persiste después de una reinstalación, es recomendable
-ver con el servicio postventa para una inquietud de hardware. Aquí esta el [documentación](https://doc.jeedom.com/es_ES/installation/smart) para inteligente
+ver con el servicio postventa para una inquietud de hardware. Aquí esta el [Documentación](https://doc.jeedom.com/es_ES/installation/smart) para inteligente
 
 Mi escenario ya no se detiene 
 =================================
@@ -233,7 +233,7 @@ Los botones de apagado / reinicio no funcionan
 
 En una instalación de bricolaje es normal. En SSH, tienes que pedir
 visudo y al final del archivo tienes que agregar : www-data ALL = (ALL)
-NOPASSWD: TODOS.
+NOPASSWD: TODO.
 
 `` `{.bash}
 servicio sudo apache2 reiniciar

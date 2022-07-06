@@ -4,7 +4,7 @@ Ihre Fantasie.
 
 Es ist über Home → Design zugänglich
 
-> **Tipp**
+> **Spitze**
 >
 > Dank des Untermenüs ist es möglich, direkt zu einem Entwurf zu gelangen.
 
@@ -17,9 +17,9 @@ Es ist über Home → Design zugänglich
 Im Menü (Rechtsklick also) finden wir die
 folgende Aktionen :
 
--   **Entwürfe** : Zeigt die Liste Ihrer Designs an und greift darauf zu
+-   **Design** : Zeigt die Liste Ihrer Designs an und greift darauf zu
 
--   **Bearbeitung** : Wechseln Sie in den Bearbeitungsmodus
+-   **Ausgabe** : Wechseln Sie in den Bearbeitungsmodus
 
 -   **Vollbild** : Ermöglicht die Verwendung der gesamten Webseite
     entfernt das Jeedom-Menü von oben
@@ -52,9 +52,9 @@ folgende Aktionen :
 -   **Zusammenfassung hinzufügen** : Fügt Informationen aus einer Objektzusammenfassung hinzu oder
     General
 
--   **Anzeige**
+-   **Anzeigen**
 
-    -   **Keiner** : Zeigt kein Raster an
+    -   **Keine** : Zeigt kein Raster an
 
     -   **10x10** : Zeigt ein 10 x 10-Raster an
 
@@ -80,7 +80,7 @@ folgende Aktionen :
 
 -   **Konfigurieren Sie das Design** : Zugriff auf die Designkonfiguration
 
--   **Zu schützen** : ermöglicht das Speichern des Designs (Aufmerksamkeit gibt es
+-   **Speichern** : ermöglicht das Speichern des Designs (Aufmerksamkeit gibt es
     auch automatische Sicherungen während bestimmter Aktionen)
 
 > **Wichtig**
@@ -95,7 +95,7 @@ Hier gefunden :
 
 -   **General**
 
-    -   **Nachname** : Der Name Ihres Designs
+    -   **Name** : Der Name Ihres Designs
 
     -   **Transparenter Hintergrund** : macht den Hintergrund transparent. Seien Sie vorsichtig, wenn die
         Wenn das Kontrollkästchen aktiviert ist, wird die Hintergrundfarbe nicht verwendet
@@ -103,7 +103,7 @@ Hier gefunden :
     -   **Hintergrundfarbe** : Design Hintergrundfarbe (weiß
         Standard)
 
-    -   **Codiert** : Zugriffscode für Ihr Design (falls leer, kein Code
+    -   **CODE** : Zugriffscode für Ihr Design (falls leer, kein Code
         wird nicht gefragt)
 
     -   **Symbol** : Ein Symbol dafür (erscheint im Menü
@@ -111,7 +111,7 @@ Hier gefunden :
 
     -   **Bild**
 
-        -   **Senden** : Ermöglicht das Hinzufügen eines Hintergrundbilds zum Design
+        -   **Send** : Ermöglicht das Hinzufügen eines Hintergrundbilds zum Design
 
         -   **Bild löschen** : Bild löschen
 
@@ -137,15 +137,15 @@ Anzeigeeinstellung
 
 -   **Tiefe** : ermöglicht die Auswahl der Tiefenstufe
 
--   **X-Position (%)** :
+-   **Position X (%)** :
 
--   **Y-Position (%)** :
+-   **Position Y (%)** :
 
 -   **Breite (px)** :
 
 -   **Höhe (px)** :
 
-Löschen 
+Entfernen 
 ---------
 
 Gegenstand entfernen
@@ -155,13 +155,13 @@ Duplikat
 
 Ermöglicht das Duplizieren des Elements
 
-Sperren 
+Schloss 
 -----------
 
 Sperrt das Element so, dass es nicht mehr beweglich ist oder
 redimensionnable.
 
-Diagramm 
+Grafik 
 =========
 
 Anzeigeeinstellungen 
@@ -214,7 +214,7 @@ Text / html
 -   **Textausrichtung** : Hier können Sie die Ausrichtung der auswählen
     Text (links / rechts / zentriert)
 
--   **Fett gedruckt** : fetter Text
+-   **Fett** : fetter Text
 
 -   **Text** : Text im HTML-Code, der sich im Element befindet
 
@@ -233,15 +233,15 @@ Anzeigeeinstellungen
 
 Keine spezifischen Anzeigeeinstellungen
 
-Verknüpfung 
+Link 
 ====
 
 Anzeigeeinstellungen 
 ---------------------
 
--   **Nachname** : Name des Links (angezeigter Text)
+-   **Name** : Name des Links (angezeigter Text)
 
--   **Verknüpfung** : Link zum betreffenden Design oder zur betreffenden Ansicht
+-   **Link** : Link zum betreffenden Design oder zur betreffenden Ansicht
 
 -   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe oder zu ändern
     transparent machen, vergessen Sie nicht, &quot;Standard&quot; auf NEIN zu übergeben
@@ -261,7 +261,7 @@ Anzeigeeinstellungen
 -   **Textausrichtung** : Hier können Sie die Ausrichtung der auswählen
     Text (links / rechts / zentriert)
 
--   **Fett gedruckt** : fetter Text
+-   **Fett** : fetter Text
 
 Ausrüstung 
 ==========
@@ -277,7 +277,7 @@ Erweiterte Konfiguration
 Zeigt das Fenster zur erweiterten Gerätekonfiguration an (siehe
 Zusammenfassung der Hausautomationsdokumentation ("Anzeige""))
 
-Bestellt 
+Bestellen 
 ========
 
 Anzeigeeinstellungen 
@@ -297,7 +297,7 @@ Bild / Kamera
 Anzeigeeinstellungen 
 ---------------------
 
--   **Zum Anzeigen** : definiert, was Sie anzeigen möchten, Standbild oder
+-   **Anzeige** : definiert, was Sie anzeigen möchten, Standbild oder
     Stream von einer Kamera
 
 -   **Bild** : ermöglicht es Ihnen, das betreffende Bild zu senden (falls vorhanden)
@@ -352,7 +352,7 @@ Zeigen Sie das betreffende Widget an
 Zusammenfassung 
 ======
 
--   **Verknüpfung** : Wird verwendet, um die anzuzeigende Zusammenfassung anzugeben (Allgemein für die
+-   **Link** : Wird verwendet, um die anzuzeigende Zusammenfassung anzugeben (Allgemein für die
     global sonst das Objekt angeben)
 
 -   **Hintergrundfarbe** : ermöglicht es Ihnen, die Hintergrundfarbe oder zu ändern
@@ -370,10 +370,10 @@ Zusammenfassung
 -   **Schriftgröße (ex 50%, Sie müssen das% -Zeichen setzen)** :
     Mit dieser Option können Sie die Schriftgröße ändern
 
--   **Fett gedruckt** : fetter Text
+-   **Fett** : fetter Text
 
 
-Häufig gestellte Fragen 
+Faq 
 ======
 
 >**Ich kann mein Design nicht mehr bearbeiten**

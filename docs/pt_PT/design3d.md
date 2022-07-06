@@ -18,7 +18,7 @@ Depois que seu modelo 3D for criado, ele deverá ser exportado no formato OBJ. S
 >
 > Os arquivos devem estar na raiz do zip e não em uma subpasta
 
-> **AVISO**
+> **Atenção**
 >
 > Um modelo 3D é bastante impressionante (isso pode representar várias centenas de MB). Quanto maior, maior o tempo de renderização no Jeedom.
 
@@ -35,11 +35,11 @@ Você pode nessa tela :
 
 Clique no botão "enviar" no nível "Modelo 3D" e selecione seu arquivo zip
 
-> **AVISO**
+> **Atenção**
 >
 > Jeedom autoriza a importação de um arquivo de 150mo no máximo !
 
-> **AVISO**
+> **Atenção**
 >
 > Você deve ter um arquivo zip
 
@@ -62,8 +62,8 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 ## Luz
 
-- Status : O controle do status da luz pode ser binário (0 ou 1), digital (0 a 100%) ou colorido
-- Poderoso : potência da lâmpada (observe que isso pode não refletir a realidade))
+- Estado : O controle do status da luz pode ser binário (0 ou 1), digital (0 a 100%) ou colorido
+- Poder : potência da lâmpada (observe que isso pode não refletir a realidade))
 
 ## Texte
 
@@ -83,14 +83,14 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 - Estado : Status da porta / janela, 1 fechado e 0 aberto
 - Rotation
-	- Permitir : ativa a rotação da porta / janela ao abrir
+	- Ativar : ativa a rotação da porta / janela ao abrir
 	- Abertura : o melhor é testar para que ele corresponda à sua porta / janela
 - Translation
-	- Permitir : ativa a tradução ao abrir (porta deslizante / janela))
+	- Ativar : ativa a tradução ao abrir (porta deslizante / janela))
 	- Significado : direção na qual a porta / janela deve se mover (você tem para cima / baixo / direita / esquerda)
 	- Repetir : por padrão, a porta / janela se move uma vez sua dimensão na direção especificada, mas você pode aumentar esse valor
 - Ocultar quando a porta / janela está aberta
-	- Permitir : Oculta o elemento se a Porta / Janela estiver aberta
+	- Ativar : Oculta o elemento se a Porta / Janela estiver aberta
 - Couleur
 	- Cor aberta : se marcado, o elemento assumirá esta cor se a porta / janela estiver aberta
 	- Cor fechada : se marcado, o elemento assumirá esta cor se a porta / janela estiver fechada
@@ -99,7 +99,7 @@ Para configurar um elemento no design 3D, clique duas vezes no elemento que voc�
 
 - Estado : status do obturador, 0 aberto outro valor fechado
 - Ocultar quando o obturador estiver aberto
-	- Permitir : ocultar o elemento se o obturador estiver aberto
+	- Ativar : ocultar o elemento se o obturador estiver aberto
 - Couleur
 	- Cor fechada : se marcado, o elemento assumirá esta cor se o obturador estiver fechado
 

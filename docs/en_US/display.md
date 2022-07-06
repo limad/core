@@ -15,9 +15,9 @@ The top of the page
 On the top of the page, we find : \* **Number of objects** : Nombre
 total of objects configured in our Jeedom, counting the elements
 Inactive. \* **Number of equipments** : Ditto for the equipment. \*
-**Number of orders** : Ditto for orders. \* **Idle** :
+**Number of orders** : Ditto for orders. \* **Inactive** :
 Check this box if you want the inactive items to be well
-displayed on this page. \* **To research** : Search for a
+displayed on this page. \* **Search** : Search for a
 particular element. It can be the name of an equipment, an order
 or the name of the plugin by which the equipment was created.
 
@@ -28,7 +28,7 @@ Object frames
 
 Below there is one frame per object. In each frame, we find
 the list of equipment (in blue) which have this object as parent. The
-first frame **None** represents equipment that has no
+first frame **No** represents equipment that has no
 affected parent. For each object, next to its label, three buttons
 are available. From left to right :
 
@@ -59,15 +59,15 @@ On each equipment we find :
 -   A **check box** to select the equipment (you can
     select multiple). If at least one device is selected
     you have action buttons that appear at the top left
-    for **to delete**, to return **visible**/**invisible**,
-    **asset**/**idle** selected equipment.
+    for **remove**, return **Jeedom**/**Invisible**,
+    **active**/**Inactive** selected equipment.
 
--   The **name** equipment.
+-   The **last name** equipment.
 
--   The **kind** equipment : Identifier of the plugin to which
+-   The **Type** equipment : Identifier of the plugin to which
     it belongs.
 
--   **Idle** (small cross) : Means that the equipment is inactive
+-   **Inactive** (small cross) : Means that the equipment is inactive
     (if it is not there, the equipment is active).
 
 -   **Invisible** (crossed eye) : Means that the equipment is invisible
@@ -111,18 +111,18 @@ available :
 
 -   **Information** : displays the raw properties of the equipment.
 
--   **To register** : Save the modifications made
+-   **Save** : Save the modifications made
     on equipment.
 
--   **To delete** : Remove equipment.
+-   **Remove** : Remove equipment.
 
 Information tab 
 -------------------
 
-Tab **Information** contains the general information of
+The tab **Information** contains the general information of
 the equipment and its controls :
 
--   **ID** : Unique identifier in the Jeedom database.
+-   **Id** : Unique identifier in the Jeedom database.
 
 -   **Last name** : Name of equipment.
 
@@ -134,13 +134,13 @@ the equipment and its controls :
 
 -   **Creation date** : Equipment creation date.
 
--   **Enable** : Check the box to activate the equipment (don&#39;t forget
+-   **Activate** : Check the box to activate the equipment (don&#39;t forget
     to save).
 
--   **Visible** : Check the box to make the equipment visible (without
+-   **Jeedom** : Check the box to make the equipment visible (without
     forget to save).
 
--   **Kind** : Identifier of the plugin by which it was created.
+-   **Type** : Identifier of the plugin by which it was created.
 
 -   **Failed attempt** : Number of communications attempts
     consecutive with failed equipment.
@@ -159,13 +159,13 @@ the equipment with, for each, a link to their configuration.
 View tab 
 ----------------
 
-In the tab **Display**, you will be able to configure some
+In the tab **Viewing**, you will be able to configure some
 display behavior of the tile on the dashboard, the views, the
 design as well as mobile.
 
-### Widgets 
+### Widget 
 
--   **Visible** : Check the box to make the equipment visible.
+-   **Jeedom** : Check the box to make the equipment visible.
 
 -   **Show name** : Check the box to display the name of
     equipment on the tile.
@@ -191,13 +191,13 @@ design as well as mobile.
 
 -   **Rounded edges** (in px) : Check the box to keep
     the default rounding. Otherwise, you must put CSS code, property
-    `border-radius` (eg : ``10px``)
+    `border-radius` (ex : ``10px``)
 
 ### Optional parameters on the tile 
 
 Below, we find optional display parameters that we
 can apply to equipment. These parameters are composed of a name and
-a value of. Just click on **To add** to apply one
+a value of. Just click on **Add** to apply one
 new. For equipment, only the value **style** is for the
 moment used, it allows to insert CSS code on the equipment in
 question.
@@ -212,7 +212,7 @@ Layout tab
 This part allows you to choose between the standard arrangement of
 commands (side by side in the widget), or in table mode. There is
 nothing to set in default mode. Here are the options available in mode
-**Picture** :
+**Board** :
 
 -   **Number of lines**
 
@@ -268,7 +268,7 @@ for 30 minutes, then you have to put it on alert.
 > **Tip**
 >
 > The global parameters are in **Administration → Configuration → Logs**
-> (Where **Equipment**)
+> (or **Facilities**)
 
 Comment tab 
 ------------------
@@ -294,15 +294,15 @@ First, at the top right, some buttons available :
 -   To apply to\* : Apply the same configuration on
     multiple orders.
 
--   **To register** : Save changes made to
+-   **Save** : Save changes made to
     equipment
 
 > **Tip**
 >
 > In a graph, a double click on an element brings you to its
-> configuration.
+> d'actualité.
 
-> **Note**
+> **NOTE**
 >
 > Depending on the type of order, the information / actions displayed
 > can change.
@@ -310,31 +310,31 @@ First, at the top right, some buttons available :
 Information tab 
 -------------------
 
-Tab **Information** contains general information about the
+The tab **Information** contains general information about the
 ordered :
 
--   **ID** : Unique identifier in the database.
+-   **Id** : Unique identifier in the database.
 
 -   **Logical ID** : Logical identifier of the command (can
     to be empty).
 
 -   **Last name** : Name of the order.
 
--   **Kind** : Type of command (action or info).
+-   **Type** : Type of command (action or info).
 
 -   **Subtype** : Command subtype (binary, digital, etc.)).
 
 -   **Direct url** : Provides the URL to access this equipment. (click
     right, copy the link address) The URL will launch the command for a
-    **stock** and return the information for a **information**.
+    **Action** and return the information for a **Info**.
 
--   **Unity** : Control unit.
+-   **Unit** : Control unit.
 
 -   **Command triggering an update** : Gives the identifier of a
     other command which, if that other command changes, will force the
     update of the displayed order.
 
--   **Visible** : Check this box to make the command visible.
+-   **Jeedom** : Check this box to make the command visible.
 
 -   **Follow in the timeline** : Check this box to have this
     command is visible in the timeline when it is used.
@@ -357,7 +357,7 @@ You also have three other orange buttons underneath :
 -   **Replace this command with the command** : The reverse replaces
     the order by another order.
 
-> **Note**
+> **NOTE**
 >
 > This kind of action replaces commands all over Jeedom
 > (scenario, interaction, command, equipment….)
@@ -395,13 +395,13 @@ Configuration tab
 
 -   **Historical**
 
-    -   **Historize** : Check the box to have the values for this
+    -   **Historicize** : Check the box to have the values for this
         order be recorded. (See **Analysis → History**)
 
-    -   **Smoothing mode** : Mode of **smoothing** or d'**archiving**
+    -   **Smoothing mode** : Mode of **smooth** or d'**archiving**
         allows you to choose how to archive the data. By default,
-        it&#39;s a **mean**. It is also possible to choose the
-        **maximum**, the **minimum**, Where **none**. **none** Allows
+        it&#39;s a **average**. It is also possible to choose the
+        **Maximum**, The **Minimum**, or **No**. **No** Allows
         tell Jeedom that it should not archive on this
         order (both during the first 5 min period and with the
         archiving task). This option is dangerous because Jeedom
@@ -425,7 +425,7 @@ Configuration tab
     -   **Duration before return of status (min)** : Time before return to
         value above.
 
--   **Others**
+-   **Other**
 
     -   **Management of the repetition of values** : In automatic if the
         command goes up 2 times the same value in a row, then Jeedom
@@ -439,7 +439,7 @@ Configuration tab
         next : ``#value#`for the value of the order,`#cmd_name#``
         for the name of the command, `#cmd_id#`for the unique identifier
         of the command, `#humanname#`for the full name of the command
-        (ex : ``#[Salthe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment
+        (Ex : ``#[SalThe de bain][Hydrometrie][Humidité]#`),`#eq_name#`for the name of the equipment
 
 ### For an action command : 
 
@@ -463,11 +463,11 @@ Configuration tab
 Alerts tab 
 --------------
 
-Allows you to define an alert level (**warning** Where **danger**) en
+Allows you to define an alert level (**Warning** or **Danger**) en
 depending on certain conditions. For example, if `value&gt; 8` for 30
-minutes then the equipment can go on alert **warning**.
+minutes then the equipment can go on alert **Warning**.
 
-> **Note**
+> **NOTE**
 >
 > On the page **Administration → Configuration → Logs**, you can
 > configure a message type command that will allow Jeedom to get you
@@ -480,11 +480,11 @@ In this part, you will be able to configure certain behaviors
 display of the widget on the dashboard, views, design and
 mobile.
 
--   **Widgets** : Allows you to choose the widget on dekstop or mobile (at
+-   **Widget** : Allows you to choose the widget on dekstop or mobile (at
     note that you need the widget plugin and you can do that too
     from it).
 
--   **Visible** : Check to make the command visible.
+-   **Jeedom** : Check to make the command visible.
 
 -   **Show name** : Check to make the name of the
     command, depending on the context.
@@ -492,8 +492,8 @@ mobile.
 -   **Display name and icon** : Check to make the icon visible
     in addition to the name of the command.
 
--   **Wrapped line before widget** : Tick **before
-    widget** Where **after the widget** to add a line break
+-   **Wrapped line before widget** : Select **before
+    widget** or **after the widget** to add a line break
     before or after the widget (to force for example a display in
     column of different equipment commands instead of lines
     By default)
@@ -511,7 +511,7 @@ Code tab
 
 Allows you to modify the widget code just for the current command.
 
-> **Note**
+> **NOTE**
 >
 > If you want to modify the code don&#39;t forget to check the box
 > **Enable widget customization**

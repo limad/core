@@ -1,4 +1,4 @@
-Display 
+Viewing 
 =========
 
 The Logs menu allows you to follow what is happening on your home automation. In the
@@ -11,7 +11,7 @@ The Logs page is quite simple, at the top left a drop-down list
 allowing the choice of the log to watch, at the top right you have 5
 buttons :
 
--   **To research** : allows to filter the log poster
+-   **Search** : allows to filter the log poster
 
 -   **Pause / Resume** : allows you to pause / resume the setting
     real time log update
@@ -20,7 +20,7 @@ buttons :
 
 -   **Empty** : allows to empty the current log,
 
--   **To delete** : delete the current log, if Jeedom has any
+-   **Remove** : delete the current log, if Jeedom has any
     need it will recreate it automatically,
 
 -   **Delete all logs** : delete all logs present.

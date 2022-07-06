@@ -1,5 +1,5 @@
 El submenú de administración de complementos le permite manipular complementos, excepto
-saber : descargarlos, actualizarlos y activarlos, etc
+conocer : descargarlos, actualizarlos y activarlos, etc
 
 Gestión de complementos 
 ===================
@@ -9,7 +9,7 @@ plugins. Una vez que hacemos clic en él, encontramos la lista de
 complementos en orden alfabético y un enlace al mercado. Complementos
 deshabilitados están en gris.
 
-> **Consejo**
+> **Punta**
 >
 > Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
 > abre un menú de acceso rápido (puedes
@@ -30,23 +30,23 @@ Arriba a la derecha, algunos botones :
 -   **Documentación** : Permite el acceso directo a la página de
     documentación del complemento
 
--   **Registro de cambios** : permite ver el registro de cambios del complemento si existe
+-   **Cambios** : permite ver el registro de cambios del complemento si existe
 
 -   **Enviar al mercado** : permite enviar el complemento en el mercado
     (solo disponible si eres el autor)
 
 -   **Detalles** : permite encontrar la página de complementos en el mercado
 
--   **Borrar** : Elimina el complemento de tu Jeedom. Ten cuidado, esto
+-   **Remove** : Elimina el complemento de tu Jeedom. Ten cuidado, esto
     también elimina permanentemente todo el equipo de este complemento
 
 Abajo a la izquierda, hay un área de estado con :
 
--   **Estado** : Le permite ver el estado del complemento (activo / inactivo)
+-   **Estatus** : Le permite ver el estado del complemento (activo / inactivo)
 
 -   **Versión** : la versión del complemento instalado
 
--   **Valores** : Le permite habilitar o deshabilitar el complemento
+-   **Acción** : Le permite habilitar o deshabilitar el complemento
 
 -   **Versión Jeedom** : Versión mínima de Jeedom requerida
     para el funcionamiento del complemento
@@ -72,9 +72,9 @@ Dependencias :
 
 -   **Apellido** : generalmente será local
 
--   **Estado** : le dirá si las dependencias están bien o no
+-   **Estatus** : le dirá si las dependencias están bien o no
 
--   **Instalaciones** : instalará o reinstalará
+-   **Instalación** : instalará o reinstalará
     dependencias (si no lo hace manualmente y son
     KO, Jeedom se cuidará después de un tiempo)
 
@@ -85,7 +85,7 @@ Demonio :
 
 -   **Apellido** : generalmente será local
 
--   **Estado** : te dirá si el demonio está bien o no
+-   **Estatus** : te dirá si el demonio está bien o no
 
 -   **Configuración** : estará bien si todos los criterios para el demonio
     se cumplen los turnos o darán lugar a un bloqueo
@@ -102,7 +102,7 @@ Demonio :
 
 -   **Último lanzamiento** : fecha del último lanzamiento del demonio
 
-> **Consejo**
+> **Punta**
 >
 > Algunos complementos tienen una parte de configuración. Si es así,
 > aparecerá debajo de las dependencias y zonas de daemon descritas anteriormente.
@@ -112,7 +112,7 @@ Demonio :
 A continuación, hay un área de funcionalidad. Esto te permite ver
 si el complemento utiliza una de las funciones principales de Jeedom, como :
 
--   **Obrar recíprocamente** : interacciones específicas
+-   **Interact** : interacciones específicas
 
 -   **Cron** : un cron por minuto
 
@@ -122,11 +122,11 @@ si el complemento utiliza una de las funciones principales de Jeedom, como :
 
 -   **Cron30** : un cron cada 30 minutos
 
--   **CronHorario** : un cron cada hora
+-   **CronHourly** : un cron cada hora
 
 -   **CronDaily** : un cron diario
 
-> **Consejo**
+> **Punta**
 >
 > Si el complemento usa una de estas funciones, puede
 > prohibirle que lo haga desmarcando la casilla &quot;activar&quot; que será
@@ -143,7 +143,7 @@ Para instalar un nuevo complemento, simplemente haga clic en el botón
 "Market "(y que Jeedom está conectado a Internet). Después de un corto tiempo de
 cargando obtendrá la página.
 
-> **Consejo**
+> **Punta**
 >
 > Debe haber ingresado la información de su cuenta Market en
 > administración (Configuración → Actualizaciones → pestaña Mercado) para
@@ -169,7 +169,7 @@ En la parte superior de la ventana tienes filtros :
 -   **Nombre del usuario** : muestra el nombre de usuario utilizado para
     conexión al mercado y el estado de la conexión
 
-> **Consejo**
+> **Punta**
 >
 > La pequeña cruz restablece el filtro en cuestión
 
@@ -191,7 +191,7 @@ información sobre el complemento, incluido :
     -   **Instalar pro** : permite instalar la versión pro (muy
         poco usado)
 
-    -   **Borrar** : si el complemento está instalado actualmente, esto
+    -   **Remove** : si el complemento está instalado actualmente, esto
         botón para borrarlo
 
 A continuación, encontrará la descripción del complemento, la compatibilidad
@@ -217,7 +217,7 @@ y la diversa información sobre la fecha de la última versión estable.
 > diez minutos (tiempo de validación de pago), luego regresar
 > en la hoja del complemento para instalarlo normalmente.
 
-> **Consejo**
+> **Punta**
 >
 > También puede agregar un complemento a Jeedom desde un archivo o
 > de un repositorio de Github. Esto requiere, en la configuración de

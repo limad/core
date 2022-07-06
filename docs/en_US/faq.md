@@ -65,12 +65,12 @@ Can we put Jeedom in https ?
 ================================
 
 Yes : Either you have a power pack or more, in this case you
-just use the [Jeedom-DNS](https://doc.jeedom.com/en_US/howto/mise_en_place_dns_jeedom). Either with a DNS and you know how to set up a valid certificate, in this case it is a standard installation of a certificate.
+just use the [DNS Jeedom](https://doc.jeedom.com/en_US/howto/mise_en_place_dns_jeedom). Either with a DNS and you know how to set up a valid certificate, in this case it is a standard installation of a certificate.
 
 How to connect in SSH ?
 =============================
 
-Here's one [documentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". The &quot;hostname&quot; being the ip of your Jeedom, the identifiers being :
+Here's one [Documentation](https://www.alsacreations.com/tuto/lire/612-Premiere-connexion-SSH.html), "Windows : Putty". The &quot;hostname&quot; being the ip of your Jeedom, the identifiers being :
 
 - Username : "root ", password : "Mjeedom96"
 - Username : "jeedom ", password : "Mjeedom96"
@@ -179,7 +179,7 @@ I no longer have access to Jeedom, neither through the web interface nor in cons
 
 This error is not due to Jeedom, but to a problem with the system.
 If it persists following a reinstallation, it is advisable to
-see with the after-sales service for a hardware concern. Here is [documentation](https://doc.jeedom.com/en_US/installation/smart) for Smart
+see with the after-sales service for a hardware concern. Here is [Documentation](https://doc.jeedom.com/en_US/installation/smart) for Smart
 
 My scenario does not stop any more 
 =================================
@@ -233,7 +233,7 @@ The Shutdown / Restart buttons do not work
 
 On a DIY installation it&#39;s normal. In SSH, you have to order
 visudo and at the end of the file you have to add : www-data ALL = (ALL)
-NOPASSWD: ALL.
+NOPASSWD: All.
 
 `` `{.bash}
 sudo service apache2 restart

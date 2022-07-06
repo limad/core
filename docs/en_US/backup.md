@@ -1,7 +1,7 @@
 Jeedom has the possibility to be saved and restored from or from
 from different locations.
 
-Configuration 
+D'actualité 
 =============
 
 Accessible from **Administration → Backups**, this page allows the
@@ -87,7 +87,7 @@ or restoration), if you have launched one.
 -   **Restore backup** : Starts restoring the backup
     samba selected above.
 
-> **IMPORTANT**
+> **Important**
 >
 > Jeedom backups must absolutely fall into a dedicated folder only !!! It will delete everything that is not a jeedom backup from the folder
 
@@ -104,7 +104,7 @@ different because it is not possible to save the inclusions.
 These are directly included in the controller, so you have to
 keep the same controller to find its Zwave modules.
 
-> **Note**
+> **NOTE**
 >
 > The system on which Jeedom is installed is not backed up. Yes
 > you have modified parameters of this system (in particular via SSH),
@@ -132,6 +132,6 @@ Frequency of automatic backups
 
 Jeedom performs an automatic backup every day at the same
 hour. It is possible to modify this, from the &quot;Engine
-tasks &quot;(the task is named **Jeedom-backup**), but it's not
+tasks &quot;(the task is named **Jeedom backup**), but it's not
 recommended. Indeed, it is calculated in relation to the load of the
 Market.
