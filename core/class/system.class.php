@@ -114,6 +114,12 @@ class system {
 				$cmd .= ' | grep -v "' . $value . '"';
 			}
 		}
+		$execCmd = shell_exec($cmd);
+		if(!$execCmd){
+			return $return;
+          	}
+		$results = explode("\n", trim($execCmd));
+		
 		$results = explode("\n", trim(shell_exec($cmd)));
 		if (!is_array($results) || count($results) == 0) {
 			return $return;
