@@ -1,0 +1,16 @@
+# SSH client configuration for the limad host.
+#
+# Usage:
+#   ssh -F ssh/config limad
+#
+# On first connection, verify the server's key fingerprint matches:
+#   SHA256:qhFn24/t9gmMC8FFuddC/xkf5hy+GyPcLbwd1U3Hd/M
+#
+# Reject the connection if the prompt shows any other fingerprint.
+
+Host limad
+    HostName 192.168.1.80
+    User limad
+    UserKnownHostsFile ssh/known_hosts
+    StrictHostKeyChecking accept-new
+    FingerprintHash sha256
